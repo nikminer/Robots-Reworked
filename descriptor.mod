@@ -9,3 +9,4 @@ dependencies={
 picture="thumbnail.png"
 name="OWB: Robots Reworked"
 supported_version="1.11.*"
+remote_file_id="2864224331"
