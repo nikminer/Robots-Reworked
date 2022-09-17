@@ -1,0 +1,70 @@
+﻿l_english:
+  tank_designer_cnc_robot_equipment_RR: "Command Robot"
+  tank_designer_light_robot_equipment: "Light Robot"
+  tank_designer_security_robot_equipment: "Security Robot"
+  tank_designer_support_robot_equipment: "Main Robot"
+
+  # Slots
+    EQ_MOD_SLOT_power_type_slot_TITLE: "Energy supply of Robot"
+    EQ_MOD_SLOT_armor_type_slot_TITLE: "Robotics Armor"
+    EQ_MOD_SLOT_thruster_type_slot_TITLE: "Robotics Thruster Engine"
+    EQ_MOD_SLOT_robots_servo_type_slot_TITLE: "Robotics Servo"
+    EQ_MOD_SLOT_os_type_slot_TITLE: "Robotics Operation System"
+    EQ_MOD_SLOT_hardware_type_slot_TITLE: "Robotics Hardware"
+
+  # Category
+    EQ_MOD_CAT_robots_power_type_TITLE: "Energy supply of Robot"
+    EQ_MOD_CAT_robots_armor_type_TITLE: "Robotics Armor Type"
+    EQ_MOD_CAT_robots_hardware_type_TITLE: "Robotics Hardware"
+    EQ_MOD_CAT_robots_operation_system_type_TITLE: "Robotics Operation System"
+    EQ_MOD_CAT_robots_servo_type_TITLE: "Robotics Servo"
+    EQ_MOD_CAT_robots_thruster_type_TITLE: "Robotics Thruster Engine"
+
+  # Modules
+    # Power
+      robots_battery: "Microfusion cell"
+      robots_battery_desc: "Simple microfusion cell used to power energy weapons can also be used to power robot, however, they discharge very quickly during active operations."
+      robots_fusion_core: "Fusion core"
+      robots_fusion_core_desc: "A fairly rare universal fuel cell, allows you to continuously fuel any kind of power armor, as well as heavy types of energy weapons or even entire settlements of survivors."
+      robots_advance_power_system: "Micronuclear reactor TX-28"
+      robots_advance_power_system_desc: "A 60 kW micronuclear reactor, used before the war as the main source of energy in power armor, this device is located in an isolated container on the back. We can use this device to supply robots with energy."
+    # Servo
+      robots_primitive_servo: "Primitive servos"
+      robots_primitive_servo_desc: "Primitive servos created in conditions of lack of resources and lack of necessary experience in the maintenance of robotic however, these servos allow robots to perform tasks in the absence of an alternative."
+      robots_simple_servo: "Precision Motors"
+      robots_simple_servo_desc: "Better internal assembly with improved internal gearing will make our robots able to react more precisely and efficiently to incoming threats. This also has the unintended side effect of improving their close-combat performances, to the point some have been seen simply crushing PA helmets to kill their operator."
+      robots_advance_servo: "High pressure hydraulic servo"
+      robots_advance_servo_desc: "The improvement of the hydraulic system of the servos allows us to use heavier combat armor."
+    # Armor
+      robots_standard_plate: "Standard armor"
+      robots_standard_plate_desc: "The usual standard armor components are attached to the frame of the robot."
+      robots_welded_rebar: "Welded rebar"
+      robots_welded_rebar_desc: "Rebar and other scrap metal are welded to the standard armor of the robot in the hope of reducing the damage received."
+      robots_harded_plate: "Harded armor"
+      robots_harded_plate_desc: "Reinforced armor attached to the frame of robot, allows you to better protect inner robotics system."
+      robots_impact_resistance_plate: "Impact Resistant Armor"
+      robots_impact_resistance_plate_desc: "The inner soft layer of Kevlar and synthetic foam around the subsystems provide cushioning, solve the problem of protecting the internal robotic system in battlefield."
+    # Thruster
+      robots_primitive_thruster: "Primitive Thruster"
+      robots_primitive_thruster_desc: "Primitive thruster created in conditions of lack of resources and lack of necessary experience in the maintenance of robotic however, these thrusters allow robots to perform tasks in the absence of an alternative."
+      robots_thruster: "Thruster Engines"
+      robots_thruster_desc: "Thruster engines allowed pre-war robots to move easily over rough terrain, while also increasing their speed in contrast to bulky servo-driven predecessors."
+      robots_advance_thruster: "Antigrav Engines"
+      robots_advance_thruster_desc: "Replacing chemical propulsion by an anti grav engine will let our divisions move on the battlefield without constant readjustements from their counter-thrusters, thus ensuring higher speed."
+    # Hardware
+      robots_civilian_hardware: "Civilian Hardware"
+      robots_civilian_hardware_desc: "A commercial system, common and cheap, is contained in most robots."
+      robots_police_hardware: "Police Hardware"
+      robots_police_hardware_desc: "Hardware embedded in police robots. It has a sufficiently effective performance for law enforcement."
+      robots_military_hardware: "Military Hardware"
+      robots_military_hardware_desc: "Hardware embedded in military robots. It has enough of the most effective performance for active warfare."
+    # Software
+      robots_civilian_operation_system: "Civilian OS"
+      robots_civilian_operation_system_desc: "A commercial system designed for peaceful life, and has not the most effective algorithms for managing robot resources."
+      robots_police_operation_system: "Police OS"
+      robots_police_operation_system_desc: "The operating system created for police robots contains both basic state laws and strategies for dispersing rallies and demonstrations."
+      robots_military_operation_system: "Military OS"
+      robots_military_operation_system_desc: "The operating system created for military robots contains the basic tactics and strategies of combat."
+      robots_mark2_operation_system: "Mark 2 OS"
+      robots_mark2_operation_system_desc: "An operating system secretly developed by RobCo for robots of the Securitron family. It contains improved combat programs and routines that allow you to turn an ordinary robot into a killer machine."
+

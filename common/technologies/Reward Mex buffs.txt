@@ -1,0 +1,228 @@
+#-------------------------
+# Mex buffs 				
+#-------------------------
+technologies = {
+
+	@Col_1 = 4
+	@Col_2 = 6
+	@Col_3 = 8
+
+	@Row_MexBuffs = 24
+
+################################################
+#ITZ Tech
+################################################
+	itz_rough_terrian_training = {
+
+		research_cost = 1
+
+		folder = {
+			name = fallout_focus_tree_folder
+			position = { x = @Row_MexBuffs y = @Col_1 }
+		}
+
+		dependencies = {
+			blocked_tech = 1
+		}
+
+		allow = {
+			always = no
+		}
+
+		spec_ops = {
+			mountain = {
+				attack = 0.1
+				defence = 0.1
+				movement = 0.2
+			}
+			desert = {
+				attack = 0.1
+				defence = 0.1
+				movement = 0.2
+			}
+			marsh = {
+				attack = 0.1
+				defence = 0.1
+				movement = 0.2
+			}
+			hills = {
+				attack = 0.1
+				defence = 0.1
+				movement = 0.2
+			}
+			forest = {
+				attack = 0.1
+				defence = 0.1
+				movement = 0.2
+			}
+			jungle = {
+				attack = 0.1
+				defence = 0.1
+				movement = 0.2
+			}
+		}
+	}
+
+################################################
+#Army of Mexico
+################################################
+	jungle_spirits = {
+		research_cost = 1
+		dependencies = {
+			blocked_tech = 1
+		}
+		folder = {
+			name = fallout_focus_tree_folder
+			position = { x = @Row_MexBuffs y = @Col_2 }
+		}
+		allow = {
+			always = no
+		}
+		support_robot = {
+			jungle = {
+				attack = 0.3
+				movement = 0.3
+			}
+			marsh = {
+				attack = 0.3
+				movement = 0.3
+			}
+			river = {
+				attack = 0.3
+				movement = 0.3
+			}
+			amphibious = {
+				attack = 0.3
+				movement = 0.3
+			}
+		}
+		light_robot = {
+			jungle = {
+				attack = 0.3
+				movement = 0.3
+			}
+			marsh = {
+				attack = 0.3
+				movement = 0.3
+			}
+			river = {
+				attack = 0.3
+				movement = 0.3
+			}
+			amphibious = {
+				attack = 0.3
+				movement = 0.3
+			}
+		}
+		combat_robot = {
+			jungle = {
+				attack = 0.3
+				movement = 0.3
+			}
+			marsh = {
+				attack = 0.3
+				movement = 0.3
+			}
+			river = {
+				attack = 0.3
+				movement = 0.3
+			}
+			amphibious = {
+				attack = 0.3
+				movement = 0.3
+			}
+		}
+	}
+
+	jungle_tribal_integration_tech = {
+		research_cost = 1
+		dependencies = {
+			blocked_tech = 1
+		}
+		folder = {
+			name = fallout_focus_tree_folder
+			position = { x = @Row_MexBuffs y = @Col_3 }
+		}
+		allow = {
+			always = no
+		}
+		infantry = {
+			reliability_factor = 0.01
+			jungle = {
+				attack = 0.1
+				defence = 0.1
+			}
+			marsh = {
+				attack = 0.1
+				defence = 0.1
+			}
+			river = {
+				attack = 0.1
+				defence = 0.1
+			}
+			amphibious = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+		fireteam_infantry = {
+			reliability_factor = 0.01
+			jungle = {
+				attack = 0.1
+				defence = 0.1
+			}
+			marsh = {
+				attack = 0.1
+				defence = 0.1
+			}
+			river = {
+				attack = 0.1
+				defence = 0.1
+			}
+			amphibious = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+		militia = {
+			reliability_factor = 0.01
+			jungle = {
+				attack = 0.1
+				defence = 0.1
+			}
+			marsh = {
+				attack = 0.1
+				defence = 0.1
+			}
+			river = {
+				attack = 0.1
+				defence = 0.1
+			}
+			amphibious = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+		spec_ops = {
+			reliability_factor = 0.01
+			jungle = {
+				attack = 0.1
+				defence = 0.1
+			}
+			marsh = {
+				attack = 0.1
+				defence = 0.1
+			}
+			river = {
+				attack = 0.1
+				defence = 0.1
+			}
+			amphibious = {
+				attack = 0.1
+				defence = 0.1
+			}
+		}
+	}
+
+
+}

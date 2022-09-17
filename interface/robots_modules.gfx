@@ -1,0 +1,121 @@
+spriteTypes = {
+###################################################
+# Armor
+###################################################
+	spriteType = {
+		name = "GFX_EMI_robots_standard_plate"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/plate_module_standart.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_welded_rebar"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/armour_welded_rebar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_impact_resistance_plate"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/plate_robots_impact_resistance.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_harded_plate"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/plate_module_harded.dds"
+	}
+
+###################################################
+# Energy
+###################################################
+	spriteType = {
+		name = "GFX_EMI_robots_battery"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/plant_module_battery.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_fusion_core"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/plant_module_fusion_core.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_advance_power_system"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/plant_module_armour_reactor_plant.dds"
+	}
+
+###################################################
+# Servo
+###################################################
+	spriteType = {
+		name = "GFX_EMI_robots_primitive_servo"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/primitive_servo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_simple_servo"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/simple_servo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_advance_servo"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/advance_servo.dds"
+	}
+
+###################################################
+# Thruster
+###################################################
+	spriteType = {
+		name = "GFX_EMI_robots_primitive_thruster"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/primitive_thruster.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_thruster"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/robots_thruster.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_advance_thruster"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/robots_advance_thruster.dds"
+	}
+
+
+###################################################
+# HardWare
+###################################################
+	spriteType = {
+		name = "GFX_EMI_robots_civilian_hardware"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/civilian_hardware.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_police_hardware"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/police_hardware.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_military_hardware"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/military_hardware.dds"
+	}
+
+###################################################
+# Operation System
+###################################################
+	spriteType = {
+		name = "GFX_EMI_robots_civilian_operation_system"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/civilian_operation_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_police_operation_system"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/police_operation_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_military_operation_system"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/military_operation_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_robots_mark2_operation_system"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/mark2_operation_system.dds"
+	}
+	
+}

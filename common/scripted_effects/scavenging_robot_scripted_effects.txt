@@ -1,0 +1,420 @@
+resolve_robot_loot = {
+	if = {
+		limit = {
+			has_variable = s_sr_1
+		}
+		if = {
+			limit = { has_tech = robot_scrapbot_tech }
+			add_equipment_to_stockpile = { type = main_scrap_robot amount = 20 producer = USA }
+			subtract_from_variable = { s_sr_1 = 1 }
+			if = {
+				limit = { check_variable = { s_sr_1 = 0 } }
+				clear_variable = s_sr_1
+			}
+			else = {
+				set_country_flag = reroll
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_tech_bonus = { technology = robot_scrapbot_tech }
+					has_country_flag = robot_scrapbot_tech
+				}
+			}
+			army_experience = 5
+			clear_variable = s_sr_1
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				technology = robot_scrapbot_tech
+			}
+			set_country_flag = robot_scrapbot_tech
+			clear_variable = s_sr_1
+		}
+	}
+	if = {
+		limit = {
+			has_variable = s_lr_1
+		}
+		if = {
+			limit = { has_tech = robot_protectron_tech_1 }
+			add_equipment_to_stockpile = { type = protectron_robot amount = 20 producer = USA }
+			subtract_from_variable = { s_lr_1 = 1 }
+			if = {
+				limit = { check_variable = { s_lr_1 = 0 } }
+				clear_variable = s_lr_1
+			}
+			else = {
+				set_country_flag = reroll
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_tech_bonus = { technology = robot_protectron_tech_1 }
+					has_country_flag = robot_protectron_tech_1
+				}
+			}
+			army_experience = 5
+			clear_variable = s_lr_1
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				technology = robot_protectron_tech_1
+			}
+			set_country_flag = robot_protectron_tech_1
+			clear_variable = s_lr_1
+		}
+	}
+	if = {
+		limit = {
+			has_variable = s_lr_2
+		}
+		if = {
+			limit = { has_tech = robot_protectron_tech_2 }
+			add_equipment_to_stockpile = { type = protectron_2_robot amount = 20 producer = USA }
+			subtract_from_variable = { s_lr_2 = 1 }
+			if = {
+				limit = { check_variable = { s_lr_2 = 0 } }
+				clear_variable = s_lr_2
+			}
+			else = {
+				set_country_flag = reroll
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_tech_bonus = { technology = robot_protectron_tech_2 }
+					has_country_flag = robot_protectron_tech_2
+				}
+			}
+			army_experience = 5
+			clear_variable = s_lr_2
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				technology = robot_protectron_tech_2
+			}
+			set_country_flag = robot_protectron_tech_2
+			clear_variable = s_lr_2
+		}
+	}
+	if = {
+		limit = {
+			has_variable = s_mr_1
+		}
+		if = {
+			limit = { has_tech = robot_handy_equipment_1_tech }
+			add_equipment_to_stockpile = { type = robot_thruster_equipment_1 amount = 10 producer = USA }
+			subtract_from_variable = { s_mr_1 = 1 }
+			if = {
+				limit = { check_variable = { s_mr_1 = 0 } }
+				clear_variable = s_mr_1
+			}
+			else = {
+				set_country_flag = reroll
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_tech_bonus = { technology = robot_handy_equipment_1_tech }
+					has_country_flag = robot_handy_equipment_1_tech
+				}
+			}
+			army_experience = 5
+			clear_variable = s_mr_1
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				technology = robot_handy_equipment_1_tech
+			}
+			set_country_flag = robot_handy_equipment_1_tech
+			clear_variable = s_mr_1
+		}
+	}
+	if = {
+		limit = {
+			has_variable = s_mr_2
+		}
+		if = {
+			limit = { has_tech = robot_handy_equipment_2_tech }
+			add_equipment_to_stockpile = { type = robot_thruster_equipment_2 amount = 10 producer = USA }
+			subtract_from_variable = { s_mr_2 = 1 }
+			if = {
+				limit = { check_variable = { s_mr_2 = 0 } }
+				clear_variable = s_mr_2
+			}
+			else = {
+				set_country_flag = reroll
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_tech_bonus = { technology = robot_handy_equipment_2_tech }
+					has_country_flag = robot_handy_equipment_2_tech
+				}
+			}
+			army_experience = 5
+			clear_variable = s_mr_2
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				technology = robot_handy_equipment_2_tech
+			}
+			set_country_flag = robot_handy_equipment_2_tech
+			clear_variable = s_mr_2
+		}
+	}
+	if = {
+		limit = {
+			has_variable = s_er_1
+		}
+		if = {
+			limit = { has_tech = robot_command_equipment_2_tech }
+			add_equipment_to_stockpile = { type = cnc_robot_equipment_2 amount = 10 producer = USA }
+			subtract_from_variable = { s_er_1 = 1 }
+			if = {
+				limit = { check_variable = { s_er_1 = 0 } }
+				clear_variable = s_er_1
+			}
+			else = {
+				set_country_flag = reroll
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_tech_bonus = { technology = robot_command_equipment_2_tech }
+					has_country_flag = robot_command_equipment_2_tech
+				}
+			}
+			army_experience = 5
+			clear_variable = s_er_1
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				technology = robot_command_equipment_2_tech
+			}
+			set_country_flag = robot_command_equipment_2_tech
+			clear_variable = s_er_1
+		}
+	}
+	if = {
+		limit = {
+			has_variable = s_hr_1
+		}
+		if = {
+			limit = { has_tech = heavy_lifter_equipment_tech }
+			add_equipment_to_stockpile = { type = combat_robot_equipment_1 amount = 5 producer = USA }
+			subtract_from_variable = { s_hr_1 = 1 }
+			if = {
+				limit = { check_variable = { s_hr_1 = 0 } }
+				clear_variable = s_hr_1
+			}
+			else = {
+				set_country_flag = reroll
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_tech_bonus = { technology = heavy_lifter_equipment_tech }
+					has_country_flag = heavy_lifter_equipment_tech
+				}
+			}
+			army_experience = 5
+			clear_variable = s_hr_1
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				technology = heavy_lifter_equipment_tech
+			}
+			set_country_flag = heavy_lifter_equipment_tech
+			clear_variable = s_hr_1
+		}
+	}
+	if = {
+		limit = {
+			has_variable = s_hr_2
+		}
+		if = {
+			limit = { has_tech = robot_command_equipment_3_tech }
+			add_equipment_to_stockpile = { type = cnc_robot_equipment_3 amount = 5 producer = USA }
+			subtract_from_variable = { s_hr_2 = 1 }
+			if = {
+				limit = { check_variable = { s_hr_2 = 0 } }
+				clear_variable = s_hr_2
+			}
+			else = {
+				set_country_flag = reroll
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_tech_bonus = { technology = robot_command_equipment_3_tech }
+					has_country_flag = robot_command_equipment_3_tech
+				}
+			}
+			army_experience = 5
+			clear_variable = s_hr_2
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				technology = robot_command_equipment_3_tech
+			}
+			set_country_flag = robot_command_equipment_3_tech
+			clear_variable = s_hr_2
+		}
+	}
+	if = {
+		limit = {
+			has_variable = s_hr_3
+		}
+		if = {
+			limit = { has_tech = robot_sentry_bot_equipment_1_tech }
+			add_equipment_to_stockpile = { type = combat_robot_equipment_1 amount = 5 producer = USA }
+			subtract_from_variable = { s_hr_3 = 1 }
+			if = {
+				limit = { check_variable = { s_hr_3 = 0 } }
+				clear_variable = s_hr_3
+			}
+			else = {
+				set_country_flag = reroll
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_tech_bonus = { technology = robot_sentry_bot_equipment_1_tech }
+					has_country_flag = robot_sentry_bot_equipment_1_tech
+				}
+			}
+			army_experience = 5
+			clear_variable = s_hr_3
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				technology = robot_sentry_bot_equipment_1_tech
+			}
+			set_country_flag = robot_sentry_bot_equipment_1_tech
+			clear_variable = s_hr_3
+		}
+	}
+	if = {
+		limit = {
+			has_variable = s_hr_4
+		}
+		if = {
+			limit = { has_tech = robot_sentry_bot_equipment_2_tech }
+			add_equipment_to_stockpile = { type = combat_robot_equipment_2 amount = 5 producer = USA }
+			subtract_from_variable = { s_hr_4 = 1 }
+			if = {
+				limit = { check_variable = { s_hr_4 = 0 } }
+				clear_variable = s_hr_4
+			}
+			else = {
+				set_country_flag = reroll
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_tech_bonus = { technology = robot_sentry_bot_equipment_2_tech }
+					has_country_flag = robot_sentry_bot_equipment_2_tech
+				}
+			}
+			army_experience = 5
+			clear_variable = s_hr_4
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				technology = robot_sentry_bot_equipment_2_tech
+			}
+			set_country_flag = robot_sentry_bot_equipment_2_tech
+			clear_variable = s_hr_4
+		}
+	}
+	if = {
+		limit = {
+			has_variable = s_ar_1
+		}
+		if = {
+			limit = { has_tech = robot_assaultron_tech_1 }
+			add_equipment_to_stockpile = { type = assaultron_robot amount = 20 producer = USA }
+			subtract_from_variable = { s_sr_1 = 1 }
+			if = {
+				limit = { check_variable = { s_sr_1 = 0 } }
+				clear_variable = s_sr_1
+			}
+			else = {
+				set_country_flag = reroll
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_tech_bonus = { technology = robot_assaultron_tech_1 }
+					has_country_flag = robot_assaultron_tech_1
+				}
+			}
+			army_experience = 5
+			clear_variable = s_sr_1
+		}
+		else = {
+			add_tech_bonus = {
+				bonus = 0.1
+				uses = 1
+				technology = robot_assaultron_tech_1
+			}
+			set_country_flag = robot_assaultron_tech_1
+			clear_variable = s_sr_1
+		}
+	}
+
+	hidden_effect = {
+		if = {
+			limit = {
+				has_country_flag = reroll
+			}
+			clr_country_flag = reroll
+			resolve_robot_loot = yes
+		}
+		# Contingency Clearing
+		clear_variable = s_hr_4
+		clear_variable = s_hr_3
+		clear_variable = s_hr_2
+		clear_variable = s_hr_1
+		clear_variable = s_ar_1
+		clear_variable = s_er_1
+		clear_variable = s_mr_2
+		clear_variable = s_mr_1
+		clear_variable = s_lr_2
+		clear_variable = s_lr_1
+		clear_variable = s_sr_1
+	}
+}

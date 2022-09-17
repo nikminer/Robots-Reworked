@@ -1,0 +1,2264 @@
+#-------------------------
+# Doctrine Land Tactics
+#-------------------------
+technologies = {
+
+	@Col_tactics_start = -1
+	@Col_infantry = 0
+	@Col_special_forces = 2
+	@Col_robot = 4
+	@Col_vehicle = 6
+	@Col_tactics = 8
+	@Col_tactics2 = 10
+	@Col_tactics3 = 12
+
+	@Row_tactics_left_2 = 16
+	@Row_tactics_left_1 = 18
+	@Row_tactics_middle = 20
+	@Row_tactics_right_1 = 22
+	@Row_tactics_right_2 = 24
+
+	tactics_doctrine_tech = {
+
+		experience_gain_army_factor = 0.15
+		special_forces_cap = 0.05
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_middle y = @Col_tactics_start }
+		}
+
+		path = {
+			leads_to_tech = terrain_mountain_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_mountain_tech_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_mountain_tech_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_mountain_tech_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_harsh_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_harsh_tech_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_harsh_tech_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_harsh_tech_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_plains_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_plains_tech_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_plains_tech_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_plains_tech_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_jungle_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_jungle_tech_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_jungle_tech_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = terrain_jungle_tech_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_spec_ops_cap_tech
+			research_cost_coeff = 1
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 2
+				has_army_experience > 100
+			}
+			modifier = {
+				factor = 10
+				has_army_experience > 200
+			}
+		}
+	}
+
+	terrain_harsh_tech = {
+
+		infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		heavy_infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		dog_infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		ghoul_infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		skate_infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_aux_infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		police_infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		XOR = { terrain_mountain_tech terrain_plains_tech terrain_jungle_tech }
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_left_2 y = @Col_infantry }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech
+			}
+		}
+	}
+
+	terrain_harsh_tech_2 = {
+
+		spec_ops = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		spec_ops_cavalry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour_fireteam_infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour_demolitions_infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		ghoul_paratrooper = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		crusader_unit = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_nightkin_infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_mountain_tech_2 terrain_plains_tech_2 terrain_jungle_tech_2 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_left_2 y = @Col_special_forces }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech_2
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech_2
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech_2
+			}
+		}
+	}
+
+	terrain_harsh_tech_3 = {
+
+		combat_robot = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		light_robot = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		support_robot = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		security_robot = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_heavy_robot = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot_2 = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot_3 = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_mountain_tech_3 terrain_plains_tech_3 terrain_jungle_tech_3 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_left_2 y = @Col_robot }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech_3
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech_3
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech_3
+			}
+		}
+	}
+
+	terrain_harsh_tech_4 = {
+
+		motorized = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_heavy_infantry = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_fireteam = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_demoteam = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		tank = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		chariot_unit = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_mountain_tech_4 terrain_plains_tech_4 terrain_jungle_tech_4 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_left_2 y = @Col_vehicle }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech_4
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech_4
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech_4
+			}
+		}
+	}
+
+	terrain_plains_tech = {
+
+		infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		heavy_infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		dog_infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		ghoul_infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		skate_infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_aux_infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		police_infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		XOR = { terrain_mountain_tech terrain_harsh_tech terrain_jungle_tech }
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_left_1 y = @Col_infantry }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech
+			}
+		}
+	}
+
+	terrain_plains_tech_2 = {
+
+		spec_ops = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		spec_ops_cavalry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour_fireteam_infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour_demolitions_infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		ghoul_paratrooper = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		crusader_unit = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_nightkin_infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_mountain_tech_2 terrain_harsh_tech_2 terrain_jungle_tech_2 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_left_1 y = @Col_special_forces }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech_2
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech_2
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech_2
+			}
+		}
+	}
+
+	terrain_plains_tech_3 = {
+
+		combat_robot = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		light_robot = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		support_robot = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		security_robot = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_heavy_robot = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot_2 = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot_3 = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_mountain_tech_3 terrain_harsh_tech_3 terrain_jungle_tech_3 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_left_1 y = @Col_robot }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech_3
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech_3
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech_3
+			}
+		}
+	}
+
+	terrain_plains_tech_4 = {
+
+		motorized = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_heavy_infantry = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_fireteam = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_demoteam = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		tank = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		chariot_unit = {
+			default_morale = 0.02
+			plains = {
+				attack = 0.10
+				defence = 0.10
+			}
+			desert = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_mountain_tech_4 terrain_harsh_tech_4 terrain_jungle_tech_4 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_left_1 y = @Col_vehicle }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech_4
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech_4
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech_4
+			}
+		}
+	}
+
+	terrain_mountain_tech = {
+
+		infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		heavy_infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		dog_infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		ghoul_infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		skate_infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_aux_infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		police_infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		XOR = { terrain_plains_tech terrain_harsh_tech terrain_jungle_tech }
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_right_1 y = @Col_infantry }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech
+			}
+		}
+	}
+
+	terrain_mountain_tech_2 = {
+
+		spec_ops = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		spec_ops_cavalry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour_fireteam_infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour_demolitions_infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		ghoul_paratrooper = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		crusader_unit = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_nightkin_infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_plains_tech_2 terrain_harsh_tech_2 terrain_jungle_tech_2 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_right_1 y = @Col_special_forces }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech_2
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech_2
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech_2
+			}
+		}
+	}
+
+	terrain_mountain_tech_3 = {
+
+		combat_robot = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		light_robot = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		support_robot = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		security_robot = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_heavy_robot = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot_2 = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot_3 = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_plains_tech_3 terrain_harsh_tech_3 terrain_jungle_tech_3 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_right_1 y = @Col_robot }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech_3
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech_3
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech_3
+			}
+		}
+	}
+
+	terrain_mountain_tech_4 = {
+
+		motorized = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_heavy_infantry = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_fireteam = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_demoteam = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		tank = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		chariot_unit = {
+			default_morale = 0.02
+			mountain = {
+				attack = 0.10
+				defence = 0.10
+			}
+			hills = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_plains_tech_4 terrain_harsh_tech_4 terrain_jungle_tech_4 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_right_1 y = @Col_vehicle }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech_4
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech_4
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_jungle_tech_4
+			}
+		}
+	}
+
+	terrain_jungle_tech = {
+
+		infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		heavy_infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		dog_infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		ghoul_infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		skate_infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_aux_infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		police_infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		XOR = { terrain_mountain_tech terrain_harsh_tech terrain_plains_tech }
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_right_2 y = @Col_infantry }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech
+			}
+		}
+	}
+
+	terrain_jungle_tech_2 = {
+
+		spec_ops = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		spec_ops_cavalry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour_fireteam_infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		power_armour_demolitions_infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		ghoul_paratrooper = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		crusader_unit = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_mutant_nightkin_infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_mountain_tech_2 terrain_harsh_tech_2 terrain_plains_tech_2 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_right_2 y = @Col_special_forces }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech_2
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech_2
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech_2
+			}
+		}
+	}
+
+	terrain_jungle_tech_3 = {
+
+		combat_robot = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		light_robot = {
+			default_morale = 0.02
+			urban = {
+				attack = 0.10
+				defence = 0.10
+			}
+			marsh = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		support_robot = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		security_robot = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		super_heavy_robot = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot_2 = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		cnc_robot_3 = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_mountain_tech_3 terrain_harsh_tech_3 terrain_plains_tech_3 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_right_2 y = @Col_robot }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech_3
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech_3
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech_3
+			}
+		}
+	}
+
+	terrain_jungle_tech_4 = {
+
+		motorized = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_heavy_infantry = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_fireteam = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		motorized_demoteam = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		tank = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+		chariot_unit = {
+			default_morale = 0.02
+			jungle = {
+				attack = 0.10
+				defence = 0.10
+			}
+			forest = {
+				attack = 0.10
+				defence = 0.10
+			}
+		}
+
+		XOR = { terrain_mountain_tech_4 terrain_harsh_tech_4 terrain_plains_tech_4 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_right_2 y = @Col_vehicle }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 0
+				has_tech = terrain_plains_tech_4
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_harsh_tech_4
+			}
+			modifier = {
+				factor = 0
+				has_tech = terrain_mountain_tech_4
+			}
+		}
+	}
+
+	tactics_spec_ops_cap_tech = {
+
+		special_forces_min  = 30
+		special_forces_training_time_factor = -0.05
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		path = {
+			leads_to_tech = tactics_spec_ops_cap_tech_2
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_spec_ops_cap_tech_3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_spec_ops_offense_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_spec_ops_defense_tech
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_middle y = @Col_vehicle }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_army_experience > 200
+			}
+		}
+	}
+
+	tactics_spec_ops_cap_tech_2 = {
+
+		special_forces_min  = 30
+		special_forces_training_time_factor = -0.05
+
+		xor = { tactics_spec_ops_defense_tech }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		path = {
+			leads_to_tech = tactics_spec_ops_heavy_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_spec_ops_light_tech
+			research_cost_coeff = 1
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_left_2 y = @Col_tactics }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_army_experience > 200
+			}
+		}
+	}
+
+	tactics_spec_ops_cap_tech_3 = {
+
+		special_forces_min  = 30
+		special_forces_training_time_factor = -0.05
+
+		xor = { tactics_spec_ops_offense_tech }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		path = {
+			leads_to_tech = tactics_spec_ops_heavy_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_spec_ops_light_tech
+			research_cost_coeff = 1
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_left_1 y = @Col_tactics }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 10
+				has_army_experience > 200
+			}
+		}
+	}
+
+	tactics_spec_ops_defense_tech = {
+
+		category_special_forces = {
+			defense = 0.1
+		}
+		special_forces_out_of_supply_factor = -0.25
+
+		xor = { tactics_spec_ops_cap_tech_2 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		path = {
+			leads_to_tech = tactics_spec_ops_heavy_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_spec_ops_light_tech
+			research_cost_coeff = 1
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_right_2 y = @Col_tactics }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	tactics_spec_ops_offense_tech = {
+
+		category_special_forces = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			breakthrough = 0.05
+		}
+
+		xor = { tactics_spec_ops_cap_tech_3 }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		path = {
+			leads_to_tech = tactics_spec_ops_heavy_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_spec_ops_light_tech
+			research_cost_coeff = 1
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_right_1 y = @Col_tactics }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	tactics_spec_ops_light_tech = {
+
+		category_light_special_forces = {
+			max_organisation = 5
+		}
+
+		xor = { tactics_spec_ops_heavy_tech }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		path = {
+			leads_to_tech = tactics_spec_ops_elite_tech
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_left_1 y = @Col_tactics2 }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	tactics_spec_ops_heavy_tech = {
+
+		category_power_armour = {
+			max_organisation = 5
+		}
+
+		xor = { tactics_spec_ops_light_tech }
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		path = {
+			leads_to_tech = tactics_spec_ops_elite_tech
+			research_cost_coeff = 1
+		}
+
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_right_1 y = @Col_tactics2 }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	tactics_spec_ops_elite_tech = {
+
+		special_forces_cap = 0.05
+		category_special_forces = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			breakthrough = 0.05
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 50
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = @Row_tactics_middle y = @Col_tactics3 }
+		}
+
+		categories = {
+			caf_land_doctrine_xp
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+}

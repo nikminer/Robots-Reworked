@@ -1,0 +1,268 @@
+spriteTypes = {
+	# Main
+		spriteType = {
+			name = "GFX_robotics_notes_tech_medium"
+			texturefile = "gfx/interface/technologies/book_science.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_automatization_tech_medium"
+			texturefile = "gfx/interface/technologies/robot_automation_tech_icon.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_scrapbot_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_makeshift_automatons_icon.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_protectron_tech_1_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_protectron_icon_1.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_protectron_tech_2_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_protectron_icon_2.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_assaultron_tech_1_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_assaultron_1.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_assaultron_tech_2_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_assaultron_icon.dds"
+			alwaystransparent = yes
+		}
+
+
+	# Production
+		spriteType = {
+			name = "GFX_robot_production_efficiency_1_tech_medium"
+			texturefile = "gfx/interface/technologies/robot_automation_tech_1.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_production_efficiency_2_tech_medium"
+			texturefile = "gfx/interface/technologies/robot_automation_tech_2.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_production_efficiency_3_tech_medium"
+			texturefile = "gfx/interface/technologies/robot_automation_tech_3.dds"
+			alwaystransparent = yes
+		}
+	
+    # Armor
+		spriteType = {
+			name = "GFX_robot_welded_rebar_tech_medium"
+			texturefile = "gfx/interface/technologies/welded_rebar.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_harded_armor_tech_medium"
+			texturefile = "gfx/interface/technologies/plate_harded.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_impact_armor_tech_medium"
+			texturefile = "gfx/interface/technologies/plate_impact_resistance.dds"
+			alwaystransparent = yes
+		}
+
+	# Heavy
+		spriteType = {
+			name = "GFX_heavy_lifter_equipment_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_heavy_lifter_icon.dds"
+			alwaystransparent = yes
+		}
+		spriteType = {
+			name = "GFX_robot_sentry_bot_equipment_1_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_sentrybot_icon_1.dds"
+			alwaystransparent = yes
+		}
+		spriteType = {
+			name = "GFX_robot_sentry_bot_equipment_2_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_sentrybot_icon_2.dds"
+			alwaystransparent = yes
+		}
+
+	# Servo
+		spriteType = {
+			name = "GFX_robot_simple_servo_tech_medium"
+			texturefile = "gfx/interface/technologies/servo.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_advance_servo_tech_medium"
+			texturefile = "gfx/interface/technologies/advance_servo.dds"
+			alwaystransparent = yes
+		}
+
+	# Power
+		spriteType = {
+			name = "GFX_robot_fusion_core_tech_medium"
+			texturefile = "gfx/interface/technologies/fusion_core.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_advance_power_system_tech_medium"
+			texturefile = "gfx/interface/technologies/nuke_device.dds"
+			alwaystransparent = yes
+		}
+
+	# Light
+		spriteType = {
+			name = "GFX_robot_handy_equipment_1_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_handy_icon.dds"
+			alwaystransparent = yes
+		}
+		spriteType = {
+			name = "GFX_robot_handy_equipment_2_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_handy_icon.dds"
+			alwaystransparent = yes
+		}
+		spriteType = {
+			name = "GFX_robot_handy_equipment_3_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_gutsy_icon.dds"
+			alwaystransparent = yes
+		}
+		spriteType = {
+			name = "GFX_robot_handy_equipment_4_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_gutsy_icon.dds"
+			alwaystransparent = yes
+		}
+	
+	# Thruster
+		spriteType = {
+			name = "GFX_robot_thruster_tech_medium"
+			texturefile = "gfx/interface/technologies/robot_thrusters_icon.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_advance_thruster_tech_medium"
+			texturefile = "gfx/interface/technologies/robot_antigrav_tech_icon.dds"
+			alwaystransparent = yes
+		}
+
+	# Command
+		spriteType = {
+			name = "GFX_robot_command_equipment_1_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_eyebot_2_icon.dds"
+			alwaystransparent = yes
+		}
+		spriteType = {
+			name = "GFX_robot_command_equipment_2_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_eyebot_icon.dds"
+			alwaystransparent = yes
+		}
+		spriteType = {
+			name = "GFX_robot_command_equipment_3_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_robobrain_icon.dds"
+			alwaystransparent = yes
+		}
+
+	# Hardware
+		spriteType = {
+			name = "GFX_robot_police_hardware_tech_medium"
+			texturefile = "gfx/interface/technologies/police_hardware.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_millitary_hardware_tech_medium"
+			texturefile = "gfx/interface/technologies/military_hardware.dds"
+			alwaystransparent = yes
+		}
+
+	# Software
+		spriteType = {
+			name = "GFX_robot_police_software_tech_medium"
+			texturefile = "gfx/interface/technologies/police_operation_system.dds"
+			alwaystransparent = yes
+		}
+
+		spriteType = {
+			name = "GFX_robot_military_software_tech_medium"
+			texturefile = "gfx/interface/technologies/military_operation_system.dds"
+			alwaystransparent = yes
+		}
+
+	# Turrets
+		spriteType = {
+			name = "GFX_robot_scrap_turrets_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/scrap_turret.dds"
+			alwaystransparent = yes
+		}
+		spriteType = {
+			name = "GFX_robot_balistics_turrets_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/automated_turret.dds"
+			alwaystransparent = yes
+		}
+		spriteType = {
+			name = "GFX_robot_laser_turrets_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/laser_turret_mk1.dds"
+			alwaystransparent = yes
+		}
+		spriteType = {
+			name = "GFX_robot_laser_turrets_3_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/laser_turret.dds"
+			alwaystransparent = yes
+		}
+		spriteType = {
+			name = "GFX_robot_laser_turrets_4_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/laser_turret.dds"
+			alwaystransparent = yes
+		}
+	
+	# Unique
+		spriteType = {
+			name = "GFX_robot_scurry_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_scurry_tech_icon.dds"
+			alwaystransparent = yes
+		}
+	
+		spriteType = {
+			name = "GFX_robot_humanoid_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_humanoid_tech_icon.dds"
+			alwaystransparent = yes
+		}
+	
+		spriteType = {
+			name = "GFX_robot_pacification_bot_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_pacification_bot_tech_icon.dds"
+			alwaystransparent = yes
+		}
+	
+		spriteType = {
+			name = "GFX_robot_behemoth_robot_tech_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_behemoth_robot_tech_icon.dds"
+			alwaystransparent = yes
+		}
+	
+		spriteType = {
+			name = "GFX_robot_securitron_tech_1_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_securitron_icon_1.dds"
+			alwaystransparent = yes
+		}
+	
+		#spriteType = {
+		#	name = "GFX_robot_securitron_tech_2_medium"
+		#	texturefile = "gfx/interface/equipment/generic/robot_securitron_icon_2.dds"
+		#	alwaystransparent = yes
+		#}
+}

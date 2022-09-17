@@ -1,0 +1,93 @@
+#-------------------------
+# Unique Super Heavy
+#-------------------------
+technologies = {
+	@Row_heavy = 4
+
+	@Col_11 = 41
+	@Col_12 = 44
+
+	robot_pacification_bot_tech = {
+
+		enable_equipments = {
+			super_heavy_robot_equipment_1
+		}
+		enable_subunits = {
+			super_heavy_robot
+		}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = super_heavy_robot
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_super_heavy_robot"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			custom_effect_tooltip = security_robot_tech
+		}
+
+		allow = {
+			always = no
+		}
+
+		path = {
+			leads_to_tech = robot_behemoth_robot_tech
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			blocked_tech = 1
+		}
+
+		research_cost = 2.0
+		start_year = 2283
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_heavy y = @Col_11 }
+		}
+
+		categories = {
+			robotics_tech_category
+			combat_robot_tech_category
+			armor_tech_category
+			scientific_tech_category
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	robot_behemoth_robot_tech = {
+
+		enable_equipments = {
+			super_heavy_robot_equipment_2
+		}
+
+		dependencies = {
+			robotics_tech_level_scientific = 1
+		}
+
+		research_cost = 2.0
+		start_year = 2285
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_heavy y = @Col_12 }
+		}
+
+		categories = {
+			robotics_tech_category
+			combat_robot_tech_category
+			armor_tech_category
+			scientific_tech_category
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+}

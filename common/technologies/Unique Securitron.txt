@@ -1,0 +1,200 @@
+#-------------------------------
+# Unique Securitron
+#-------------------------------
+technologies = {
+	@Row_1 = 0
+
+	@Col_11 = 41
+	@Col_12 = 44
+
+# Level 1
+	robot_securitron_tech_1 = {
+		enable_equipments = {
+			security_robot_securitron_equipment_1
+		}
+
+		enable_subunits = {
+			security_robot
+		}
+
+		sub_technologies = {
+			robot_securitron_grenade_software_tech
+			robot_securitron_missile_software_tech
+			robot_securitron_self_repair_tech
+		}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = security_robot
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_security_robot"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+			custom_effect_tooltip = security_robot_tech
+		}
+		#path = {
+		#	leads_to_tech = robot_securitron_cnp_tech
+		#	research_cost_coeff = 1
+		#}
+
+		dependencies = {
+			blocked_tech = 1
+		}
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 2.2
+		start_year = 2275
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_1 y = @Col_11 }
+		}
+
+		categories = {
+			robotics_tech_category
+			combat_robot_tech_category
+			armor_tech_category
+			scientific_tech_category
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	robot_securitron_grenade_software_tech = {
+		security_robot = {
+			soft_attack = 0.5
+			breakthrough = 0.5
+		}
+
+		dependencies = {
+			platinum_os_tech = 1
+		}
+
+		xp_research_type = army
+		xp_boost_cost = 30
+		xp_research_bonus = 0.5
+
+		research_cost = 2
+		start_year = 2275
+
+		categories = {
+			vertibird_tech_category
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 50
+				date > "2280.1.1"
+			}
+		}
+	}
+
+	robot_securitron_missile_software_tech = {
+		security_robot = {
+			hard_attack = 0.5
+			air_attack = 0.5
+		}
+
+		dependencies = {
+			platinum_os_tech = 1
+		}
+
+		xp_research_type = army
+		xp_boost_cost = 30
+		xp_research_bonus = 0.5
+
+		research_cost = 2
+		start_year = 2275
+
+		categories = {
+			vertibird_tech_category
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 50
+				date > "2280.1.1"
+			}
+		}
+	}
+
+	robot_securitron_self_repair_tech = {
+		security_robot = {
+			hardness = 0.2
+			armor_value = 0.25
+			max_strength = 1
+			default_morale = 0.1
+		}
+
+		dependencies = {
+			platinum_os_tech = 1
+		}
+
+		xp_research_type = army
+		xp_boost_cost = 30
+		xp_research_bonus = 0.5
+
+		research_cost = 2
+		start_year = 2275
+
+		categories = {
+			vertibird_tech_category
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 50
+				date > "2280.1.1"
+			}
+		}
+	}
+
+
+	
+# Level 2
+	#robot_securitron_cnp_tech = {
+	#
+	#	security_robot = {
+	#		maximum_speed = 0.2
+	#		max_organisation = 5
+	#	}
+	#
+	#	research_cost = 2.5
+	#	start_year = 2275
+	#
+	#	dependencies = {
+	#		robotics_tech_level_scientific = 1
+	#	}
+	#
+	#	folder = {
+	#		name = fallout_robotics_rr_folder
+	#		position = { x = @Row_1 y = @Col_12 }
+	#	}
+	#
+	#	ai_will_do = {
+	#		factor = 1
+	#		modifier = {
+	#			factor = 50
+	#			date > "2280.1.1"
+	#		}
+	#	}
+	#
+	#	categories = {
+	#		robotics_tech_category
+	#		support_robot_tech_category
+	#		armor_tech_category
+	#		civilized_tech_category
+	#	}
+	#}
+
+}

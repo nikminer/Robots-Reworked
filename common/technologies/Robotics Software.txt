@@ -1,0 +1,106 @@
+#-------------------------------
+# Robotics Software
+#-------------------------------
+technologies = {
+	@Col_1 = 8
+	@Col_2 = 11
+	@Col_3 = 14
+	@Col_4 = 18
+	@Col_5 = 20
+	@Col_6 = 23
+	@Col_7 = 26
+	@Col_8 = 29
+	@Col_9 = 32
+	@Col_10 = 35
+	
+	@Row_Software = 20
+
+	robot_police_software_tech = {
+
+		enable_equipment_modules = {
+			robots_police_operation_system
+		}
+
+		research_cost = 1.6
+		start_year = 2280
+
+		dependencies = {
+			robotics_tech_level_settler = 1
+		}
+
+		path = {
+			leads_to_tech = robot_military_software_tech
+			research_cost_coeff = 1
+		}
+
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_Software y = @Col_4 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				has_country_flag = robot_doctrine_ai
+			}
+			modifier = {
+				factor = 1.5
+				date > "2280.1.1"
+			}
+			modifier = {
+				factor = 2
+				date > "2281.1.1"
+			}
+		}
+
+		categories = {
+			robotics_tech_category
+			armor_tech_category
+			civilized_tech_category
+		}
+	}
+
+	robot_military_software_tech= {
+
+		enable_equipment_modules = {
+			robots_military_operation_system
+		}
+
+		research_cost = 1.6
+		start_year = 2285
+
+		dependencies = {
+			robotics_tech_level_scientific = 1
+			robot_police_software_tech = 1
+			robot_millitary_hardware_tech = 1
+		}
+
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_Software y = @Col_8 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				has_country_flag = robot_doctrine_ai
+			}
+			modifier = {
+				factor = 1.5
+				date > "2285.1.1"
+			}
+			modifier = {
+				factor = 2
+				date > "2286.1.1"
+			}
+		}
+
+		categories = {
+			robotics_tech_category
+			armor_tech_category
+			civilized_tech_category
+		}
+	}
+}

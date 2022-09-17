@@ -1,0 +1,21 @@
+﻿l_english:
+ # Categories
+  category_robots: "Robots"
+  category_cnc_robots: "CnC Robots"
+  category_turrets: "Turrets"
+
+ # Groups (Division designer categories)
+  group_robot_group_title: "Robot Platoons"
+
+ # Robots
+  support_robot: "Main Robot Platoon"
+  support_robot_short: "Main Robots"
+  support_robot_desc: "Medium-armored and sufficiently armed robots put into service as a combat unit. With a focus on main roles."
+  
+  light_robot: "Light Robot Platoon"
+  light_robot_short: "Light Robots"
+  light_robot_desc: "Lightly armoured and armed robots put into service as a combat unit. With a focus on supporting roles."
+
+  turrets_support: "Turret Support Platoon"
+  turrets_support_short: "Turrets"
+  turrets_support_desc: "Defensive turrets are ideal for defending the territory from an attack from outside."

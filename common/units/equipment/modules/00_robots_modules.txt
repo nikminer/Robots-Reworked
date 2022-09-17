@@ -1,0 +1,280 @@
+equipment_modules = {
+###################################################
+# Robots Energy
+###################################################
+	robots_battery = {
+		category = robots_power_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			build_cost_ic = 1
+			fuel_consumption = 1
+			reliability = -0.1
+		}
+	}
+
+	robots_fusion_core = {
+		category = robots_power_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_battery
+
+		add_stats = {
+			build_cost_ic = 3
+			fuel_consumption = 0.5
+			reliability = -0.05
+		}
+		multiply_stats = {
+			defense = 0.05
+		}
+	}
+
+	robots_advance_power_system = {
+		category = robots_power_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_fusion_core
+
+		add_stats = {
+			build_cost_ic = 8 
+			fuel_consumption = -1
+			reliability = 0.1
+		}
+		multiply_stats = {  
+			defense = 0.10
+			fuel_consumption_factor = -0.10
+		}
+	}
+
+###################################################
+# Robots Armor
+###################################################
+	robots_standard_plate = {
+		category = robots_armor_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+		}
+	}
+
+	robots_welded_rebar = {
+		category = robots_armor_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_standard_plate
+
+		add_stats = {
+			build_cost_ic = 0.4
+			fuel_consumption = 0.2
+			maximum_speed = -1
+			hardness = 0.1
+			armor_value = 1
+			reliability = -0.1
+		}
+		multiply_stats = {
+			defense = 0.02
+			max_strength = 0.5
+		}
+	}
+
+	robots_harded_plate = {
+		category = robots_armor_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_welded_rebar
+		add_stats = {
+			reliability = 0.1
+			breakthrough = 3
+			hardness = 0.2
+			armor_value = 2
+			soft_attack = 2
+			hard_attack = 1
+			fuel_consumption = 0.3
+			build_cost_ic = 1
+			maximum_speed = -1
+		}
+		multiply_stats = {
+			defense = 0.05
+			max_strength = 0.10
+		}
+	}
+
+	robots_impact_resistance_plate = {
+		category = robots_armor_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_harded_plate
+		add_stats = {
+			reliability = 0.3
+			breakthrough = 4
+			hardness = 0.2
+			armor_value = 3
+			soft_attack = 3
+			hard_attack = 2
+			fuel_consumption = 0.4
+			build_cost_ic = 2
+			maximum_speed = -1
+		}
+		multiply_stats = {
+			defense = 0.1
+			max_strength = 0.20
+		}
+	}
+	
+###################################################
+# Robots HardWare
+###################################################
+	robots_civilian_hardware = {
+		category = robots_hardware_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+		}
+	}
+	robots_police_hardware = {
+		category = robots_hardware_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_civilian_hardware
+
+		add_stats = {
+			fuel_consumption = -0.05
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+	}
+
+	robots_military_hardware = {
+		category = robots_hardware_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_police_hardware
+
+		add_stats = {
+			fuel_consumption = -0.1
+			soft_attack = 0.06
+			hard_attack = 0.06
+		}
+	}
+###################################################
+# Robots Operation System
+###################################################
+	robots_civilian_operation_system = {
+		category = robots_operation_system_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			build_cost_ic = 0.5
+			fuel_consumption = -0.2
+		}
+	}
+	robots_police_operation_system = {
+		category = robots_operation_system_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_civilian_operation_system
+
+		add_stats = {
+			build_cost_ic = 0.5
+			suppression = 1
+			recon = 0.1
+		}
+	}
+
+	robots_military_operation_system = {
+		category = robots_operation_system_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_police_operation_system
+
+		add_stats = {
+			build_cost_ic = 0.5
+			recon = 0.3
+		}
+	}
+
+	robots_mark2_operation_system = {
+		category = securitron_operation_system_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_police_operation_system
+
+		add_stats = {
+			recon = 0.3
+			maximum_speed = 0.2
+			max_organisation = 5
+			breakthrough = 0.5
+			hard_attack = 0.5
+			default_morale = 0.1
+		}
+	}
+
+###################################################
+# Robots Servo
+###################################################
+	robots_primitive_servo = {
+		category = robots_servo_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			build_cost_ic = 0.5
+			reliability = -0.05
+			maximum_speed = -0.05
+		}
+	}
+
+	robots_simple_servo = {
+		category = robots_servo_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_primitive_servo
+
+		add_stats = {
+			build_cost_ic = 1
+			breakthrough = 0.04
+			reliability = -0.03
+			maximum_speed = 0.05
+		}
+	}
+
+	robots_advance_servo = {
+		category = robots_servo_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_simple_servo
+
+		add_stats = {
+			build_cost_ic = 2
+			breakthrough = 0.08
+			reliability = 0.05
+			maximum_speed = 0.1
+		}
+	}
+
+###################################################
+# Robots Thruster
+###################################################
+	robots_primitive_thruster = {
+		category = robots_thruster_type
+		sfx = sfx_ui_sd_module_engine
+	
+		add_stats = {
+			build_cost_ic = 0.5
+			reliability = -0.05
+			maximum_speed = -0.05
+		}
+	}
+	
+	robots_thruster = {
+		category = robots_thruster_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_primitive_thruster
+		
+		add_stats = {
+			build_cost_ic = 1
+			default_morale = 0.02 
+			maximum_speed = 0.05
+		}
+	}
+	
+	robots_advance_thruster = {
+		category = robots_thruster_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_thruster
+
+		add_stats = {
+			build_cost_ic = 1.5
+			default_morale = 0.05
+			reliability = 0.05
+			maximum_speed = 0.1
+		}
+	}
+}

@@ -1,0 +1,191 @@
+﻿capital = 656
+
+set_politics = {
+	ruling_party = intellectuals
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 10
+	elites = 10
+	intellectuals = 55
+	ruler = 25
+}
+
+set_stability = 0.70
+set_war_support = 0.45
+set_research_slots = 4
+set_convoys = 150
+set_country_flag = is_gate_area
+
+set_technology = {
+	infantry_tech_level_tribal = 1
+	infantry_tech_level_settler = 1
+	infantry_tech_level_scientific = 1
+	support_tech_level_tribal = 1
+	support_tech_level_settler = 1
+	support_tech_level_scientific = 1
+	special_forces_tech_level_tribal = 1
+	special_forces_tech_level_settler = 1
+	special_forces_tech_level_scientific = 1
+	power_armour_tech_level_tribal = 1
+	power_armour_tech_level_settler = 1
+	power_armour_tech_level_scientific = 1
+	vehicles_tech_level_tribal = 1
+	vehicles_tech_level_settler = 1
+	#vehicles_tech_level_scientific = 1
+	robotics_tech_level_tribal = 1
+	robotics_tech_level_settler = 1
+	#robotics_tech_level_scientific = 1
+	air_tech_level_tribal = 1
+	air_tech_level_settler = 1
+	air_tech_level_scientific = 1
+	naval_tech_level_tribal = 1
+	naval_tech_level_settler = 1
+	#naval_tech_level_scientific = 1
+	tools_tech_level_tribal = 1
+	tools_tech_level_settler = 1
+	tools_tech_level_scientific = 1
+	habitation_tech_level_tribal = 1
+	habitation_tech_level_settler = 1
+	#habitation_tech_level_scientific = 1
+	exploitation_tech_level_tribal = 1
+	exploitation_tech_level_settler = 1
+	exploitation_tech_level_scientific = 1
+	electronics_tech_level_tribal = 1
+	electronics_tech_level_settler = 1
+	electronics_tech_level_scientific = 1
+	standard_weaponry_tech = 1
+	ballistic_weaponry_tech_1 = 1
+
+	robotics_notes_tech = 1
+	robot_automatization_tech = 1
+	robot_scrapbot_tech = 1
+	robot_protectron_tech_1 = 1
+	#robot_automation_tech = 1
+	#robot_makeshift_automatons_tech = 1
+	#robot_protectron_equipment_tech_1 = 1
+
+	tribal_civilization = 1
+	settled_civilization = 1
+	scientific_civilization = 1
+	basic_industry_tech = 1
+	tool_engineering = 1
+	maketool_engineering_1 = 1
+	pre_construction_industry_tech = 1
+	construction_industry_tech_1 = 1
+	construction_industry_tech_2 = 1
+	extraction_industry_tech_1 = 1
+	habitation_industry_tech_1 = 1
+	extraction_industry_tech_2 = 1
+	habitation_industry_tech_2 = 1
+	resource_generator_tech = 1
+	resource_generator_water_tech_1 = 1
+	resource_generator_power_tech_1 = 1
+	resource_generator_metal_tech_1 = 1
+	stripped_pa_tech = 1
+	weight_support_frame_pa_tech_1 = 1
+	weight_support_frame_pa_tech_2 = 1
+	wasteland_pa_tech = 1
+	enclave_pa_unlock_tech = 1
+	vertibird_unlock_tech = 1
+	elite_army = 1
+	standard_weaponry_tech = 1
+	melee_weaponry_tech_1 = 1
+	nautics_tech_1 = 1
+	energy_weaponry_tech_1 = 1
+	energy_weapon_emitter_tech = 1
+	energy_weaponry_tech_2 = 1
+	spec_ops_equipment_tech_1 = 1
+	spec_ops_equipment_tech_2 = 1
+	hardening_armour_tech = 1
+	simple_servo_tech = 1
+	scav_pa_tech = 1
+	support_weaponry = 1
+	anti_tank_equipment_tech_1 = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		nautics_tech_1 = 1
+		light_navy_hull_tech_1 = 1
+		waterproof_sealing_tech = 1
+		medium_navy_hull_tech_1 = 1
+		multi_deck_construction_tech = 1
+		heavy_navy_hull_tech_1 = 1
+		naval_module_tech = 1
+		naval_weapons_module_tech = 1
+		naval_support_module_tech = 1
+		naval_armour_tech_1 = 1
+		naval_communications_module_tech_1 = 1
+	}
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		nautics_tech_non_mtg_1 = 1
+		light_navy_hull_tech_non_mtg_1 = 1
+		waterproof_sealing_tech_non_mtg = 1
+		medium_navy_hull_tech_non_mtg_1 = 1
+		multi_deck_construction_tech_non_mtg = 1
+		heavy_navy_hull_tech_non_mtg_1 = 1
+	}
+}
+load_oob = MCA_units
+
+# Enclave Intellectuals
+	# creating country leaders
+
+recruit_character = MCA_santiago
+recruit_character = MCA_wesson
+recruit_character = MCA_jackson
+recruit_character = MCA_markham
+recruit_character = mason_salvatore_MCA
+recruit_character = MCA_martha_santiago
+recruit_character = MCA_horrigan_ii
+recruit_character = MCA_granite
+
+
+add_equipment_to_stockpile = {
+	type = enclave_power_armour_equipment_1
+	amount = 150
+	producer = USA
+}
+
+add_equipment_to_stockpile = {
+	type = gauss_equipment_2
+	amount = 25
+	producer = USA
+}
+add_equipment_to_stockpile = {
+	type = vb_gunship_equipment
+	amount = 20
+	producer = USA
+}
+add_ideas = {
+	montana_scientists_bad
+	outsider_law_enclave_only
+	enclave_military_law_1
+	officer_law_military_academy
+}
+
+set_country_flag = enclave_nation
+set_country_flag = elite_doctrine_ai
+
+set_party_name = { ideology = people  name = "Refugees"  long_name = "Refugees" }
+set_party_name = { ideology = ruler  name = "The Enclave" long_name = "The Enclave" }
+set_party_name = { ideology = elites  name = "The First Famlies" long_name = "The First Families" }
+set_party_name = { ideology = intellectuals  name = "The Colonel" long_name = "The Colonel" }
+
+add_dynamic_modifier = { modifier = mca_chicago_colony }
+add_to_variable = { mca_support = 0.05}
+add_to_variable = { mca_resource_metal = -1 }
+add_to_variable = { mca_chicago_research_speed = 0.03 }
+force_update_dynamic_modifier = yes
+force_update_dynamic_modifier = yes
+set_country_flag = MCA_chicago_shipments

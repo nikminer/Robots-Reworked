@@ -1,0 +1,32 @@
+on_actions = {
+	#Not run on a specific country.
+	on_startup = {
+		effect = {
+			#Give nations templates for units they start with but don't have in any template
+			every_country = {
+				if = {
+					limit = {
+						NOT = {
+							has_template_containing_unit = support_robot
+						}
+						has_tech = robot_scrapbot_tech
+					}
+					hidden_effect = {
+						load_oob = "unlock_support_robot"
+					}
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_template_containing_unit = light_robot
+						}
+						has_tech = robot_handy_equipment_1_tech
+					}
+					hidden_effect = {
+						load_oob = "unlock_light_robot"
+					}
+				}
+			}
+		}
+	}
+}

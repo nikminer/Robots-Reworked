@@ -1,0 +1,179 @@
+spriteTypes = {
+	# Group Icons
+		spriteType = { 
+			name = "GFX_group_robot_group_icon"								
+			textureFile = "gfx/interface/counters/divisions_large/robots_light.dds" 
+			noOfFrames = 2 
+		}
+	
+	# light robots
+		spriteType = {
+			name = "GFX_unit_light_robot_icon_medium"
+			textureFile = "gfx/interface/counters/divisions_large/robots_light.dds"
+			noOfFrames = 2
+		}
+
+		spriteType = {
+			name = "GFX_unit_light_robot_icon_medium_white"
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_support_robots_icon.dds"
+			noOfFrames = 2
+		}
+
+		spriteType = {
+			name = "GFX_unit_light_robot_icon_small"
+			texturefile = "gfx/texticons/unit_robots_light.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2
+		}
+
+	# support robots
+		spriteType = {
+			name = "GFX_unit_support_robot_icon_medium"
+			textureFile = "gfx/interface/counters/divisions_large/main_robots.dds"
+			noOfFrames = 2
+		}
+
+		spriteType = {
+			name = "GFX_unit_support_robot_icon_medium_white"
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_support_robots_icon.dds"
+			noOfFrames = 2
+		}
+
+		spriteType = {
+			name = "GFX_unit_support_robot_icon_small"
+			texturefile = "gfx/texticons/unit_support_robots_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2
+		}
+
+	# combat robots
+		spriteType = {
+			name = "GFX_unit_combat_robot_icon_medium"
+			textureFile = "gfx/interface/counters/divisions_large/heavy_robots.dds"
+			noOfFrames = 2
+		}
+
+		spriteType = {
+			name = "GFX_unit_combat_robot_icon_medium_white"
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_combat_robots_icon.dds"
+			noOfFrames = 2
+		}
+
+		spriteType = {
+			name = "GFX_unit_combat_robot_icon_small"
+			texturefile = "gfx/texticons/unit_combat_robots_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2
+		}
+
+	# command robots
+		spriteType = {
+			name = "GFX_unit_cnc_robot_icon_medium"
+			textureFile = "gfx/interface/counters/divisions_large/commands_robot.dds"
+			noOfFrames = 2
+		}
+		spriteType = {
+			name = "GFX_unit_cnc_robot_icon_small"
+			texturefile = "gfx/texticons/unit_cnc_1_support_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2
+		}
+		spriteType = {
+			name = "GFX_unit_cnc_robot_icon_medium_white"
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_cnc_1_support_icon.dds"
+			noOfFrames = 2
+		}
+
+		spriteType = {
+			name = "GFX_unit_cnc_robot_2_icon_medium"
+			textureFile = "gfx/interface/counters/divisions_large/commands_robot.dds"
+			noOfFrames = 2
+		}
+		spriteType = {
+			name = "GFX_unit_cnc_robot_2_icon_small"
+			texturefile = "gfx/texticons/unit_cnc_1_support_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2
+		}
+		spriteType = {
+			name = "GFX_unit_cnc_robot_2_icon_medium_white"
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_cnc_2_support_icon.dds"
+			noOfFrames = 2
+		}
+
+		spriteType = {
+			name = "GFX_unit_cnc_robot_3_icon_medium"
+			textureFile = "gfx/interface/counters/divisions_large/commands_robot3.dds"
+			noOfFrames = 2
+		}
+		spriteType = {
+			name = "GFX_unit_cnc_robot_3_icon_small"
+			texturefile = "gfx/texticons/unit_cnc_1_support_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2
+		}
+		spriteType = {
+			name = "GFX_unit_cnc_robot_3_icon_medium_white"
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_cnc_3_support_icon.dds"
+			noOfFrames = 2
+		}
+
+	# super heavy robots
+		spriteType = {
+			name = "GFX_unit_super_heavy_robots_icon_medium"
+			textureFile = "gfx/interface/counters/divisions_large/super_heavy_robot.dds"
+			noOfFrames = 2
+		}
+		spriteType = {
+			name = "GFX_unit_super_heavy_robots_icon_medium_white"
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_super_heavy_robots_icon.dds"
+			noOfFrames = 2
+		}
+		spriteType = {
+			name = "GFX_unit_super_heavy_robots_icon_small"
+			texturefile = "gfx/texticons/unit_support_robots_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2
+		}
+
+	# security robots
+		spriteType = {
+			name = "GFX_unit_security_robot_icon_medium"
+			textureFile = "gfx/interface/counters/divisions_large/securitron_robots.dds"
+			noOfFrames = 2
+		}
+
+		spriteType = {
+			name = "GFX_unit_security_robot_icon_medium_white"
+			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_combat_robots_icon.dds"
+			noOfFrames = 2
+		}
+
+		spriteType = {
+			name = "GFX_unit_security_robot_icon_small"
+			texturefile = "gfx/texticons/unit_securitron_robots_icon_small.dds"
+			legacy_lazy_load = no
+			noOfFrames = 2
+		}
+	
+	# turrets
+	spriteType = {
+		name = "GFX_unit_turrets_support_icon_medium"
+		textureFile = "gfx/interface/counters/divisions_large/turrets_robots.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_turrets_support_icon_medium_white"
+		textureFile = "gfx/interface/counters/divisions_small/onmap_unit_combat_robots_icon.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_unit_turrets_support_icon_small"
+		texturefile = "gfx/texticons/unit_turrets_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+}

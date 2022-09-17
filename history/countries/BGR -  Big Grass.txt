@@ -1,0 +1,132 @@
+﻿capital = 1125
+oob = "BGR_2275"
+set_technology = {
+	basic_supply_transport_tech = 1
+	infantry_tech_level_tribal = 1
+	infantry_tech_level_settler = 1
+	#infantry_tech_level_scientific = 1
+	support_tech_level_tribal = 1
+	support_tech_level_settler = 1
+	#support_tech_level_scientific = 1
+	special_forces_tech_level_tribal = 1
+	#special_forces_tech_level_settler = 1
+	#special_forces_tech_level_scientific = 1
+	#power_armour_tech_level_settler = 1
+	#power_armour_tech_level_scientific = 1
+	vehicles_tech_level_tribal = 1
+	vehicles_tech_level_settler = 1
+	#vehicles_tech_level_scientific = 1
+	robotics_tech_level_tribal = 1
+	robotics_tech_level_settler = 1
+	robotics_tech_level_scientific = 1
+	robot_protectron_equipment_tech_1 = 1
+	air_tech_level_tribal = 1
+	air_tech_level_settler = 1
+	#air_tech_level_scientific = 1
+	naval_tech_level_tribal = 1
+	naval_tech_level_settler = 1
+	#naval_tech_level_scientific = 1
+	tools_tech_level_tribal = 1
+	tools_tech_level_settler = 1
+	#tools_tech_level_scientific = 1
+	habitation_tech_level_tribal = 1
+	habitation_tech_level_settler = 1
+	#habitation_tech_level_scientific = 1
+	exploitation_tech_level_tribal = 1
+	exploitation_tech_level_settler = 1
+	#exploitation_tech_level_scientific = 1
+	electronics_tech_level_tribal = 1
+	electronics_tech_level_settler = 1
+	#electronics_tech_level_scientific = 1
+	automated_warfare = 1
+	standard_weaponry_tech = 1
+	melee_weaponry_tech_1 = 1
+
+	robotics_notes_tech = 1
+	robot_automatization_tech = 1
+	robot_scrapbot_tech = 1
+	robot_fusion_core_tech = 1
+	robot_protectron_tech_1 = 1
+	robot_protectron_tech_2 = 1
+	robot_command_equipment_1_tech = 1
+	robot_handy_equipment_1_tech = 1
+	#robot_automation_tech = 1
+	#robot_makeshift_automatons_tech = 1
+	#robot_fission_batteries_tech = 1
+	#robot_armour_hardening_tech = 1
+	#robot_protectron_equipment_tech_2 = 1
+	#robot_command_equipment_tech_1 = 1
+
+	support_weaponry = 1
+	logistics_company_tech_1 = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		nautics_tech_1 = 1
+		light_navy_hull_tech_1 = 1
+		waterproof_sealing_tech = 1
+	}
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		nautics_tech_non_mtg_1 = 1
+		light_navy_hull_tech_non_mtg_1 = 1
+		waterproof_sealing_tech_non_mtg = 1
+	}
+}
+
+recruit_character = BGR_CAPITALIZER
+recruit_character = BGR_ALKOM
+recruit_character = BGR_the_foreman
+recruit_character = BGR_big_banned
+recruit_character = BGR_the_aeronaut
+recruit_character = BGR_the_deputizer
+recruit_character = BGR_comrade_keg
+recruit_character = BGR_the_murdelizer
+recruit_character = BGR_deep_sea
+recruit_character = BGR_fossil_fuel
+recruit_character = BGR_the_hammer
+recruit_character = BGR_the_sickle
+recruit_character = BGR_chairman_wayne_buzzsky
+recruit_character = BGR_the_excavator
+recruit_character = BGR_the_neuralizer
+recruit_character = BGR_red_dredd
+recruit_character = BGR_failnot
+recruit_character = BGR_chairman_boyd_grayson
+recruit_character = BGR_chairwoman_victoria_burns
+recruit_character = BGR_chairwoman_amelia_tremblay
+recruit_character = BGR_chairman_henry_grundy
+recruit_character = BGR_chairwoman_bernadetta_varley
+
+set_stability = 0.4
+set_war_support = 0.5
+set_convoys = 30
+set_research_slots = 4
+set_country_flag = is_canadian_nation
+set_country_flag = has_robot_generals
+set_country_flag = no_generic_advisor
+set_country_flag = no_generic_chief
+set_country_flag = no_generic_high_command
+set_country_flag = robot_doctrine_ai
+
+set_politics = {
+	ruling_party = ruler
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 0
+	elites = 0
+	intellectuals = 0
+	ruler = 100
+}
+add_ideas = {
+	robobrain_factory
+}

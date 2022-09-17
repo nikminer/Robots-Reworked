@@ -1,0 +1,105 @@
+﻿capital = 371
+oob = "PSH_2275"
+
+set_technology = {
+	basic_supply_transport_tech = 1
+	infantry_tech_level_tribal = 1
+	#infantry_tech_level_settler = 1
+	#infantry_tech_level_scientific = 1
+	support_tech_level_tribal = 1
+	#support_tech_level_settler = 1
+	#support_tech_level_scientific = 1
+	#special_forces_tech_level_tribal = 1
+	#special_forces_tech_level_settler = 1
+	#special_forces_tech_level_scientific = 1
+	#power_armour_tech_level_settler = 1
+	#power_armour_tech_level_scientific = 1
+	#vehicles_tech_level_tribal = 1
+	#vehicles_tech_level_settler = 1
+	#vehicles_tech_level_scientific = 1
+	robotics_tech_level_tribal = 1
+	robotics_tech_level_settler = 1
+	#robotics_tech_level_scientific = 1
+	air_tech_level_tribal = 1
+	air_tech_level_settler = 1
+	#air_tech_level_scientific = 1
+	naval_tech_level_tribal = 1
+	naval_tech_level_settler = 1
+	#naval_tech_level_scientific = 1
+	tools_tech_level_tribal = 1
+	tools_tech_level_settler = 1
+	#tools_tech_level_scientific = 1
+	habitation_tech_level_tribal = 1
+	habitation_tech_level_settler = 1
+	#habitation_tech_level_scientific = 1
+	exploitation_tech_level_tribal = 1
+	exploitation_tech_level_settler = 1
+	#exploitation_tech_level_scientific = 1
+	electronics_tech_level_tribal = 1
+	electronics_tech_level_settler = 1
+	#electronics_tech_level_scientific = 1
+	standard_weaponry_tech = 1
+	ballistic_weaponry_tech_1 = 1
+
+	robotics_notes_tech = 1
+	robot_automatization_tech = 1
+	robot_scrapbot_tech = 1
+	robot_fusion_core_tech = 1
+	robot_protectron_tech_1 = 1
+	#robot_automation_tech = 1
+	#robot_makeshift_automatons_tech = 1
+	#robot_fission_batteries_tech = 1
+	#robot_protectron_equipment_tech_1 = 1
+
+	tribal_civilization = 1
+	settled_civilization = 1
+	scientific_civilization = 1
+	basic_industry_tech = 1
+	tool_engineering = 1
+	maketool_engineering_1 = 1
+	pre_construction_industry_tech = 1
+	construction_industry_tech_1 = 1
+	construction_industry_tech_2 = 1
+	extraction_industry_tech_1 = 1
+	habitation_industry_tech_1 = 1
+	extraction_industry_tech_2 = 1
+	habitation_industry_tech_2 = 1
+	resource_generator_tech = 1
+	resource_generator_water_tech_1 = 1
+	resource_generator_power_tech_1 = 1
+	resource_generator_metal_tech_1 = 1
+	automated_warfare = 1
+	robot_armour_hardening_tech = 1
+	support_weaponry = 1
+	logistics_company_tech_1 = 1
+}
+
+set_stability = 0.45
+set_war_support = 0.35
+set_research_slots = 5
+set_country_flag = is_settler_nation
+set_country_flag = is_robotic_nation
+set_country_flag = has_robot_generals
+set_country_flag = is_nevada_nation
+set_country_flag = robot_doctrine_ai
+
+set_politics = {
+	ruling_party = intellectuals
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 25
+	elites = 25
+	intellectuals = 25
+	ruler = 25
+}
+
+add_ideas = {
+	psh_automated_security_system
+}
+
+recruit_character = PSH_organization_bot_312
+recruit_character = PSH_organization_bot_313
+recruit_character = PSH_organization_bot_314
+recruit_character = PSH_organization_bot_315

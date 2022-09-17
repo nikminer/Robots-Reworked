@@ -1,0 +1,26 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_bg_cnc_robot_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/robots/generic/generic_eyebot_blueprint.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bg_protectron_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/robots/generic/generic_protectron_blueprint.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bg_handy_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/robots/generic/generic_handy_blueprint.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bg_securitron_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/robots/generic/generic_securitron_blueprint.dds"
+		legacy_lazy_load = no
+	}
+}

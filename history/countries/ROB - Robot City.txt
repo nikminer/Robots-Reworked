@@ -1,0 +1,99 @@
+﻿capital = 524
+oob = "ROB_2275"
+
+set_technology = {
+	basic_supply_transport_tech = 1
+	automated_warfare = 1
+
+	infantry_tech_level_tribal = 1
+	#infantry_tech_level_settler = 1
+	#infantry_tech_level_scientific = 1
+
+	#power_armour_tech_level_settler = 1
+	#power_armour_tech_level_scientific = 1
+
+	special_forces_tech_level_tribal = 1
+	#special_forces_tech_level_settler = 1
+	#special_forces_tech_level_scientific = 1
+
+	support_tech_level_tribal = 1
+	support_tech_level_settler = 1
+	#support_tech_level_scientific = 1
+
+	vehicles_tech_level_tribal = 1
+	vehicles_tech_level_settler = 1
+	#vehicles_tech_level_scientific = 1
+
+	robotics_tech_level_tribal = 1
+	robotics_tech_level_settler = 1
+	robotics_tech_level_scientific = 1
+
+	air_tech_level_tribal = 1
+	air_tech_level_settler = 1
+	#air_tech_level_scientific = 1
+
+	naval_tech_level_tribal = 1
+	naval_tech_level_settler = 1
+	#naval_tech_level_scientific = 1
+
+	tools_tech_level_tribal = 1
+	tools_tech_level_settler = 1
+	tools_tech_level_scientific = 1
+
+	exploitation_tech_level_tribal = 1
+	exploitation_tech_level_settler = 1
+	#exploitation_tech_level_scientific = 1
+
+	habitation_tech_level_tribal = 1
+	habitation_tech_level_settler = 1
+	#habitation_tech_level_scientific = 1
+
+	electronics_tech_level_scientific = 1
+	electronics_tech_level_tribal = 1
+	electronics_tech_level_settler = 1
+
+	standard_weaponry_tech = 1
+
+	robotics_notes_tech = 1
+	robot_automatization_tech = 1
+	robot_scrapbot_tech = 1
+	robot_fusion_core_tech = 1
+	robot_protectron_tech_1 = 1
+	#robot_automation_tech = 1
+	#robot_makeshift_automatons_tech = 1
+	#robot_fission_batteries_tech = 1
+	#robot_protectron_equipment_tech_1 = 1
+}
+
+set_stability = 0.45
+set_war_support = 0.25
+set_research_slots = 5
+set_country_flag = is_settler_nation
+set_country_flag = has_robot_generals
+set_country_flag = is_robotic_nation
+set_country_flag = robot_doctrine_ai
+
+set_politics = {
+	ruling_party = people
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 100
+	elites = 0
+	intellectuals = 0
+	ruler = 0
+}
+
+recruit_character = rob_doki_doki
+
+random_character = {
+	limit = {
+		is_character = ROB_doki_doki
+	}
+	save_global_event_target_as = ROB_doki_doki_target
+}
+
+add_ideas = {
+	machine_commune
+}

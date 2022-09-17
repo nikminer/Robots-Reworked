@@ -1,0 +1,140 @@
+﻿capital = 389
+
+set_technology = {
+	basic_supply_transport_tech = 1
+	infantry_tech_level_tribal = 1
+	infantry_tech_level_settler = 1
+	infantry_tech_level_scientific = 1
+	support_tech_level_tribal = 1
+	support_tech_level_settler = 1
+	support_tech_level_scientific = 1
+	special_forces_tech_level_tribal = 1
+	special_forces_tech_level_settler = 1
+	special_forces_tech_level_scientific = 1
+	power_armour_tech_level_tribal = 1
+	power_armour_tech_level_settler = 1
+	power_armour_tech_level_scientific = 1
+	vehicles_tech_level_tribal = 1
+	vehicles_tech_level_settler = 1
+	vehicles_tech_level_scientific = 1
+	robotics_tech_level_tribal = 1
+	robotics_tech_level_settler = 1
+	robotics_tech_level_scientific = 1
+	air_tech_level_tribal = 1
+	air_tech_level_settler = 1
+	air_tech_level_scientific = 1
+	naval_tech_level_tribal = 1
+	naval_tech_level_settler = 1
+	naval_tech_level_scientific = 1
+	tools_tech_level_tribal = 1
+	tools_tech_level_settler = 1
+	tools_tech_level_scientific = 1
+	habitation_tech_level_tribal = 1
+	habitation_tech_level_settler = 1
+	habitation_tech_level_scientific = 1
+	exploitation_tech_level_tribal = 1
+	exploitation_tech_level_settler = 1
+	exploitation_tech_level_scientific = 1
+	electronics_tech_level_tribal = 1
+	electronics_tech_level_settler = 1
+	electronics_tech_level_scientific = 1
+	unit_training_tech_1 = 1
+	unit_training_tech_2 = 1
+	unit_training_tech_3 = 1
+	unit_training_tech_4 = 1
+	unit_training_tech_5 = 1
+	unit_training_tech_6 = 1
+	unit_training_tech_7 = 1
+	unit_training_tech_8 = 1
+	specialized_industry_tech_1 = 1
+	specialized_industry_tech_2 = 1
+	specialized_industry_tech_3 = 1
+	specialized_industry_tech_4 = 1
+	specialized_industry_tech_5 = 1
+	specialized_industry_tech_6 = 1
+	specialized_industry_tech_7 = 1
+	tool_engineering = 1
+	maketool_engineering_1 = 1
+	maketool_engineering_2 = 1
+	maketool_engineering_3 = 1
+	maketool_engineering_4 = 1
+	maketool_engineering_5 = 1
+	maketool_engineering_6 = 1
+	tribal_civilization = 1
+	settled_civilization = 1
+	scientific_civilization = 1
+	plasma_weaponry_1 = 1
+
+	robotics_notes_tech = 1
+	robot_automatization_tech = 1
+	robot_scrapbot_tech = 1
+	robot_fusion_core_tech = 1
+	robot_handy_equipment_1_tech = 1
+	robot_handy_equipment_2_tech = 1
+	#robot_automation_tech = 1
+	#robot_makeshift_automatons_tech = 1
+	#robot_handy_equipment_tech_1 = 1
+	#robot_armour_hardening_tech = 1
+	#robot_handy_equipment_tech_2 = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		nautics_tech_1 = 1
+		light_navy_hull_tech_1 = 1
+		medium_navy_hull_tech_1 = 1
+	}
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		nautics_tech_non_mtg_1 = 1
+		light_navy_hull_tech_non_mtg_1 = 1
+		medium_navy_hull_tech_non_mtg_1 = 1
+	}
+}
+
+set_stability = 0.8
+set_war_support = 1
+set_research_slots = 5
+
+set_politics = {
+	ruling_party = elites
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 0
+	elites = 100
+	intellectuals = 0
+	ruler = 0
+}
+
+recruit_character = CRA_commander_keen
+recruit_character = CRA_area_51_robot_1
+recruit_character = CRA_area_51_robot_2
+recruit_character = CRA_area_51_robot_3
+recruit_character = CRA_area_51_robot_4
+recruit_character = CRA_area_51_robot_5
+recruit_character = CRA_area_51_robot_6
+recruit_character = CRA_area_51_robot_7
+recruit_character = CRA_area_51_robot_8
+recruit_character = CRA_area_51_robot_9
+recruit_character = CRA_area_51_robot_10
+recruit_character = CRA_area_51_robot_11
+recruit_character = CRA_area_51_robot_12
+recruit_character = CRA_area_51_robot_13
+recruit_character = CRA_area_51_robot_14
+recruit_character = CRA_area_51_robot_15
+recruit_character = CRA_area_51_robot_16
+recruit_character = CRA_area_51_robot_17
+recruit_character = CRA_area_51_robot_18
+recruit_character = CRA_area_51_robot_19
+recruit_character = CRA_area_51_robot_20
+recruit_character = CRA_area_51_robot_21
+recruit_character = CRA_area_51_robot_22

@@ -1,0 +1,150 @@
+#-------------------------------
+# Robotics Heavy
+#-------------------------------
+technologies = {
+	@Row_heavy = 4
+	@Col_3 = 14
+	@Col_4 = 18
+	@Col_6 = 23
+	@Col_8 = 29
+
+	heavy_lifter_equipment_tech = {
+
+		enable_subunits = {
+			combat_robot
+		}
+
+		enable_equipments = {
+			combat_robot_equipment_1
+		}
+
+		path = {
+			leads_to_tech = robot_sentry_bot_equipment_1_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.6
+		start_year = 2280
+
+		dependencies = {
+			robotics_tech_level_settler = 1
+		}
+
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_heavy y = @Col_4 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				has_country_flag = robot_doctrine_ai
+			}
+			modifier = {
+				factor = 1.5
+				date > "2280.1.1"
+			}
+			modifier = {
+				factor = 2
+				date > "2281.1.1"
+			}
+		}
+
+		categories = {
+			robotics_tech_category
+			combat_robot_tech_category
+			armor_tech_category
+			civilized_tech_category
+		}
+	}
+
+	robot_sentry_bot_equipment_1_tech = {
+
+		enable_equipments = {
+			combat_robot_equipment_2
+		}
+
+		path = {
+			leads_to_tech = robot_sentry_bot_equipment_2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.6
+		start_year = 2282
+
+		dependencies = {
+			robotics_tech_level_settler = 1
+		}
+
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_heavy y = @Col_6 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				has_country_flag = robot_doctrine_ai
+			}
+			modifier = {
+				factor = 1.5
+				date > "2282.1.1"
+			}
+			modifier = {
+				factor = 2
+				date > "2283.1.1"
+			}
+		}
+
+		categories = {
+			robotics_tech_category
+			combat_robot_tech_category
+			armor_tech_category
+			civilized_tech_category
+		}
+	}
+
+	robot_sentry_bot_equipment_2_tech = {
+	
+		enable_equipments = {
+			combat_robot_equipment_3
+		}
+	
+		research_cost = 1.6
+		start_year = 2285
+	
+		dependencies = {
+			robotics_tech_level_scientific = 1
+		}
+	
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_heavy y = @Col_8 }
+		}
+	
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				has_country_flag = robot_doctrine_ai
+			}
+			modifier = {
+				factor = 1.5
+				date > "2285.1.1"
+			}
+			modifier = {
+				factor = 2
+				date > "2286.1.1"
+			}
+		}
+	
+		categories = {
+			robotics_tech_category
+			combat_robot_tech_category
+			armor_tech_category
+			civilized_tech_category
+		}
+	}
+}

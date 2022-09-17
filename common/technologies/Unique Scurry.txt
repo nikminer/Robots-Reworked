@@ -1,0 +1,42 @@
+#-------------------------------
+# Unique Scurry
+#-------------------------------
+technologies = {
+	@Row_main = 8
+
+	@Col_11 = 41
+	
+
+	robot_scurry_tech = {
+
+		enable_equipments = {
+			support_robot_scurry_equipment
+		}
+
+		dependencies = {
+			blocked_tech = 1
+		}
+
+		allow = {
+			always = no
+		}
+
+		research_cost = 2.2
+		start_year = 2275
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_main y = @Col_11 }
+		}
+
+		categories = {
+			robotics_tech_category
+			support_robot_tech_category
+			armor_tech_category
+			scientific_tech_category
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

@@ -1,0 +1,420 @@
+sub_units = {
+
+	combat_robot = {
+		sprite = combat_robot
+		map_icon_category = armored
+		priority = 2503
+		ai_priority = 2503
+		active = no
+
+		type = {
+			armor
+		}
+
+		group = robot_group
+
+		categories = {
+			category_army
+			category_front_line
+			category_robots
+		}
+
+		combat_width = 2
+
+		need = {
+			combat_robot_equipment = 25
+		}
+
+		transport = combat_robot_equipment
+
+		manpower = 5
+		max_organisation = 30
+		max_strength = 30
+		default_morale = 0.3
+		training_time = 60
+		weight = 1.2
+		suppression = 0.5
+		supply_consumption = 0.75
+
+		forest = {
+			movement = -0.2
+		}
+		mountain = {
+			movement = -0.3
+		}
+		jungle = {
+			movement = -0.3
+		}
+		marsh = {
+			movement = -0.2
+		}
+		amphibious = {
+			attack = -0.4
+			movement = -0.4
+		}
+	}
+
+	support_robot = {
+		sprite = support_robot
+		map_icon_category = armored
+		priority = 2501
+		ai_priority = 2000
+		active = no
+
+		type = {
+			armor
+		}
+
+		group = robot_group
+
+		categories = {
+			category_army
+			category_front_line
+			category_robots
+		}
+
+		combat_width = 2
+
+		transport = support_robot_equipment
+
+		need = {
+			support_robot_equipment = 25
+		}
+
+		manpower = 5
+		max_organisation = 30
+		max_strength = 30
+		default_morale = 0.3
+		training_time = 30
+		weight = 0.8
+		suppression = 0.5
+		supply_consumption = 0.5
+
+		forest = {
+			movement = -0.1
+		}
+		mountain = {
+			movement = -0.2
+		}
+		jungle = {
+			movement = -0.15
+		}
+		marsh = {
+			movement = -0.15
+		}
+		amphibious = {
+			attack = -0.3
+			movement = -0.3
+		}
+	}
+
+	light_robot = {
+		sprite = light_robot
+		map_icon_category = armored
+		priority = 2501
+		ai_priority = 2000
+		active = no
+
+		type = {
+			armor
+		}
+
+		group = robot_group
+
+		categories = {
+			category_army
+			category_front_line
+			category_robots
+		}
+
+		combat_width = 2
+
+		transport = light_robot_equipment
+
+		need = {
+			light_robot_equipment = 25
+		}
+
+		manpower = 5
+		max_organisation = 30
+		max_strength = 30
+		default_morale = 0.3
+		training_time = 30
+		weight = 0.8
+		suppression = 0.5
+		supply_consumption = 0.5
+
+		forest = {
+			movement = -0.1
+		}
+		mountain = {
+			movement = -0.2
+		}
+		jungle = {
+			movement = -0.15
+		}
+		marsh = {
+			movement = -0.15
+		}
+		amphibious = {
+			attack = -0.3
+			movement = -0.3
+		}
+	}
+
+	cnc_robot = {
+		sprite = support_robot
+		map_icon_category = armored
+		priority = 2501
+		ai_priority = 2000
+		active = no
+
+		type = {
+			armor
+			support
+		}
+
+		group = support
+
+		categories = {
+			category_army
+			category_support
+			category_combat_support
+			category_robots
+			category_cnc_robots
+		}
+
+		need = {
+			cnc_robot_equipment_RR = 15
+		}
+
+		manpower = 5
+		max_organisation = 80
+		max_strength = 15
+		default_morale = 0.6
+		training_time = 30
+		weight = 0.8
+		suppression = 2
+		supply_consumption = 0.35
+		affects_speed = no
+	}
+
+	cnc_robot_2 = {
+		sprite = support_robot
+		map_icon_category = armored
+		priority = 2501
+		ai_priority = 2000
+		active = no
+
+		type = {
+			armor
+			support
+		}
+
+		group = support
+
+		categories = {
+			category_army
+			category_support
+			category_combat_support
+			category_robots
+			category_cnc_robots
+		}
+
+		need = {
+			cnc_robot_equipment_RR = 15
+		}
+
+		manpower = 5
+		max_organisation = 80
+		max_strength = 15
+		default_morale = 0.6
+		training_time = 30
+		weight = 0.8
+		suppression = 2
+		supply_consumption = 0.35
+		affects_speed = no
+	}
+
+	cnc_robot_3 = {
+		sprite = support_robot
+		map_icon_category = armored
+		priority = 2501
+		ai_priority = 2000
+		active = no
+
+		type = {
+			armor
+			support
+		}
+
+		group = support
+
+		categories = {
+			category_army
+			category_support
+			category_combat_support
+			category_robots
+			category_cnc_robots
+		}
+
+		need = {
+			cnc_robot_equipment_RR = 15
+		}
+
+		manpower = 5
+		max_organisation = 80
+		max_strength = 15
+		default_morale = 0.6
+		training_time = 30
+		weight = 0.8
+		suppression = 2
+		supply_consumption = 0.35
+		affects_speed = no
+	}
+
+	turrets_support = {
+		sprite = support_robot
+		map_icon_category = armored
+		priority = 2499
+		ai_priority = 1000
+		active = no
+
+		type = {
+			armor
+			support
+		}
+
+		group = support
+
+		categories = {
+			category_army
+			category_support
+			category_combat_support
+			category_robots
+			category_turrets
+		}
+
+		need = {
+			turret_robot_equipment = 10
+		}
+
+		manpower = 5
+		max_organisation = 90
+		max_strength = 15
+		default_morale = 0.7
+		training_time = 10
+		weight = 0.8
+		suppression = 1
+		supply_consumption = 0.35
+		affects_speed = no
+	}
+	
+	security_robot = {
+		sprite = security_robot
+		map_icon_category = armored
+		priority = 2501
+		ai_priority = 2000
+		active = no
+
+		type = {
+			armor
+		}
+
+		group = robot_group
+
+		categories = {
+			category_army
+			category_front_line
+			category_robots
+		}
+
+		combat_width = 2
+
+		transport = security_robot_equipment
+
+		need = {
+			security_robot_equipment = 25
+		}
+
+		manpower = 5
+		max_organisation = 25
+		max_strength = 30
+		default_morale = 0.3
+		training_time = 45
+		weight = 1
+		suppression = 2
+		supply_consumption = 0.625
+
+		forest = {
+			movement = -0.1
+		}
+		mountain = {
+			movement = -0.2
+		}
+		jungle = {
+			movement = -0.15
+		}
+		marsh = {
+			movement = -0.15
+		}
+		amphibious = {
+			attack = -0.3
+			movement = -0.3
+		}
+	}
+
+	super_heavy_robot = {
+		sprite = super_heavy_robot
+		map_icon_category = armored
+		priority = 2503
+		ai_priority = 2503
+		active = no
+
+		type = {
+			armor
+		}
+
+		group = robot_group
+
+		categories = {
+			category_army
+			category_front_line
+			category_robots
+		}
+
+		combat_width = 4
+
+		need = {
+			super_heavy_robot_equipment = 10
+		}
+
+		transport = super_heavy_robot_equipment
+
+		manpower = 5
+		max_organisation = 10
+		max_strength = 100
+		default_morale = 0.1
+		training_time = 90
+		weight = 2.5
+		suppression = 0.5
+		supply_consumption = 2
+
+		forest = {
+			movement = -0.5
+		}
+		mountain = {
+			movement = -0.5
+		}
+		jungle = {
+			movement = -0.5
+		}
+		marsh = {
+			movement = -0.5
+		}
+		amphibious = {
+			attack = -0.4
+			movement = -0.8
+		}
+	}
+}

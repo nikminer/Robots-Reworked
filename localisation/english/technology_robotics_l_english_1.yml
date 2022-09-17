@@ -1,0 +1,204 @@
+﻿l_english:
+ # Equipment naming is inherited from the equipment name when displayed in the techtree
+#----------------------------
+# Custom tooltip
+#----------------------------
+  light_robot_tech: "§YLight Robot Platon§!"
+  support_robot_tech: "§YMain Robot Platon§!"
+  combat_robot_tech: "§YHeavy Robot Platon§!"
+
+#-------------------------------
+# Robotics Production
+#-------------------------------
+  robot_production_efficiency_1_tech: "Dedicated Mechanics"
+  robot_production_efficiency_1_tech_desc: "While our mechanized units are aced their initial examination in the field, their sheer complexity heavily limits us to utilize them in a wider sense. If we truly want to use them as our frontline units, we'll have to organize designated personnel for their maintenance and assembly. This, however, will heavily tie up our accessible human resources."
+  robot_production_efficiency_2_tech: "Improved Manufacturing"
+  robot_production_efficiency_2_tech_desc: "As we become more and more dependent on our robotic allies the more they drain our available resources. Further funding will be relocated for developing our manufacturing process, and even more, people will be sorted into mechanist roles - which means we'll lose even more people from other areas, where talent may be needed."
+  robot_production_efficiency_3_tech: "Peak Efficiency"
+  robot_production_efficiency_3_tech_desc: "Slowly, but surely, everybody from our nation will be sorted into our workshops and will construct more and more robots, just for our protection. Twelve-hour extended shifts, with replacements at the ready, with the keenest of our overseers - this is peak efficiency. What are some lives wasted next to an assembly line, if we can save lives being wasted on the battlefield?"
+
+#-------------------------------
+# Robotics Main
+#-------------------------------
+  support_robot_equipment_desc: "Medium-armored and sufficiently armed robots put into service as a combat unit. With a focus on main roles."
+
+  robotics_notes_tech: "Robotics Notes"
+  robotics_notes_tech_desc: "In order to start developing robots, you need to find the lost knowledge of the old world, as an option, you can collect the surviving books or magazines on robotics and engineering to study them."
+  robot_automatization_tech: "Automation"
+  robot_automatization_tech_desc: "Advancements in the field of robotics and artificial intelligence could be put to great use. Increasing our industrial capabilities by installing simple mechanical arms able to weld, bolt and generally man a basic assembly line will speed up our production rate, while such research also opens the way for very interesting military applications."
+
+  main_scrap_robot: "Automatons"
+  main_scrap_robot_desc: "The equivalent of industrial machinery given a simple propulsion system, two sub-caliber machineguns and a scrap metal shell covering sensitive parts, those \"scrap bots\" will still provide a tactical advantage in the form of an expendable shock trooper, an industrial-capacity reliant way to bolster our depleted divisions and an armored shield that our troops can take cover behind during assaults."
+
+  protectron_robot: "Commercial Protectron"
+  protectron_robot_desc: "Often called \"trashcans on legs\" for their cumbersome appearance and top-heavy design, civilian protectrons can still make useful shields for our main troops. Replacing the frail shell by a more sturdy armour steel one and supplying their recently added arm-mounted laser machine pistols with overcharged ammunition maximizes their potential in this role."
+
+  protectron_2_robot: "Security Protectron"
+  protectron_2_robot_desc: "Security Protectrons, or Mark 2 Protectrons, are a line of more advanced robots manufactured by Robco for light police duty. While \"advanced\" is a relative term when it comes to them, the addition of better housing for their arm-mounted laser weaponry, as well as switching their old laser pistols for cut-down laser sub-machinegun makes them fearsome opponents. The final touch is a series of bolted-on reinforced plating to supplement the bullet-proof shell."
+
+  assaultron_robot: "Assaultron"
+  assaultron_robot_desc: "A medium robot designed for frontline combat and CQC operations, it's agility and advanced internal processor let it swiftly move through the battlefield while scanning and dispatching threats with it's focused laser beam and close-quarter claws."
+
+  assaultron_2_robot: "Assaultron Mk2"
+  assaultron_2_robot_desc: "A medium robot designed for frontline combat and CQC operations, it's agility and advanced internal processor let it swiftly move through the battlefield while scanning and dispatching threats with it's focused laser beam and close-quarter claws."
+
+#-------------------------------
+# Robotics Light
+#-------------------------------
+  light_robot_equipment: "Light Robot"
+  light_robot_equipment_desc: "Lightly armoured and armed robots put into service as a combat unit. With a focus on supporting roles."
+  robot_thruster_equipment_1: "Mr Handy"
+  robot_thruster_equipment_1_desc: "While those pre-war housekeepers can be found in many robotics factory in the wasteland, they might have a tad more firepower than required for most children birthday party. With bolt-on armour added to reinforce the civilian-grade shell, the removal of the flamethrower and it's replacement by a laser pistol, it becomes an effective combat unit that we can more easily field."
+
+  robot_thruster_equipment_2: "Mr Gutsy"
+  robot_thruster_equipment_2_desc: "A pre-war and more advanced variant of the Mr Handy manufactured expressly for combat can upgrade our robot divisions while reducing cost by taking the basis of it's householding sibling. And even though we cannot at our current level manufacture the original armour and weaponry specified in the blueprints, we can still manage to provide them with face-hardened steel to resist anti-tank rifles as well as overcharged automatic laser weaponry."
+
+  robot_thruster_equipment_3: "Mr Blasto"
+  robot_thruster_equipment_3_desc: "A pre-war and more advanced variant of the Mr Handy manufactured expressly for combat can upgrade our robot divisions while reducing cost by taking the basis of it's householding sibling. And even though we cannot at our current level manufacture the original armour and weaponry specified in the blueprints, we can still manage to provide them with face-hardened steel to resist anti-tank rifles as well as overcharged automatic laser weaponry."
+  
+  robot_thruster_equipment_4: "Mr Blasto Mk2"
+  robot_thruster_equipment_4_desc: "A pre-war and more advanced variant of the Mr Handy manufactured expressly for combat can upgrade our robot divisions while reducing cost by taking the basis of it's householding sibling. And even though we cannot at our current level manufacture the original armour and weaponry specified in the blueprints, we can still manage to provide them with face-hardened steel to resist anti-tank rifles as well as overcharged automatic laser weaponry."
+
+#-------------------------------
+# Robotics Command
+#-------------------------------
+  cnc_robot_equipment_RR: "Command and Control Robot"
+  cnc_robot_equipment_RR_short: "CnC-Bot"
+  cnc_robot_equipment_RR_desc: ""
+
+  cnc_robot_equipment_1_RR: "CnC Scrap-bot"
+  cnc_robot_equipment_1_RR_short: "CnC-Bot"
+  cnc_robot_equipment_1_RR_desc: "This model is rough around the edges and completely lacks finesse. However what it lacks in refinement it makes up for in autonomy. This numerically controlled robot is the definition of function over form as it steamrolls over any problem exactly as ordered. Its outer hull is made entirely out of stamped steel that had little to improvements done to its exterior with a shoddy paint job. Its arms are outfitted with basic servos that can carry a variety of attachments, most commonly they carry a mechanized claw and a basic micro fusion laser system."
+  
+  cnc_robot_equipment_2_RR: "CnC Eyebot"
+  cnc_robot_equipment_2_RR_short: "Eyebot"
+  cnc_robot_equipment_2_RR_desc: "Originally designed as a mobile media transmitter, eyebots were often re-equipped with weaponry to act as listening post, scout units or law enforcement. The eyeball shaped shell, as well as a mounting point allowing us to arm them with sufficient firepower for their off frontline duty."
+
+  cnc_robot_equipment_3_RR: "Robco Robobrain"
+  cnc_robot_equipment_3_RR_short: "Robobrain"
+  cnc_robot_equipment_3_RR_desc: "A tracked chassis on a two-piece welded reinforced frame composed of thick hardened composite platings as well as dexterous robotic arms using the best servos available and integrated flexible laser cannons form the basis for our Robobrain design. The final touch is a completely sterile and thick bulletproof dome containing either the mind-wiped brain of small animals, the brain of executed criminals, or those of particularly willing soldiers wanting to become death machines."
+
+#-------------------------------
+# Robotics Armor
+#-------------------------------
+  robot_welded_rebar_tech: "Welded rebar"
+  robot_welded_rebar_tech_desc: "The standard armor of robotics is too weak. We can weld rusty sheets of iron to it to increase the life of the robot on the battlefield."
+
+  robot_harded_armor_tech: "Armor Hardening"
+  robot_harded_armor_tech_desc: "Most commercially used robots were designed to be as light as possible, so their driving system can move them more easily, and through that, for a longer time. While the concept is noble, it isn't suited for our way of utilizing said units - we'll have to reinforce their thin and shiny aluminium composite with industrial-grade metal alloys."
+
+  robot_impact_armor_tech: "Impact Resistant Armor"
+  robot_impact_armor_tech_desc: "Made to withstand anything from melee combat to even anti-tank fire in some cases, our robotical units still suffer from some problems. While in battle, the internal components risk to rattle inside the armored shell, damaging sensitive equipment. An internal soft layer of kevlar and kinetic foam around sub-systems provide dampeners, resolving this issue."
+
+#-------------------------------
+# Robotics Servo
+#-------------------------------
+  robot_simple_servo_tech: "Precision Motors"
+  robot_simple_servo_tech_desc: "Previous servos were clunky remains of cost-cutting by pre-war companies. Better internal assembly with improved internal gearing will make our robots able to react more precisely and efficiently to incoming threats. This also has the unintended side effect of improving their close-combat performances, to the point some have been seen simply crushing PA helmets to kill their operator."
+
+  robot_advance_servo_tech: "High Pressure Hydraulics"
+  robot_advance_servo_tech_desc: "The development of further augmented hydraulic systems results in the ability to not only increase the speed of our Robotics forces, but also the possibility of mounting heavier armour plating to our robotics."
+
+#-------------------------------
+# Robotics Power
+#-------------------------------
+  robot_fusion_core_tech: "Fusion cores"
+  robot_fusion_core_tech_desc: "Fusion cores are a pre-War portable power source, often found in robots and vehicles. Their way of generating electricity can be traced back to nuclear fission and acid-based electrochemical reactions, their exact inner workings to this day, are unknown. Attaching larger-sized batteries to our robots, will certainly improve their overall performance."
+  
+  robot_advance_power_system_tech: "Advanced Power Systems"
+  robot_advance_power_system_tech_desc: "The main problem with the usual mechanical ally is that they're either bound to a local power source or have to operate through a rechargeable battery - neither of them very effective nor convenient. While replacing said technologies is out of bounds for us, we easily could replace our fission battery-based system with a mini nuclear reactor TX-28."
+
+#-------------------------------
+# Robotics Thruster
+#-------------------------------
+  robot_thruster_tech: "Thruster Engines"
+  robot_thruster_tech_desc: "Thruster engines allowed pre-war robots to move easily over rough terrain, while also increasing their speed in contrast to bulky servo-driven predecessors. And while the complex system of counter-thrusters, gyroscope and main reactor device makes it more costly to produce than we would like, they will be very useful scout, flanking troops, and skirmishing divisions."
+
+  robot_advance_thruster_tech: "Antigrav Engines"
+  robot_advance_thruster_tech_desc: "Replacing chemical propulsion by an anti grav engine will let our divisions move on the battlefield without constant readjustements from their counter-thrusters, thus ensuring higher speed. The lack of complex interlinked sensors and thrusters, all switched for a single anti-gravity drive, ensure this is done at no additional cost."
+
+#-------------------------------
+# Robotics Hardware
+#-------------------------------
+  robot_police_hardware_tech: "Police Hardware"
+  robot_police_hardware_tech_desc: "Replacing standard process boards with the found hardware of police robots will increase the efficiency of robots by increasing the computing power of an ordinary robot and reducing energy consumption."
+
+  robot_millitary_hardware_tech: "Military Hardware"
+  robot_millitary_hardware_tech_desc: "Replacing scavenged processing boards with re-manufactured military-grade components is a difficult task, but one which is more than worth pursuing. Improved sub-systems can drastically increase the effectiveness of our robots through advanced processing capabilities, better servos coupling, and increased internal power reserve to direct to propulsion or weapons."
+
+#-------------------------------
+# Robotics Software
+#-------------------------------
+  robot_police_software_tech: "Police Software"
+  robot_police_software_tech_desc: "The standard operating system work is not designed for military operations, it is too overloaded with unnecessary rules of etiquette and household management, as an option, you can try to find the surviving police robots and take their operating system."
+
+  robot_military_software_tech: "Military Software"
+  robot_military_software_tech_desc: "To increase the efficiency of robots on the battlefield, software for military robots is needed, our roboticists are sure that a distribution of such can be found on some military base."
+
+#-------------------------------
+# Robotics Turrets
+#-------------------------------
+  turret_robot_equipment: "Defence Turret"
+  turret_robot_equipment_desc: "Turrets are used to defend against an attack from outside"
+  turret_robot_equipment_1: "Scrap Turret"
+  turret_robot_equipment_1_desc: "A primitive turret made of scrap. Light, but deadly. An ideal defense for small settlements that do not have a sufficient number of people."
+
+  turret_robot_equipment_2: "Balistic Turret"
+  turret_robot_equipment_2_desc: "Before the Great War automated turrets were employed by large corporations and utilized by the military to serve as supplemental, unmanned security units, capable of selecting trespassing targets and engaging them. Over 200 years after the war many of these turrets are still active and are hostile to anyone who finds them."
+
+  turret_robot_equipment_3: "Laser Automated Turret"
+  turret_robot_equipment_3_desc: "Before the Great War automated turrets were employed by large corporations and utilized by the military to serve as supplemental, unmanned security units, capable of selecting trespassing targets and engaging them. This modification is one of the varieties of automatic turrets, using a laser instead of obsolete ammunition, which increases the combat capability of this turret."
+
+  turret_robot_equipment_4: "Laser Automated Turret MK2"
+  turret_robot_equipment_4_desc: "Before the Great War automated turrets were employed by large corporations and utilized by the military to serve as supplemental, unmanned security units, capable of selecting trespassing targets and engaging them. This modification is one of the varieties of automatic turrets, using a laser instead of outdated ammunition and an updated composite body, which increases the combat capability of this turret."
+
+  turret_robot_equipment_5: "Laser Automated Turret MK3"
+  turret_robot_equipment_5_desc: "Before the Great War automated turrets were employed by large corporations and utilized by the military to serve as supplemental, unmanned security units, capable of selecting trespassing targets and engaging them. This modification is one of the varieties of automatic turrets, using a laser instead of outdated ammunition and an updated composite body, which increases the combat capability of this turret."
+
+
+
+  robot_high_power_optics_tech:0 "High Power Optics"
+  robot_high_power_optics_tech_desc:0 "The regular optics used in robots at the most are designed to concentrate just enough light to perform their original task. While it is hardly enough for self-defence, it is utterly lacking the capabilities of any military application. Luckily, there are more than enough industrial- and army-grade grade optics to refit our mechanical soldiers."
+
+
+  robot_gutsy_hardening_tech:0 "Armour Hardening"
+  robot_gutsy_hardening_tech_desc:0 "Revising the armour scheme of our combat units can vastly increase their effectiveness while under small arms fire. Full-on welding as well as cast pieces with less breaking points such as joints or rivets will let our robots withstand heavy firepower in the line of duty, protecting our soldiers more effectively."
+  robot_fuel_refinement_tech:0 "Fuel Refinement"
+  robot_fuel_refinement_tech_desc:0 "While previous fuels used to supply our robotic divisions were decent, their provenance as well as composition was doubtful to say the least. A unified manufacturing method as well as better chemical composition will leave much less depot in the fuel filters and reduce the need for maintenance."
+  robot_flamethrower_tech:0 "Flamethrower addon"
+  robot_flamethrower_tech_desc:0 "The study of many removed flamethrower units provided our engineers with a better understanding of their main components, and even though it was prohibitive to arm our robots with such devices before, we can now upgrade them again with a better ones sporting a pressurized armored fuel cannister, and more harmful fuel composition designed around both direct damage and toxic byproducts."
+
+ 
+  
+  robot_alloy_tech:0 "Specialized Alloys"
+  robot_alloy_tech_desc:0 "Our robots cannot mount as much weight as our vehicles, so we cannot armour them with the same alloy as effectively. A specialized material made to privilege weight savings and easy manufacturing over protection should reduce the strain on the servos, and allow us thicker and better shaped plating covering flaws in their armouring scheme."
+  
+  robot_cooling_systems_tech:0 "Cooling Systems"
+  robot_cooling_systems_tech_desc:0 "The primary flaw with laser weaponry is the intense heat it emanates during firing procedure. By removing useless internal components around our robot's weapon mount, and installing a cooling jacket filled with oil, we can let our war machines fire much longer bursts and stay in the fight for hours before needing lense replacements."
+  robot_cooling_systems_tech_2:0 "Advanced Cooling System"
+  robot_cooling_systems_tech_2_desc:0 "More processing power and bigger internal reactors require more and more cooling to remain effective in the scorching desert heat of the wasteland. Specialized high-speed fan, and a coolant network akin to those found in pre-war supercomputers, will let our machine operate at peak efficiency."
+
+  robot_organic_processor_tech:0 "Organic Processors"
+  robot_organic_processor_tech_desc:0 "Even though such measures are unethical, to put it very mildly, research can be made into using the most efficient computer of all as a central processor for our robots. The human brain. Providing a safe and sterile environment for our \"organic processors\" is a crucial step for any field deployment, and the lessons learned from brain structure studies can improve our more standard processing boards."
+ 
+
+  robot_securitron_tech_1:0 "Securitron"
+  robot_securitron_tech_1_desc:0 "A private security robot manufactured for police duty in difficult areas of operation, the monowheel propulsion system and fully welded titanium alloy shell provides both good mobility and armour against typical small arms found on patrols, such as shotguns, revolvers and hunting rifles. Meanwhile, an arm mounted 9mm sub-machinegun and X-25 gatling laser pistol allows the Securitron unit to handle any close-combat scenario."
+  robot_scurry_tech:0 "Scurry Salvager Bot"
+  robot_scurry_tech_desc:0 "Small robots designed for underground ambush and close-quarter combat, those mechanical spiders are equipped with sharp arachnic legs and seismic sensors to detect surface target while on the prowl. The horrific manner in which they dispatch threats as well as the way their salvaging claws can make them burrow into lightly armored enemy vehicles leaves little doubt as to their effectiveness."
+  robot_humanoid_tech:0 "C-27 Humanoid Robot"
+  robot_humanoid_tech_desc:0 "Bipedal robots designed before the great war to pacify the nuclear wasteland of thereafter, those units sports a sophisticated sensor network to easily identify any target via a spectrum of detection range from thermic to wavelength. Designed to use normal infantry or PA equipment, they are still armored with advanced composite plating, and post-war engineering added a layer of EMP shielding and flexible armoring over joints. Armed with heavy weaponry such as laser miniguns, gauss pistols and plasma rifles, they are a force to be reckoned with."
+  robot_pacification_bot_tech:0 "Super-Heavy Quadrupeds"
+  robot_pacification_bot_tech_desc:0 "A large quadrupedal robot reminescent of large animals of old, this war machine originally boasted tank-like protection and four pacification cannons. Further thinkinering done by the Calculator has replaced the four cannons by two rotary laser autocannons, and attention was given to enhanced mobility systems and better tactical link with other robotical units, making them mobile command posts."
+  robot_behemoth_robot_tech:0 "Super-Heavy Colossals"
+  robot_behemoth_robot_tech_desc:0 "A gargantuan beast of a machine, calling this robot a walking tank would be a disservice to the sheer bulk in weaponry and armour it carries. Originally armed with four fast-firing .50 cal machineguns, those were replaced for a quadruple 20mm autocannon arrangement. Combined with armour thick enough to stop plasma projectiles or even naval artillery, there is nothing our enemy can do but gasp before being shred to pieces."
+  robot_securitron_grenade_software_tech:0 "Rapid-Fire G-28 Grenade Launching System Drivers"
+  robot_securitron_grenade_software_tech_desc:0 "§cUnlocks Securitron's Primary Weapon:§!G-28 Rapid-Fire Grenade Launching System  for close range engagements."
+  robot_securitron_missile_software_tech:0 "M-235 Shoulder-Mounted Missile Launcher Drivers"
+  robot_securitron_missile_software_tech_desc:0 "§cUnlocks Securitron's Primary Weapon:§!M-235 Shoulder-Mounted Missile Launchers for long range and surface-to-air engagements."
+  robot_securitron_self_repair_tech:0 "On-Board Self-Repair System Drivers"
+  robot_securitron_self_repair_tech_desc:0 "§cUnlocks Securitron's Self-Repair System:§!Enables the Securitron to repair any damage sustained during combat."
+  platinum_os_tech:0 "Mark 2 Operating System"
+  robot_securitron_cnp_tech:0 "Command Navigational Program"
+  robot_securitron_cnp_tech_desc:0 "Software enhancement with the main goal to provide cross unit communication and coordination. Resulting in far higher efficiency in combat. So say we all."
+

@@ -1,0 +1,143 @@
+#-------------------------------
+# Robotics Armor
+#-------------------------------
+technologies = {
+	@Row_armor = 2
+	@Col_3 = 14
+	@Col_4 = 18
+	@Col_6 = 23
+	@Col_8 = 29
+
+	robot_welded_rebar_tech = {
+
+		enable_equipment_modules = {
+			robots_welded_rebar
+		}
+		
+		research_cost = 1
+		start_year = 2276
+
+		path = {
+			leads_to_tech = robot_harded_armor_tech
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			robotics_tech_level_tribal = 1
+			robot_scrapbot_tech = 1
+		}
+
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_armor y = @Col_3 }
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				date > "2276.1.1"
+			}
+			modifier = {
+				factor = 3
+				date > "2277.1.1"
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
+		}
+
+		categories = {
+			robotics_tech_category
+			civilized_tech_category
+		}
+	}
+
+	robot_harded_armor_tech = {
+
+		enable_equipment_modules = {
+			robots_harded_plate
+		}
+		
+		research_cost = 1
+		start_year = 2277
+
+		path = {
+			leads_to_tech = robot_impact_armor_tech
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			robotics_tech_level_settler = 1
+			robot_welded_rebar_tech = 1
+		}
+
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_armor y = @Col_4 }
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				date > "2277.1.1"
+			}
+			modifier = {
+				factor = 3
+				date > "2278.1.1"
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
+		}
+
+		categories = {
+			robotics_tech_category
+			civilized_tech_category
+		}
+	}
+
+	robot_impact_armor_tech = {
+
+		enable_equipment_modules = {
+			robots_impact_resistance_plate
+		}
+		
+		research_cost = 1
+		start_year = 2280
+		
+		dependencies = {
+			robotics_tech_level_scientific = 1
+			robot_harded_armor_tech = 1
+		}
+
+		folder = {
+			name = fallout_robotics_rr_folder
+			position = { x = @Row_armor y = @Col_8 }
+		}
+
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 2
+				date > "2281.1.1"
+			}
+			modifier = {
+				factor = 3
+				date > "2282.1.1"
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_country_flag = robot_doctrine_ai }
+			}
+		}
+
+		categories = {
+			robotics_tech_category
+			civilized_tech_category
+		}
+	}
+}

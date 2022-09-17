@@ -1,0 +1,232 @@
+equipments = {
+
+	combat_robot_equipment = {
+		is_archetype = yes
+		is_convertable = yes
+		picture = archetype_heavy_robot_equipment
+		is_buildable = no
+		type = armor
+		group_by = archetype
+
+		interface_category = interface_category_armor
+
+		module_slots = {
+			power_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					robots_power_type
+				}
+			}
+
+			armor_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					robots_armor_type
+				}
+			}
+
+			robots_servo_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					robots_servo_type
+				}
+			}
+
+			hardware_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					robots_hardware_type
+				}
+			}
+
+			os_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					robots_operation_system_type
+				}
+			}
+		}
+
+		default_modules = {
+			power_type_slot = robots_battery
+			armor_type_slot = robots_standard_plate
+			robots_servo_type_slot = robots_primitive_servo
+			hardware_type_slot = robots_civilian_hardware
+			os_type_slot = robots_civilian_operation_system
+		}
+
+		#Misc Abilities
+		maximum_speed = 5
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 2
+		breakthrough = 6
+		hardness = 0.5
+		armor_value = 30
+
+		fuel_consumption = 0.5
+
+		#Offensive Abilities
+		soft_attack = 9
+		hard_attack = 9
+		ap_attack = 15
+		air_attack = 2
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+
+		build_cost_ic = 16
+		resources = {
+		}
+
+	}
+
+	combat_robot_equipment_1 = {
+		archetype = combat_robot_equipment
+		priority = 10
+		visual_level = 0
+		is_convertable = yes
+		module_slots = inherit
+		#Misc Abilities
+		maximum_speed = 4
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 5
+		breakthrough = 13
+		hardness = 0.6
+		armor_value = 30
+
+		fuel_consumption = 0.3
+
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 9
+		ap_attack = 20
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+
+		build_cost_ic = 16
+		resources = {
+			metal = 3
+			circuitry = 2
+			energy = 2
+		}
+	}
+
+	combat_robot_equipment_2 = {
+		archetype = combat_robot_equipment
+		parent = combat_robot_equipment_1
+		priority = 20
+		visual_level = 3
+		is_convertable = yes
+		module_slots = inherit
+		#Misc Abilities
+		maximum_speed = 4
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 7.5
+		breakthrough = 16
+		hardness = 0.7
+		armor_value = 40
+		suppression = 0.5
+
+		fuel_consumption = 0.4
+
+		#Offensive Abilities
+		soft_attack = 16
+		hard_attack = 12
+		ap_attack = 25
+		air_attack = 3
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+
+		build_cost_ic = 20
+		resources = {
+			metal = 3
+			composites = 1
+			advanced = 1
+			energy = 3
+		}
+	}
+
+	combat_robot_equipment_3 = {
+		archetype = combat_robot_equipment
+		parent = combat_robot_equipment_2
+		priority = 30
+		visual_level = 4
+		is_convertable = yes
+		module_slots = inherit
+		#Misc Abilities
+		maximum_speed = 4
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 10
+		breakthrough = 20
+		hardness = 0.8
+		armor_value = 50
+		suppression = 1
+
+		fuel_consumption = 0.5
+
+		#Offensive Abilities
+		soft_attack = 19
+		hard_attack = 15
+		ap_attack = 15
+		air_attack = 4
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+
+		build_cost_ic = 25
+		resources = {
+			metal = 3
+			composites = 2
+			advanced = 1
+			energy = 3
+		}
+	}
+
+	combat_robot_pacification_equipment = {
+		archetype = combat_robot_equipment
+		parent = combat_robot_equipment_3
+		priority = 25
+		visual_level = 7
+		is_convertable = yes
+		module_slots = inherit
+		#Misc Abilities
+		maximum_speed = 5
+		reliability = 0.85
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 18
+		hardness = 0.3
+		armor_value = 16
+		suppression = 1.5
+
+		fuel_consumption = 2
+
+		#Offensive Abilities
+		soft_attack = 19
+		hard_attack = 9
+		ap_attack = 10
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+
+		build_cost_ic = 12
+		resources = {
+			composites = 4
+			advanced = 4
+			energy = 4
+		}
+	}
+}
