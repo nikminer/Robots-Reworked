@@ -1,6 +1,8 @@
 version="0.5"
 tags={
 	"Military"
+	"Gameplay"
+	"Technologies"
 }
 dependencies={
 	"Old World Blues"
