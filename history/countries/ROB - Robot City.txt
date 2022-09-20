@@ -54,7 +54,7 @@ set_technology = {
 
 	standard_weaponry_tech = 1
 	support_weaponry = 1
-
+	heavy_lifter_equipment_tech = 1
 	robotics_notes_tech = 1
 	robot_automatization_tech = 1
 	robot_scrapbot_tech = 1
