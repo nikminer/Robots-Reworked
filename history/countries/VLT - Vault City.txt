@@ -102,6 +102,7 @@ add_ideas = {
 	ncrsubjugation
 	outsider_law_none
 	ncr_sphere
+	currencyncrdollar
 }
 
 

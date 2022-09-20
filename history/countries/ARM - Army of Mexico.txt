@@ -64,6 +64,7 @@ set_technology = {
 
 	support_weaponry = 1
 	anti_tank_equipment_tech_1 = 1
+	electronic_engineering = 1
 }
 
 if = {

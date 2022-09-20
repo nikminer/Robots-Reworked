@@ -99,6 +99,7 @@ add_ideas = {
 	MXS_slave_labor
 	arr_rock_and_a_hard_place
 	ncr_sphere
+	currencyncrdollar
 }
 
 set_stability = 0.4

@@ -99,9 +99,14 @@ set_popularities = {
 }
 
 add_ideas = {
-	vaultmed
+	exe_vault_legacy_of_experimentation
 	slavers_idea_1
 	undesirables_law_raider
+}
+
+set_truce = {
+	target = SHA
+	days = 730
 }
 
 set_country_flag = slavery_allowed

@@ -53,6 +53,7 @@ set_technology = {
 	electronics_tech_level_settler = 1
 
 	standard_weaponry_tech = 1
+	support_weaponry = 1
 
 	robotics_notes_tech = 1
 	robot_automatization_tech = 1
@@ -67,7 +68,7 @@ set_technology = {
 
 set_stability = 0.45
 set_war_support = 0.25
-set_research_slots = 5
+set_research_slots = 4
 set_country_flag = is_settler_nation
 set_country_flag = has_robot_generals
 set_country_flag = is_robotic_nation
@@ -86,12 +87,26 @@ set_popularities = {
 }
 
 recruit_character = rob_doki_doki
+recruit_character = ROB_billie_jean
+recruit_character = ROB_mechanist
+recruit_character = ROB_cow
+recruit_character = ROB_sugarfly
+recruit_character = ROB_marie
+recruit_character = ROB_WARDEN_reprogrammed
+recruit_character = ROB_the_kid
+recruit_character = ROB_diana
+recruit_character = ROB_lanius
 
 random_character = {
 	limit = {
 		is_character = ROB_doki_doki
 	}
 	save_global_event_target_as = ROB_doki_doki_target
+}
+
+news_event = {
+	id = brt_event.1
+	days = 3
 }
 
 add_ideas = {
