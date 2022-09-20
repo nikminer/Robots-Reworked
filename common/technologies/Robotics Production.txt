@@ -10,7 +10,7 @@ technologies = {
 
 	robot_production_efficiency_1_tech = {
 
-		conscription_factor = -0.25
+		conscription_factor = -0.2
 		Infantry = {
 			max_organisation = -3
 		}
@@ -68,7 +68,7 @@ technologies = {
 
 	robot_production_efficiency_2_tech = {
 
-		conscription_factor = -0.25
+		conscription_factor = -0.2
 		Infantry = {
 			max_organisation = -3
 		}
@@ -130,7 +130,7 @@ technologies = {
 
 	robot_production_efficiency_3_tech = {
 
-		conscription_factor = -0.25
+		conscription_factor = -0.2
 		Infantry = {
 			max_organisation = -3
 		}

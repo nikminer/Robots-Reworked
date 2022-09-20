@@ -344,13 +344,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		
-
-		path = {
-			leads_to_tech = robot_advance_servo_tech
-			research_cost_coeff = 1
-		}
-
 		research_cost = 1.6
 		start_year = 2282
 
