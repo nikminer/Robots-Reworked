@@ -1,0 +1,110 @@
+﻿division_template = {
+	name = "Doki's Buddies"
+
+	template_counter= 100
+	regiments = {
+		support_robot = { x = 0 y = 0 }
+		support_robot = { x = 0 y = 1 }
+		support_robot = { x = 1 y = 0 }
+		support_robot = { x = 1 y = 1 }
+		light_robot = { x = 2 y = 0 }
+		light_robot = { x = 2 y = 1 }
+	}
+	support = {
+		cnc_robot = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Doki's Best Friends"
+	template_counter= 101
+	override_model="support_robot_entity"
+	regiments = {
+		support_robot = { x = 0 y = 0 }
+		support_robot = { x = 0 y = 1 }
+		support_robot = { x = 0 y = 2 }
+		combat_robot = { x = 1 y = 0 }
+		combat_robot = { x = 1 y = 1 }
+		combat_robot = { x = 1 y = 2 }
+	}
+	support = {
+		cnc_robot = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "Robot City Friendship Club"
+		location = 9002
+		division_template = "Doki's Buddies"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "Junktown Friendship Club"
+		location = 9004
+		division_template = "Doki's Buddies"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "Warland Friendship Club"
+		location = 7825
+		division_template = "Doki's Buddies"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "Junkyard Friendship Club"
+		location = 7848
+		division_template = "Doki's Buddies"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "Outskirts Friendship Club"
+		location = 1832
+		division_template = "Doki's Buddies"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "Funky Friendship Club"
+		location = 7827
+		division_template = "Doki's Buddies"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Bridgey Friendship Club"
+		location = 6637
+		division_template = "Doki's Buddies"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+
+	division = {
+		name = "Funny Friendship Club"
+		location = 7852
+		division_template = "Doki's Buddies"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = support_robot_two_legs_equipment_1
+			creator = "ROB"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 100
+	}
+}

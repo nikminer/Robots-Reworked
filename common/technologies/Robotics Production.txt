@@ -9,7 +9,6 @@ technologies = {
 	@Col_8 = 29
 
 	robot_production_efficiency_1_tech = {
-
 		conscription_factor = -0.2
 		Infantry = {
 			max_organisation = -3
@@ -22,7 +21,7 @@ technologies = {
 		}
 		on_research_complete = {
 			hidden_effect = {
-				add_ideas = robot_manufacturing_buff_1
+				add_ideas = robot_manufacturing_buff_1_RR
 			}
 			custom_effect_tooltip = robot_manufacturing_buff_tt
 		}
@@ -67,7 +66,6 @@ technologies = {
 	}
 
 	robot_production_efficiency_2_tech = {
-
 		conscription_factor = -0.2
 		Infantry = {
 			max_organisation = -3
@@ -81,8 +79,8 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				swap_ideas = {
-					add_idea = robot_manufacturing_buff_2
-					remove_idea = robot_manufacturing_buff_1
+					add_idea = robot_manufacturing_buff_2_RR
+					remove_idea = robot_manufacturing_buff_1_RR
 				}
 			}
 			custom_effect_tooltip = robot_manufacturing_buff_tt
@@ -129,7 +127,6 @@ technologies = {
 	}
 
 	robot_production_efficiency_3_tech = {
-
 		conscription_factor = -0.2
 		Infantry = {
 			max_organisation = -3
@@ -143,8 +140,8 @@ technologies = {
 		on_research_complete = {
 			hidden_effect = {
 				swap_ideas = {
-					add_idea = robot_manufacturing_buff_3
-					remove_idea = robot_manufacturing_buff_2
+					add_idea = robot_manufacturing_buff_3_RR
+					remove_idea = robot_manufacturing_buff_2_RR
 				}
 			}
 			custom_effect_tooltip = robot_manufacturing_buff_tt

@@ -78,7 +78,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 10
 
-		build_cost_ic = 7
+		build_cost_ic = 5
 		resources = {
 		}
 
@@ -92,7 +92,7 @@ equipments = {
 		module_slots = inherit
 
 		#Misc Abilities
-		maximum_speed = 6
+		maximum_speed = 7
 		reliability = 0.8
 
 		#Defensive Abilities
@@ -110,9 +110,9 @@ equipments = {
 		fuel_consumption = 0.3
 
 		#Space taken in convoy
-		lend_lease_cost = 8
+		lend_lease_cost = 7
 
-		build_cost_ic = 8
+		build_cost_ic = 7
 		resources = {
 			metal = 2
 			circuitry = 1
@@ -129,7 +129,7 @@ equipments = {
 		module_slots = inherit
 
 		#Misc Abilities
-		maximum_speed = 6
+		maximum_speed = 7
 		reliability = 0.8
 
 		#Defensive Abilities
@@ -148,7 +148,7 @@ equipments = {
 
 		#Space taken in convoy
 		lend_lease_cost = 9
-		build_cost_ic = 9
+		build_cost_ic = 7
 
 		resources = {
 			metal = 2
@@ -167,7 +167,7 @@ equipments = {
 		module_slots = inherit
 
 		#Misc Abilities
-		maximum_speed = 7
+		maximum_speed = 8
 		reliability = 0.8
 
 		#Defensive Abilities
@@ -187,7 +187,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 10
 
-		build_cost_ic = 12
+		build_cost_ic = 9
 		resources = {
 			metal = 2
 			circuitry = 1
@@ -206,7 +206,7 @@ equipments = {
 		module_slots = inherit
 		
 		#Misc Abilities
-		maximum_speed = 8
+		maximum_speed = 9
 		reliability = 0.8
 
 		#Defensive Abilities
@@ -226,7 +226,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 10
 
-		build_cost_ic = 15
+		build_cost_ic = 12
 		resources = {
 			composites = 1
 			circuitry = 1

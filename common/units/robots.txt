@@ -132,7 +132,7 @@ sub_units = {
 		transport = light_robot_equipment
 
 		need = {
-			light_robot_equipment = 25
+			light_robot_equipment = 35
 		}
 
 		manpower = 5
