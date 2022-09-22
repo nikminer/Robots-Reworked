@@ -1,0 +1,86 @@
+guiTypes = {
+	containerWindowType = {
+		name = "equipment_designer_assaultron_2_robot"
+		# NOTE: to keep aligned with the window "equipment_modules" in tank_designer_view.gui
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_bg_assaultron_equipment"
+			position = { x=0 y=0 }
+		}
+
+		containerWindowType = {
+			name = "module_slots"
+			position = { x=0 y=0 }
+			size = { width=100% height=100% }
+
+			################# MODULE SLOT: Power #################
+			containerWindowType = {
+				name = "power_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "power_type_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+			}
+
+			################# MODULE SLOT: Armor #################
+			containerWindowType = {
+				name = "armor_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			
+				containerWindowType = {
+					name = "armor_type_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+							
+			}
+			
+			################# MODULE SLOT: Servo #################
+			containerWindowType = {
+				name = "robots_servo_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			
+				containerWindowType = {
+					name = "robots_servo_type_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}			
+			}
+			
+			################# MODULE SLOT: OS #################
+			containerWindowType = {
+				name = "os_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			
+				containerWindowType = {
+					name = "os_type_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}			
+			}
+
+			################# MODULE SLOT: Hardware #################
+			containerWindowType = {
+				name = "hardware_type_slot"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+			
+				containerWindowType = {
+					name = "hardware_type_slot"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}			
+			}
+		}
+	}
+}

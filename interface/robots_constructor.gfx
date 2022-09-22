@@ -23,4 +23,22 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/robots/generic/generic_securitron_blueprint.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_bg_santry_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/robots/generic/generic_santry_blueprint.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bg_scrapbot_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/robots/generic/generic_scrapbot_blueprint.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bg_assaultron_equipment"
+		textureFile = "gfx/interface/equipmentdesigner/robots/generic/generic_assaultron_blueprint.dds"
+		legacy_lazy_load = no
+	}
 }
