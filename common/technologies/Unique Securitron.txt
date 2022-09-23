@@ -13,6 +13,10 @@ technologies = {
 			security_robot_securitron_equipment_1
 		}
 
+		enable_equipment_modules = {
+			robots_mark1_operation_system
+		}
+
 		enable_subunits = {
 			security_robot
 		}
@@ -66,100 +70,6 @@ technologies = {
 			factor = 1
 		}
 	}
-
-	robot_securitron_grenade_software_tech = {
-		security_robot = {
-			soft_attack = 0.5
-			breakthrough = 0.5
-		}
-
-		dependencies = {
-			platinum_os_tech = 1
-		}
-
-		xp_research_type = army
-		xp_boost_cost = 30
-		xp_research_bonus = 0.5
-
-		research_cost = 2
-		start_year = 2275
-
-		categories = {
-			vertibird_tech_category
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 50
-				date > "2280.1.1"
-			}
-		}
-	}
-
-	robot_securitron_missile_software_tech = {
-		security_robot = {
-			hard_attack = 0.5
-			air_attack = 0.5
-		}
-
-		dependencies = {
-			platinum_os_tech = 1
-		}
-
-		xp_research_type = army
-		xp_boost_cost = 30
-		xp_research_bonus = 0.5
-
-		research_cost = 2
-		start_year = 2275
-
-		categories = {
-			vertibird_tech_category
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 50
-				date > "2280.1.1"
-			}
-		}
-	}
-
-	robot_securitron_self_repair_tech = {
-		security_robot = {
-			hardness = 0.2
-			armor_value = 0.25
-			max_strength = 1
-			default_morale = 0.1
-		}
-
-		dependencies = {
-			platinum_os_tech = 1
-		}
-
-		xp_research_type = army
-		xp_boost_cost = 30
-		xp_research_bonus = 0.5
-
-		research_cost = 2
-		start_year = 2275
-
-		categories = {
-			vertibird_tech_category
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 50
-				date > "2280.1.1"
-			}
-		}
-	}
-
-
 	
 # Level 2
 	#robot_securitron_cnp_tech = {

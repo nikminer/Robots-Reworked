@@ -1,0 +1,35 @@
+equipment_modules = {
+
+	robots_mark1_operation_system = {
+		category = securitron_operation_system_type
+		sfx = sfx_ui_sd_module_engine
+
+		add_stats = {
+			build_cost_ic = 0.5
+			suppression = 1
+			recon = 0.1
+		}
+	}
+	
+	robots_mark2_operation_system = {
+		category = securitron_operation_system_type
+		sfx = sfx_ui_sd_module_engine
+		parent = robots_mark1_operation_system
+
+		add_stats = {
+			build_cost_ic = 0.5
+			suppression = 1.5
+			recon = 0.3
+
+			soft_attack = 0.5
+			breakthrough = 0.5
+			hard_attack = 0.5
+			air_attack = 0.5
+
+			hardness = 0.2
+			armor_value = 0.25
+			max_strength = 1
+			default_morale = 0.1
+		}
+	}
+}

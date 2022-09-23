@@ -32,17 +32,10 @@ equipments = {
 				}
 			}
 
-			hardware_type_slot = {
-				required = yes
-				allowed_module_categories = {
-					robots_hardware_type
-				}
-			}
-
 			os_type_slot = {
 				required = yes
 				allowed_module_categories = {
-					robots_operation_system_type
+					securitron_operation_system_type
 				}
 			}
 		}
@@ -51,8 +44,7 @@ equipments = {
 			power_type_slot = robots_battery
 			armor_type_slot = robots_standard_plate
 			robots_servo_type_slot = robots_primitive_servo
-			hardware_type_slot = robots_civilian_hardware
-			os_type_slot = robots_civilian_operation_system
+			os_type_slot = robots_mark1_operation_system
 		}
 
 		#Misc Abilities

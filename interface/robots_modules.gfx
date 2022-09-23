@@ -112,7 +112,14 @@ spriteTypes = {
 		name = "GFX_EMI_robots_military_operation_system"
 		textureFile = "gfx/interface/equipmentdesigner/robots/modules/military_operation_system.dds"
 	}
-
+	
+###################################################
+# Operation System Securitron
+###################################################
+	spriteType = {
+		name = "GFX_EMI_robots_mark1_operation_system"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/police_operation_system.dds"
+	}
 	spriteType = {
 		name = "GFX_EMI_robots_mark2_operation_system"
 		textureFile = "gfx/interface/equipmentdesigner/robots/modules/mark2_operation_system.dds"

@@ -184,21 +184,6 @@ equipment_modules = {
 		}
 	}
 
-	robots_mark2_operation_system = {
-		category = securitron_operation_system_type
-		sfx = sfx_ui_sd_module_engine
-		parent = robots_police_operation_system
-
-		add_stats = {
-			recon = 0.3
-			maximum_speed = 0.2
-			max_organisation = 5
-			breakthrough = 0.5
-			hard_attack = 0.5
-			default_morale = 0.1
-		}
-	}
-
 ###################################################
 # Robots Servo
 ###################################################
