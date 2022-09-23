@@ -39,7 +39,7 @@
   assaultron_robot: "Assaultron"
   assaultron_robot_desc: "A medium robot designed for frontline combat and CQC operations, it's agility and advanced internal processor let it swiftly move through the battlefield while scanning and dispatching threats with it's focused laser beam and close-quarter claws."
 
-  assaultron_2_robot: "Assaultron Mk2"
+  assaultron_2_robot: "Advanced Assaultron"
   assaultron_2_robot_desc: "A medium robot designed for frontline combat and CQC operations, it's agility and advanced internal processor let it swiftly move through the battlefield while scanning and dispatching threats with it's focused laser beam and close-quarter claws."
 
 #-------------------------------
@@ -56,7 +56,7 @@
   robot_thruster_equipment_3: "Mr Blasto"
   robot_thruster_equipment_3_desc: "A pre-war and more advanced variant of the Mr Handy manufactured expressly for combat can upgrade our robot divisions while reducing cost by taking the basis of it's householding sibling. And even though we cannot at our current level manufacture the original armour and weaponry specified in the blueprints, we can still manage to provide them with face-hardened steel to resist anti-tank rifles as well as overcharged automatic laser weaponry."
   
-  robot_thruster_equipment_4: "Mr Blasto Mk2"
+  robot_thruster_equipment_4: "Advanced Mr Blasto"
   robot_thruster_equipment_4_desc: "A pre-war and more advanced variant of the Mr Handy manufactured expressly for combat can upgrade our robot divisions while reducing cost by taking the basis of it's householding sibling. And even though we cannot at our current level manufacture the original armour and weaponry specified in the blueprints, we can still manage to provide them with face-hardened steel to resist anti-tank rifles as well as overcharged automatic laser weaponry."
 
 #-------------------------------

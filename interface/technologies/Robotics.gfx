@@ -259,6 +259,12 @@ spriteTypes = {
 			texturefile = "gfx/interface/equipment/generic/robot_securitron_icon_1.dds"
 			alwaystransparent = yes
 		}
+		
+		spriteType = {
+			name = "GFX_robot_securitron_tech_2_medium"
+			texturefile = "gfx/interface/equipment/generic/robot_securitron_icon_2.dds"
+			alwaystransparent = yes
+		}
 	
 		#spriteType = {
 		#	name = "GFX_robot_securitron_tech_2_medium"

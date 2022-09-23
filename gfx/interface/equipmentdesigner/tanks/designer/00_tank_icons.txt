@@ -1,0 +1,18 @@
+default = {
+	security_robot_securitron_equipment_1 = {
+		pool = {
+			limit = { 
+				has_tech = platinum_os_tech
+			}
+			weight = 2
+			icons = { 
+				GFX_robot_securitron_tech_2_medium
+			}
+		}
+		pool = {
+			icons = { 
+				GFX_robot_securitron_tech_1_medium
+			}
+		}
+	}
+}

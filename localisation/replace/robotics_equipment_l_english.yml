@@ -1,0 +1,107 @@
+﻿l_english:
+  robot_equipment:0 "Robot Equipment"
+  robot_equipment_short:0 "Robot Equipment"
+  robot_equipment_desc:0 ""
+
+  support_robot_equipment:0 "Support Robot"
+  support_robot_equipment_short:0 "Support Robots"
+  support_robot_equipment_desc:0 ""
+
+  combat_robot_equipment:0 "Combat Robot"
+  combat_robot_equipment_short:0 "Combat Robots"
+  combat_robot_equipment_desc:0 ""
+  
+  cnc_robot_equipment:0 "Command and Control Robot"
+  cnc_robot_equipment_short:0 "CnC-Bot"
+  cnc_robot_equipment_desc:0 ""
+
+  cnc_robot_equipment_1:0 "CnC Scrap-bot"
+  cnc_robot_equipment_1_short:0 "CnC-Bot"
+  cnc_robot_equipment_1_desc:0 "This model is rough around the edges and completely lacks finesse. However what it lacks in refinement it makes up for in autonomy. This numerically controlled robot is the definition of function over form as it steamrolls over any problem exactly as ordered. Its outer hull is made entirely out of stamped steel that had little to improvements done to its exterior with a shoddy paint job. Its arms are outfitted with basic servos that can carry a variety of attachments, most commonly they carry a mechanized claw and a basic micro fusion laser system."
+  
+  cnc_robot_equipment_2:0 "CnC Eyebot"
+  cnc_robot_equipment_2_short:0 "Eyebot"
+  cnc_robot_equipment_2_desc:0 "Originally designed as a mobile media transmitter, eyebots were often re-equipped with weaponry to act as listening post, scout units or law enforcement. The eyeball shaped shell, as well as a mounting point allowing us to arm them with sufficient firepower for their off frontline duty."
+
+  cnc_robot_equipment_3:0 "Robco Robobrain"
+  cnc_robot_equipment_3_short:0 "Robobrain"
+  cnc_robot_equipment_3_desc:0 "A tracked chassis on a two-piece welded reinforced frame composed of thick hardened composite platings as well as dexterous robotic arms using the best servos available and integrated flexible laser cannons form the basis for our Robobrain design. The final touch is a completely sterile and thick bulletproof dome containing either the mind-wiped brain of small animals, the brain of executed criminals, or those of particularly willing soldiers wanting to become death machines."
+  
+  support_robot_scrap_equipment:0 "Scrap-bot"
+  support_robot_scrap_equipment_short:0 "Scrapbot"
+  support_robot_scrap_equipment_desc:0 "The equivalent of industrial machinery given a tracked propulsion system, two submachine guns, and a metal shell covering sensitive parts, those \"scrap bots\" will still provide a tactical advantage in the form of an expendable shock trooper, or armoured shields that our troops can take cover behind during assaults."
+
+  support_robot_thruster_equipment_1:0 "Mister Handy"
+  support_robot_thruster_equipment_1_short:0 "Mr Handy"
+  support_robot_thruster_equipment_1_desc:0 "While those pre-war housekeepers can be found in many places in the wasteland, they might have a tad more firepower than required for most children birthday party. With bolt-on armour supplementing the civilian-grade shell, as well as the replacement of its flamethrower by a laser pistol, it becomes an effective combat unit."
+
+  support_robot_thruster_equipment_2:0 "Mister Gutsy"
+  support_robot_thruster_equipment_2_short:0 "Mr Gutsy"
+  support_robot_thruster_equipment_2_desc:0 "A pre-war variant of the Mr Handy, manufactured expressly for combat, can upgrade our robot divisions while reducing cost by taking the basis of it's householding sibling. And even though we cannot manufacture the original specifications, we can still manage to provide them with face-hardened steel plating as well as automatic laser weaponry."
+
+  support_robot_thruster_equipment_3:0 "Mister Blasto"
+  support_robot_thruster_equipment_3_short:0 "Mr Blasto"
+  support_robot_thruster_equipment_3_desc:0 "The Blasto platform contains top of the line models that cover all the needs of a twenty-second century enterprise. It covers a wide range of robots, going from industrial level mining to top of the line security builds. Its exterior is outfitted with aircraft sheet metal that makes it quite light weight despite its size and stature. Its weapon systems are modular but most come outfitted with plasma weaponry that can melt anything in its path."
+  
+  support_robot_thruster_equipment_4:0 "Mister Blasto Mk2"
+  support_robot_thruster_equipment_4_short:0 "Mr Blasto Mk2"
+  support_robot_thruster_equipment_4_desc:0 "The MK II version of the Blasto platform brings many widespread improvements to the previous chassis. It’s now outfitted with a large range of improvements that elevate its performance to match its top of the line competitors. Improved thrusters, wider range and further armor piercing capabilities make it a menace on the battlefield. Its outer shell now includes a titanium alloy that renders it even more rigid against all forms of damage."
+  
+  support_robot_two_legs_equipment_1:0 "Commercial Protectron"
+  support_robot_two_legs_equipment_1_short:0 "Protectron Mk I"
+  support_robot_two_legs_equipment_1_desc:0 "Often called \"trash cans on legs\" for their cumbersome appearance and top-heavy design, civilian Protectrons can still make useful shields for our main troops. Replacing the frail shell with sturdy armour steel, as well as rearming them with laser machine pistols, maximizes their potential in this role."
+
+  support_robot_two_legs_equipment_2:0 "Police Protectron"
+  support_robot_two_legs_equipment_2_short:0 "Protectron Mk2"
+  support_robot_two_legs_equipment_2_desc:0 "Mark 2 Protectrons are a line of advanced robots manufactured by RobCo for light police duty. While \"advanced\" is a relative term when it comes to Protectrons, the addition of energy machineguns replacing their old cumbersome laser pistols makes them fearsome opponents. The final touch is a series of bolted-on plating to supplement the bullet-proof shell."
+
+  support_robot_two_legs_equipment_3:0 "RobCo Assaultron"
+  support_robot_two_legs_equipment_3_short:0 "Assaultron"
+  support_robot_two_legs_equipment_3_desc:0 "A medium robot designed for frontline combat and CQC operations, its agility and advanced internal processor let it swiftly move through the battlefield while scanning and dispatching threats with it's focused laser beam and close-quarter claws."
+
+  support_robot_two_legs_equipment_4:0 "RobCo Assaultron Mk2"
+  support_robot_two_legs_equipment_4_short:0 "Assaultron Mk2"
+  support_robot_two_legs_equipment_4_desc:0 "Compared to the Mk1 variant does the Mk2 have an improved cooling system, better energy management and a cloaking device allowing it to be far more devastating."
+
+  combat_robot_equipment_1:0 "Heavy Lifter Bot"
+  combat_robot_equipment_1_short:0 "Heavy Lifter"
+  combat_robot_equipment_1_desc:0 "Intended for logistical duties, this robot can be converted into a fearsome frontline fighter. Our engineers are already working on a multitude of refits, such as bolting additional platings to supplement the already thick industrial shell, and replacing the lifting claws by protected weapon mounts. This lets us arm these robots with a mix of light ordinance launchers, and full-length laser machine guns."
+
+  combat_robot_equipment_2:0 "Sentry Bot Mk I"
+  combat_robot_equipment_2_short:0 "Sentry Bot Mk I"
+  combat_robot_equipment_2_desc:0 "A mountain of armour on a multi-directional tri-wheeled propulsion system results in the Sentry Bot Mark 1. The basic military design leaves little to be changed, with the only modifications being replacing the pre-war rocket launcher and gatling laser by our own manufactured variants."
+
+  combat_robot_equipment_3:0 "Sentry Bot Mk II"
+  combat_robot_equipment_3_short:0 "Sentry Bot Mk II"
+  combat_robot_equipment_3_desc:0 "Lessons learned through combat can be applied to the Sentrybot Mark 2, a pre-world wonder of robotics suited to any frontline task. Boasting a choice of multiple weaponry, this version is armed with two high-powered laser chain guns, privileging the annihilation of soft target while the nuclear core power supply still allows them to melt light armour in seconds."
+
+  super_heavy_robot_equipment_1:0 "Super-Heavy Quadrupeds"
+  super_heavy_robot_equipment_1_short:0 "Heavy Quadrupeds"
+  super_heavy_robot_equipment_1_desc:0 "A large quadrupedal robot reminescent of large animals of old, this war machine originally boasted tank-like protection and four pacification cannons. Further thinkinering done by the Calculator has replaced the four cannons by two rotary laser autocannons, and attention was given to enhanced mobility systems and better tactical link with other robotical units, making them mobile command posts."
+  
+  super_heavy_robot_equipment_2:0 "Super-Heavy Colossals"
+  super_heavy_robot_equipment_2_short:0 "Ironclad Colossals"
+  super_heavy_robot_equipment_2_desc:0 "A gargantuan beast of a machine, calling this robot a walking tank would be a disservice to the sheer bulk in weaponry and armour it carries. Originally armed with four fast-firing .50 cal machineguns, those were replaced for a quadruple 20mm autocannon arrangement. Combined with armour thick enough to stop plasma projectiles or even naval artillery, there is nothing our enemy can do but gasp before being shred to pieces."
+
+  security_robot_securitron_equipment_1: "RobCo PDQ-88b Securitron"
+  security_robot_securitron_equipment_1_short: "Securitron"
+  security_robot_securitron_equipment_1_desc: "A private security robot manufactured for police duty in difficult areas of operation, the monowheel propulsion system and fully welded titanium alloy shell provides both good mobility, and armour against typical small arms found on patrols. Meanwhile, an arm mounted 9mm submachine gun and X-25 gatling laser pistol allows them to handle any close-combat scenario."
+  security_robot_equipment:0 "Security Robots"
+  security_robot_equipment_desc:0 "The PDQ-88b Securitron (also named the RobCo Security Model 2060-B) is a private security robot created and mass-produced by the H&H Tools Factory after Mr. House purchased a majority of their stock, with the help of RobCo Industries."
+
+
+  support_robot_scurry_equipment:0 "Scurry Salvager Bot"
+  support_robot_scurry_equipment_short:0 "Scurry Bot"
+  support_robot_scurry_equipment_desc:0 "Small robots designed for underground ambushes, those mechanical spiders are equipped with sharp arachnid legs and seismic sensors to detect surface target while on the prowl. The horrific manner in which their salvaging claws can make them burrow into infantry and vehicles alike leaves little doubt as to their effectiveness."
+
+  support_robot_humanoid_equipment:0 "C-27 Humanoid Combat Platform"
+  support_robot_humanoid_equipment_short:0 "C-27"
+  support_robot_humanoid_equipment_desc:0 "Bipedal robots designed before the great war to pacify the nuclear wasteland of thereafter, those units sports a sophisticated sensor network and thick composite plating, as well as EMP shielding. Armed with weaponry such as laser miniguns, gauss pistols and plasma rifles, they are a force to be reckoned with."
+
+  combat_robot_pacification_equipment:0 "Pacification Robot"
+  combat_robot_pacification_equipment_short:0 ""
+  combat_robot_pacification_equipment_desc:0 "A large quadrupedal robot, this war machine originally boasted tank-like protection and four pacification cannons. Further thinkinering done by the Calculator has replaced the four cannons by two rotary laser autocannons, and attention was given to enhanced mobility systems as well as better tactical link with other robotical units, making them mobile command posts."
+
+  combat_robot_behemoth_equipment:0 "Behemoth Robot"
+  combat_robot_behemoth_equipment_short:0 ""
+  combat_robot_behemoth_equipment_desc:0 "A gargantuan beast of a machine, calling this robot a walking tank would be a disservice to the sheer bulk in weaponry and armour it carries. Originally armed with four fast-firing .50 cal machine guns, those were replaced for a quadruple 20mm autocannon arrangement. Combined with armour thick enough to stop plasma projectiles, there is nothing our enemy can do but gasp before being shred to pieces."

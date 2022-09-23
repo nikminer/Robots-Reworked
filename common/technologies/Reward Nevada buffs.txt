@@ -34,7 +34,6 @@ technologies = {
 		enable_equipment_modules = {
 			robots_mark2_operation_system
 		}
-
 		dependencies = {
 			blocked_tech = 1
 		}

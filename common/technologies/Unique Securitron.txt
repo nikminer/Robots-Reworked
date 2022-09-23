@@ -21,12 +21,6 @@ technologies = {
 			security_robot
 		}
 
-		sub_technologies = {
-			robot_securitron_grenade_software_tech
-			robot_securitron_missile_software_tech
-			robot_securitron_self_repair_tech
-		}
-
 		on_research_complete_limit = {
 			NOT = {
 				has_template_containing_unit = security_robot

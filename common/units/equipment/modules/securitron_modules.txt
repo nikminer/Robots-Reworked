@@ -6,7 +6,7 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 0.5
-			suppression = 1
+			suppression = 2
 			recon = 0.1
 		}
 	}
@@ -18,7 +18,6 @@ equipment_modules = {
 
 		add_stats = {
 			build_cost_ic = 0.5
-			suppression = 1.5
 			recon = 0.3
 
 			soft_attack = 0.5

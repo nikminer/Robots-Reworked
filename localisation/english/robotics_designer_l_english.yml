@@ -20,6 +20,8 @@
     EQ_MOD_CAT_robots_servo_type_TITLE: "Robotics Servo"
     EQ_MOD_CAT_robots_thruster_type_TITLE: "Robotics Thruster Engine"
 
+
+
   # Modules
     # Power
       robots_battery: "Microfusion cell"
