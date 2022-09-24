@@ -3,6 +3,7 @@
   tank_designer_light_robot_equipment: "Light Robot"
   tank_designer_security_robot_equipment: "Security Robot"
   tank_designer_support_robot_equipment: "Main Robot"
+  tank_designer_combat_robot_equipment: "Heavy Robot"
 
   # Slots
     EQ_MOD_SLOT_power_type_slot_TITLE: "Energy supply of Robot"
@@ -11,6 +12,8 @@
     EQ_MOD_SLOT_robots_servo_type_slot_TITLE: "Robotics Servo"
     EQ_MOD_SLOT_os_type_slot_TITLE: "Robotics Operation System"
     EQ_MOD_SLOT_hardware_type_slot_TITLE: "Robotics Hardware"
+    EQ_MOD_CAT_armour_power_special_type_TITLE: "Special Modules"
+    EQ_MOD_SLOT_special_type_slot_1_TITLE: "Special Modules"
 
   # Category
     EQ_MOD_CAT_robots_power_type_TITLE: "Energy supply of Robot"
@@ -19,8 +22,8 @@
     EQ_MOD_CAT_robots_operation_system_type_TITLE: "Robotics Operation System"
     EQ_MOD_CAT_robots_servo_type_TITLE: "Robotics Servo"
     EQ_MOD_CAT_robots_thruster_type_TITLE: "Robotics Thruster Engine"
-
-
+    EQ_MOD_CAT_robots_special_type_TITLE: "Common Special Module"
+    EQ_MOD_CAT_robots_special_handy_type_TITLE: "Handy Special Module"
 
   # Modules
     # Power
@@ -67,6 +70,28 @@
       robots_police_operation_system_desc: "The operating system created for police robots contains both basic state laws and strategies for dispersing rallies and demonstrations."
       robots_military_operation_system: "Military OS"
       robots_military_operation_system_desc: "The operating system created for military robots contains the basic tactics and strategies of combat."
+     
+      robots_mark1_operation_system: "Mark 1 OS"
+      robots_mark1_operation_system_desc: "An operating system secretly developed by RobCo for robots of the Securitron family. This operating system has its drawbacks and does not allow securitrons to use the main weapon."
+
       robots_mark2_operation_system: "Mark 2 OS"
       robots_mark2_operation_system_desc: "An operating system secretly developed by RobCo for robots of the Securitron family. It contains improved combat programs and routines that allow you to turn an ordinary robot into a killer machine."
+    
+    # Special
+      robots_cnp: "Command Navigational Program"
+      robots_cnp_desc: "Software enhancement with the main goal to provide cross unit communication and coordination. Resulting in far higher efficiency in combat. So say we all."
+      robots_cooling_systems: "Cooling Systems"
+      robots_cooling_systems_desc: "The primary flaw with laser weaponry is the intense heat it emanates during firing procedure. By removing useless internal components around our robot's weapon mount, and installing a cooling jacket filled with oil, we can let our war machines fire much longer bursts and stay in the fight for hours before needing lense replacements."
+      robots_high_power_optics: "High Power Optics"
+      robots_high_power_optics_desc: "The regular optics used in robots at the most are designed to concentrate just enough light to perform their original task. While it is hardly enough for self-defence, it is utterly lacking the capabilities of any military application. Luckily, there are more than enough industrial- and army-grade grade optics to refit our mechanical soldiers."
+      robots_organic_processor: "Organic Processors"
+      robots_organic_processor_desc: "An organic processor is the most perfect of all possible processes, because it uses the human brain, thanks to which robots become more intelligent and distinguish their own from others more successfully."
+      
+      robots_extra_fuel_tank: "Fuel extra tank"
+      robots_extra_fuel_tank_desc: "This component will be an excellent addition for any Mr Handy, this modification allows you to expand the fuel tank for the jet module, by getting rid of some parts of the body."
+      robots_flamethrower: "Flamethrower addon"
+      robots_flamethrower_desc: "This component will be an excellent addition for any Mr Handy, additional flamethrowers allow you to break through any enemy defense, although because of this, the robot will start consuming more jet fuel."
+      
+      
 
+      

@@ -49,6 +49,8 @@
   light_robot_equipment_desc: "Lightly armoured and armed robots put into service as a combat unit. With a focus on supporting roles."
   robot_thruster_equipment_1: "Mr Handy"
   robot_thruster_equipment_1_desc: "While those pre-war housekeepers can be found in many robotics factory in the wasteland, they might have a tad more firepower than required for most children birthday party. With bolt-on armour added to reinforce the civilian-grade shell, the removal of the flamethrower and it's replacement by a laser pistol, it becomes an effective combat unit that we can more easily field."
+  robot_handy_equipment_1_tech: "Mr Handy"
+  robot_handy_equipment_1_tech_desc: "While those pre-war housekeepers can be found in many robotics factory in the wasteland, they might have a tad more firepower than required for most children birthday party. With bolt-on armour added to reinforce the civilian-grade shell, the removal of the flamethrower and it's replacement by a laser pistol, it becomes an effective combat unit that we can more easily field."
 
   robot_thruster_equipment_2: "Mr Gutsy"
   robot_thruster_equipment_2_desc: "A pre-war and more advanced variant of the Mr Handy manufactured expressly for combat can upgrade our robot divisions while reducing cost by taking the basis of it's householding sibling. And even though we cannot at our current level manufacture the original armour and weaponry specified in the blueprints, we can still manage to provide them with face-hardened steel to resist anti-tank rifles as well as overcharged automatic laser weaponry."
@@ -73,11 +75,14 @@
   cnc_robot_equipment_2_RR: "CnC Eyebot"
   cnc_robot_equipment_2_RR_short: "Eyebot"
   cnc_robot_equipment_2_RR_desc: "Originally designed as a mobile media transmitter, eyebots were often re-equipped with weaponry to act as listening post, scout units or law enforcement. The eyeball shaped shell, as well as a mounting point allowing us to arm them with sufficient firepower for their off frontline duty."
+  robot_command_equipment_2_tech: "CnC Eyebot"
+  robot_command_equipment_2_tech_desc: "Originally designed as a mobile media transmitter, eyebots were often re-equipped with weaponry to act as listening post, scout units or law enforcement. The eyeball shaped shell, as well as a mounting point allowing us to arm them with sufficient firepower for their off frontline duty."
 
   cnc_robot_equipment_3_RR: "Robco Robobrain"
   cnc_robot_equipment_3_RR_short: "Robobrain"
   cnc_robot_equipment_3_RR_desc: "A tracked chassis on a two-piece welded reinforced frame composed of thick hardened composite platings as well as dexterous robotic arms using the best servos available and integrated flexible laser cannons form the basis for our Robobrain design. The final touch is a completely sterile and thick bulletproof dome containing either the mind-wiped brain of small animals, the brain of executed criminals, or those of particularly willing soldiers wanting to become death machines."
-
+  robot_command_equipment_3_tech: "Robco Robobrain"
+  robot_command_equipment_3_tech_desc: "A tracked chassis on a two-piece welded reinforced frame composed of thick hardened composite platings as well as dexterous robotic arms using the best servos available and integrated flexible laser cannons form the basis for our Robobrain design. The final touch is a completely sterile and thick bulletproof dome containing either the mind-wiped brain of small animals, the brain of executed criminals, or those of particularly willing soldiers wanting to become death machines."
 #-------------------------------
 # Robotics Armor
 #-------------------------------
@@ -157,33 +162,11 @@
 
 
 
-  robot_high_power_optics_tech:0 "High Power Optics"
-  robot_high_power_optics_tech_desc:0 "The regular optics used in robots at the most are designed to concentrate just enough light to perform their original task. While it is hardly enough for self-defence, it is utterly lacking the capabilities of any military application. Luckily, there are more than enough industrial- and army-grade grade optics to refit our mechanical soldiers."
-
-
-  robot_gutsy_hardening_tech:0 "Armour Hardening"
-  robot_gutsy_hardening_tech_desc:0 "Revising the armour scheme of our combat units can vastly increase their effectiveness while under small arms fire. Full-on welding as well as cast pieces with less breaking points such as joints or rivets will let our robots withstand heavy firepower in the line of duty, protecting our soldiers more effectively."
-  robot_fuel_refinement_tech:0 "Fuel Refinement"
-  robot_fuel_refinement_tech_desc:0 "While previous fuels used to supply our robotic divisions were decent, their provenance as well as composition was doubtful to say the least. A unified manufacturing method as well as better chemical composition will leave much less depot in the fuel filters and reduce the need for maintenance."
-  robot_flamethrower_tech:0 "Flamethrower addon"
-  robot_flamethrower_tech_desc:0 "The study of many removed flamethrower units provided our engineers with a better understanding of their main components, and even though it was prohibitive to arm our robots with such devices before, we can now upgrade them again with a better ones sporting a pressurized armored fuel cannister, and more harmful fuel composition designed around both direct damage and toxic byproducts."
-
- 
   
-  robot_alloy_tech:0 "Specialized Alloys"
-  robot_alloy_tech_desc:0 "Our robots cannot mount as much weight as our vehicles, so we cannot armour them with the same alloy as effectively. A specialized material made to privilege weight savings and easy manufacturing over protection should reduce the strain on the servos, and allow us thicker and better shaped plating covering flaws in their armouring scheme."
-  
-  robot_cooling_systems_tech:0 "Cooling Systems"
-  robot_cooling_systems_tech_desc:0 "The primary flaw with laser weaponry is the intense heat it emanates during firing procedure. By removing useless internal components around our robot's weapon mount, and installing a cooling jacket filled with oil, we can let our war machines fire much longer bursts and stay in the fight for hours before needing lense replacements."
-  robot_cooling_systems_tech_2:0 "Advanced Cooling System"
-  robot_cooling_systems_tech_2_desc:0 "More processing power and bigger internal reactors require more and more cooling to remain effective in the scorching desert heat of the wasteland. Specialized high-speed fan, and a coolant network akin to those found in pre-war supercomputers, will let our machine operate at peak efficiency."
 
-  robot_organic_processor_tech:0 "Organic Processors"
-  robot_organic_processor_tech_desc:0 "Even though such measures are unethical, to put it very mildly, research can be made into using the most efficient computer of all as a central processor for our robots. The human brain. Providing a safe and sterile environment for our \"organic processors\" is a crucial step for any field deployment, and the lessons learned from brain structure studies can improve our more standard processing boards."
+  
  
 
-  robot_securitron_tech_1:0 "Securitron"
-  robot_securitron_tech_1_desc:0 "A private security robot manufactured for police duty in difficult areas of operation, the monowheel propulsion system and fully welded titanium alloy shell provides both good mobility and armour against typical small arms found on patrols, such as shotguns, revolvers and hunting rifles. Meanwhile, an arm mounted 9mm sub-machinegun and X-25 gatling laser pistol allows the Securitron unit to handle any close-combat scenario."
   robot_scurry_tech:0 "Scurry Salvager Bot"
   robot_scurry_tech_desc:0 "Small robots designed for underground ambush and close-quarter combat, those mechanical spiders are equipped with sharp arachnic legs and seismic sensors to detect surface target while on the prowl. The horrific manner in which they dispatch threats as well as the way their salvaging claws can make them burrow into lightly armored enemy vehicles leaves little doubt as to their effectiveness."
   robot_humanoid_tech:0 "C-27 Humanoid Robot"
@@ -192,13 +175,7 @@
   robot_pacification_bot_tech_desc:0 "A large quadrupedal robot reminescent of large animals of old, this war machine originally boasted tank-like protection and four pacification cannons. Further thinkinering done by the Calculator has replaced the four cannons by two rotary laser autocannons, and attention was given to enhanced mobility systems and better tactical link with other robotical units, making them mobile command posts."
   robot_behemoth_robot_tech:0 "Super-Heavy Colossals"
   robot_behemoth_robot_tech_desc:0 "A gargantuan beast of a machine, calling this robot a walking tank would be a disservice to the sheer bulk in weaponry and armour it carries. Originally armed with four fast-firing .50 cal machineguns, those were replaced for a quadruple 20mm autocannon arrangement. Combined with armour thick enough to stop plasma projectiles or even naval artillery, there is nothing our enemy can do but gasp before being shred to pieces."
-  robot_securitron_grenade_software_tech:0 "Rapid-Fire G-28 Grenade Launching System Drivers"
-  robot_securitron_grenade_software_tech_desc:0 "§cUnlocks Securitron's Primary Weapon:§!G-28 Rapid-Fire Grenade Launching System  for close range engagements."
-  robot_securitron_missile_software_tech:0 "M-235 Shoulder-Mounted Missile Launcher Drivers"
-  robot_securitron_missile_software_tech_desc:0 "§cUnlocks Securitron's Primary Weapon:§!M-235 Shoulder-Mounted Missile Launchers for long range and surface-to-air engagements."
-  robot_securitron_self_repair_tech:0 "On-Board Self-Repair System Drivers"
-  robot_securitron_self_repair_tech_desc:0 "§cUnlocks Securitron's Self-Repair System:§!Enables the Securitron to repair any damage sustained during combat."
-  platinum_os_tech:0 "Mark 2 Operating System"
-  robot_securitron_cnp_tech:0 "Command Navigational Program"
-  robot_securitron_cnp_tech_desc:0 "Software enhancement with the main goal to provide cross unit communication and coordination. Resulting in far higher efficiency in combat. So say we all."
+
+  platinum_os_tech: "Mark 2 Operating System"
+  
 

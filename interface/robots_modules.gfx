@@ -124,5 +124,43 @@ spriteTypes = {
 		name = "GFX_EMI_robots_mark2_operation_system"
 		textureFile = "gfx/interface/equipmentdesigner/robots/modules/mark2_operation_system.dds"
 	}
-	
+
+###################################################
+# Specials
+###################################################
+	spriteType = {
+		name = "GFX_EMI_robots_cnp"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/cnp.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_robots_high_power_optics"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/robots_high_power_optics.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_robots_cooling_systems"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/robots_cooling_systems.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_robots_organic_processor"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/robots_organic_processor.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_robots_extra_fuel_tank"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/robots_extra_fuel_tank.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_robots_flamethrower"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/robots_flamethrower.dds"
+	}
+###################################################
+# Category
+###################################################
+	spriteType = {
+		name = "GFX_EMI_robots_special_type"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/battery.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_robots_special_handy_type"
+		textureFile = "gfx/interface/equipmentdesigner/robots/modules/atom.dds"
+	}
 }

@@ -10,6 +10,11 @@ equipments = {
 
 		interface_category = interface_category_armor
 
+		module_count_limit = {
+			module = robots_cnp
+			count < 2
+		}
+
 		module_slots = {
 			power_type_slot = {
 				required = yes
@@ -36,6 +41,37 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					securitron_operation_system_type
+				}
+			}
+
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					robots_special_type
+				}
+			}
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					robots_special_type
+				}
+			}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					robots_special_type
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					robots_special_type
+				}
+			}
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					robots_special_type
 				}
 			}
 		}

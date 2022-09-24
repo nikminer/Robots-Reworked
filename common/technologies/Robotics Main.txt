@@ -227,6 +227,10 @@ technologies = {
 			protectron_robot
 		}
 
+		sub_technologies = {
+			robot_cooling_systems
+		}
+
 		research_cost = 1.6
 		start_year = 2278
 

@@ -1,0 +1,45 @@
+equipment_modules = {
+	robots_cnp = {
+		category = robots_special_type
+		sfx = sfx_ui_sd_module_engine
+		xp_cost = 3
+		add_stats = {
+			build_cost_ic = 0.2
+			maximum_speed = 0.2
+			max_organisation = 5
+		}
+	}
+
+	robots_high_power_optics = {
+		category = robots_special_type
+		sfx = sfx_ui_sd_module_engine
+		xp_cost = 2
+		add_stats = {
+			build_cost_ic = 0.5
+			ap_attack = 0.1
+		}
+	}
+
+	robots_cooling_systems = {
+		category = robots_special_type
+		sfx = sfx_ui_sd_module_engine
+		xp_cost = 2
+		add_stats = {
+			build_cost_ic = 0.2
+			reliability = 0.05
+		}
+	}
+
+	robots_organic_processor = {
+		category = robots_special_type
+		sfx = sfx_ui_sd_module_engine
+		xp_cost = 5
+		add_stats = {
+			build_cost_ic = 0.5
+			reliability = -0.05
+			soft_attack = 0.02
+			hard_attack = 0.02
+			recon = 1
+		}
+	}
+}

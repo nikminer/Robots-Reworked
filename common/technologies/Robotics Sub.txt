@@ -1,0 +1,136 @@
+technologies = {
+#-------------------------------
+# Common Type
+#-------------------------------	
+	robot_high_power_optics = {
+		enable_equipment_modules = {
+			robots_high_power_optics
+		}
+
+		xp_research_type = army
+		xp_boost_cost = 10
+		xp_research_bonus = 0.5
+
+		research_cost = 1
+		start_year = 2275
+
+		categories = {
+			robotics_tech_category
+			scientific_tech_category
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 50
+				date > "2280.1.1"
+			}
+		}
+	}
+
+	robot_cooling_systems = {
+		enable_equipment_modules = {
+			robots_cooling_systems
+		}
+
+		xp_research_type = army
+		xp_boost_cost = 10
+		xp_research_bonus = 0.5
+
+		research_cost = 1
+		start_year = 2275
+
+		categories = {
+			robotics_tech_category
+			scientific_tech_category
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 50
+				date > "2280.1.1"
+			}
+		}
+	}
+
+	robot_organic_processor = {
+		enable_equipment_modules = {
+			robots_organic_processor
+		}
+
+		xp_research_type = army
+		xp_boost_cost = 20
+		xp_research_bonus = 0.5
+
+		research_cost = 1
+		start_year = 2275
+
+		categories = {
+			robotics_tech_category
+			scientific_tech_category
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 50
+				date > "2280.1.1"
+			}
+		}
+	}
+#-------------------------------
+# Handy Type
+#-------------------------------
+	robot_flamethrower_tech = {
+		enable_equipment_modules = {
+			robots_flamethrower
+		}
+
+		xp_research_type = army
+		xp_boost_cost = 10
+		xp_research_bonus = 0.5
+
+		research_cost = 1
+		start_year = 2275
+
+		categories = {
+			robotics_tech_category
+			scientific_tech_category
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 50
+				date > "2280.1.1"
+			}
+		}
+	}
+
+	robot_extra_fuel_tank_tech = {
+		enable_equipment_modules = {
+			robots_extra_fuel_tank
+		}
+
+		xp_research_type = army
+		xp_boost_cost = 10
+		xp_research_bonus = 0.5
+
+		research_cost = 1
+		start_year = 2275
+
+		categories = {
+			robotics_tech_category
+			scientific_tech_category
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 50
+				date > "2280.1.1"
+			}
+		}
+	}
+}

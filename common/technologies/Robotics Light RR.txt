@@ -25,6 +25,11 @@ technologies = {
 			light_robot
 		}
 
+		sub_technologies = {
+			robot_flamethrower_tech
+			robot_extra_fuel_tank_tech
+		}
+
 		path = {
 			leads_to_tech = robot_handy_equipment_2_tech
 			research_cost_coeff = 1

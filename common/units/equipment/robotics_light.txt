@@ -10,6 +10,36 @@ equipments = {
 		group_by = archetype
 
 		interface_category = interface_category_armor
+		
+		module_count_limit = {
+			module = robots_cnp
+			count < 2
+		}
+
+		module_count_limit = {
+			module = robots_high_power_optics
+			count < 2
+		}
+
+		module_count_limit = {
+			module = robots_cooling_systems
+			count < 2
+		}
+
+		module_count_limit = {
+			module = robots_organic_processor
+			count < 2
+		}
+
+		module_count_limit = {
+			module = robots_flamethrower
+			count < 3
+		}
+
+		module_count_limit = {
+			module = robots_extra_fuel_tank
+			count < 2
+		}
 
 		module_slots = {
 			power_type_slot = {
@@ -44,6 +74,35 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					robots_operation_system_type
+				}
+			}
+
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					robots_special_type
+					robots_special_handy_type
+				}
+			}
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					robots_special_type
+					robots_special_handy_type
+				}
+			}
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					robots_special_type
+					robots_special_handy_type
+				}
+			}
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					robots_special_type
+					robots_special_handy_type
 				}
 			}
 		}

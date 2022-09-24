@@ -78,6 +78,10 @@ technologies = {
 			cnc_robot_equipment_2_RR
 		}
 
+		sub_technologies = {
+			robot_high_power_optics
+		}
+
 		path = {
 			leads_to_tech = robot_command_equipment_3_tech
 			research_cost_coeff = 1
@@ -129,6 +133,10 @@ technologies = {
 
 		enable_equipments = {
 			cnc_robot_equipment_3_RR
+		}
+
+		sub_technologies = {
+			robot_organic_processor
 		}
 
 		research_cost = 1.6
