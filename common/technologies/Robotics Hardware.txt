@@ -25,7 +25,7 @@ technologies = {
 		start_year = 2280
 	
 		path = {
-			leads_to_tech = robot_millitary_hardware_tech
+			leads_to_tech = robot_military_hardware_tech
 			research_cost_coeff = 1
 		}
 
@@ -69,7 +69,7 @@ technologies = {
 		}
 	}
 
-	robot_millitary_hardware_tech = {
+	robot_military_hardware_tech = {
 
 		enable_equipment_modules = {
 			robots_military_hardware

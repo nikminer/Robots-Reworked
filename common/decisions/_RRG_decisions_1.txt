@@ -1,0 +1,43 @@
+###############################
+# RRG
+###############################
+
+RRG_chiconet_exploration = {
+    RRG_max_first_gift = {
+        icon = GFX_decision_generic_research
+        available = {
+            tag = RRG
+        }
+        visible = {
+            has_completed_focus = rrg_mexico_great_jewel
+        }
+        cost = 50
+        fire_only_once = yes
+        days_remove = 50
+        remove_effect = {
+            hidden_effect = {
+                set_technology = { 
+                    robotics_notes_tech = 1 
+                    robot_automatization_tech = 1
+                    robot_scrapbot_tech = 1
+                    robot_protectron_equipment_tech_1 = 1
+                    robot_lifter_equipment_tech = 1
+                }
+                load_oob = maximilian_gift1
+            }
+            custom_effect_tooltip = RRX_max_first_gift_tt
+            set_country_flag = max_gift_1
+        }
+
+        ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                has_stability < 0.50
+            }
+            modifier = {
+                factor = 0
+            }
+        }
+    }
+}

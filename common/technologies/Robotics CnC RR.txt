@@ -147,7 +147,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = robot_millitary_hardware_tech
+			leads_to_tech = robot_military_hardware_tech
 			research_cost_coeff = 1
 		}
 

@@ -19,25 +19,25 @@ spriteTypes = {
 		}
 
 		spriteType = {
-			name = "GFX_robot_protectron_tech_1_medium"
+			name = "GFX_robot_protectron_equipment_tech_1_medium"
 			texturefile = "gfx/interface/equipment/generic/robot_protectron_icon_1.dds"
 			alwaystransparent = yes
 		}
 
 		spriteType = {
-			name = "GFX_robot_protectron_tech_2_medium"
+			name = "GFX_robot_protectron_equipment_tech_2_medium"
 			texturefile = "gfx/interface/equipment/generic/robot_protectron_icon_2.dds"
 			alwaystransparent = yes
 		}
 
 		spriteType = {
-			name = "GFX_robot_assaultron_tech_1_medium"
+			name = "GFX_robot_assaultron_equipment_tech_1_medium"
 			texturefile = "gfx/interface/equipment/generic/robot_assaultron_1.dds"
 			alwaystransparent = yes
 		}
 
 		spriteType = {
-			name = "GFX_robot_assaultron_tech_2_medium"
+			name = "GFX_robot_assaultron_equipment_tech_2_medium"
 			texturefile = "gfx/interface/equipment/generic/robot_assaultron_icon.dds"
 			alwaystransparent = yes
 		}
@@ -70,7 +70,7 @@ spriteTypes = {
 		}
 
 		spriteType = {
-			name = "GFX_robot_harded_armor_tech_medium"
+			name = "GFX_robot_armour_hardening_tech_medium"
 			texturefile = "gfx/interface/technologies/plate_harded.dds"
 			alwaystransparent = yes
 		}
@@ -83,24 +83,24 @@ spriteTypes = {
 
 	# Heavy
 		spriteType = {
-			name = "GFX_heavy_lifter_equipment_tech_medium"
+			name = "GFX_robot_lifter_equipment_tech_medium"
 			texturefile = "gfx/interface/equipment/generic/robot_heavy_lifter_icon.dds"
 			alwaystransparent = yes
 		}
 		spriteType = {
-			name = "GFX_robot_sentry_bot_equipment_1_tech_medium"
+			name = "GFX_robot_sentry_bot_equipment_tech_1_medium"
 			texturefile = "gfx/interface/equipment/generic/robot_sentrybot_icon_1.dds"
 			alwaystransparent = yes
 		}
 		spriteType = {
-			name = "GFX_robot_sentry_bot_equipment_2_tech_medium"
+			name = "GFX_robot_sentry_bot_equipment_tech_2_medium"
 			texturefile = "gfx/interface/equipment/generic/robot_sentrybot_icon_2.dds"
 			alwaystransparent = yes
 		}
 
 	# Servo
 		spriteType = {
-			name = "GFX_robot_simple_servo_tech_medium"
+			name = "GFX_robot_precision_motor_tech_medium"
 			texturefile = "gfx/interface/technologies/servo.dds"
 			alwaystransparent = yes
 		}
@@ -119,29 +119,29 @@ spriteTypes = {
 		}
 
 		spriteType = {
-			name = "GFX_robot_advance_power_system_tech_medium"
+			name = "GFX_robot_advanced_power_systems_tech_medium"
 			texturefile = "gfx/interface/technologies/nuke_device.dds"
 			alwaystransparent = yes
 		}
 
 	# Light
 		spriteType = {
-			name = "GFX_robot_handy_equipment_1_tech_medium"
+			name = "GFX_robot_handy_equipment_tech_1_medium"
 			texturefile = "gfx/interface/equipment/generic/robot_handy_icon.dds"
 			alwaystransparent = yes
 		}
 		spriteType = {
-			name = "GFX_robot_handy_equipment_2_tech_medium"
+			name = "GFX_robot_handy_equipment_tech_2_medium"
 			texturefile = "gfx/interface/equipment/generic/robot_handy_icon.dds"
 			alwaystransparent = yes
 		}
 		spriteType = {
-			name = "GFX_robot_handy_equipment_3_tech_medium"
+			name = "GFX_robot_handy_equipment_tech_3_medium"
 			texturefile = "gfx/interface/equipment/generic/robot_gutsy_icon.dds"
 			alwaystransparent = yes
 		}
 		spriteType = {
-			name = "GFX_robot_handy_equipment_4_tech_medium"
+			name = "GFX_robot_handy_equipment_tech_4_medium"
 			texturefile = "gfx/interface/equipment/generic/robot_gutsy_icon.dds"
 			alwaystransparent = yes
 		}
@@ -184,7 +184,7 @@ spriteTypes = {
 		}
 
 		spriteType = {
-			name = "GFX_robot_millitary_hardware_tech_medium"
+			name = "GFX_robot_military_hardware_tech_medium"
 			texturefile = "gfx/interface/technologies/military_hardware.dds"
 			alwaystransparent = yes
 		}

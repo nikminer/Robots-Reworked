@@ -29,7 +29,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = robot_advance_power_system_tech
+			leads_to_tech = robot_advanced_power_systems_tech
 			research_cost_coeff = 1
 		}
 
@@ -61,7 +61,7 @@ technologies = {
 		}
 	}
 
-	robot_advance_power_system_tech= {
+	robot_advanced_power_systems_tech= {
 
 		enable_equipment_modules = {
 			robots_advance_power_system

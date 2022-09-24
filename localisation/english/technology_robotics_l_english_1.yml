@@ -49,8 +49,8 @@
   light_robot_equipment_desc: "Lightly armoured and armed robots put into service as a combat unit. With a focus on supporting roles."
   robot_thruster_equipment_1: "Mr Handy"
   robot_thruster_equipment_1_desc: "While those pre-war housekeepers can be found in many robotics factory in the wasteland, they might have a tad more firepower than required for most children birthday party. With bolt-on armour added to reinforce the civilian-grade shell, the removal of the flamethrower and it's replacement by a laser pistol, it becomes an effective combat unit that we can more easily field."
-  robot_handy_equipment_1_tech: "Mr Handy"
-  robot_handy_equipment_1_tech_desc: "While those pre-war housekeepers can be found in many robotics factory in the wasteland, they might have a tad more firepower than required for most children birthday party. With bolt-on armour added to reinforce the civilian-grade shell, the removal of the flamethrower and it's replacement by a laser pistol, it becomes an effective combat unit that we can more easily field."
+  robot_handy_equipment_tech_1: "Mr Handy"
+  robot_handy_equipment_tech_1_desc: "While those pre-war housekeepers can be found in many robotics factory in the wasteland, they might have a tad more firepower than required for most children birthday party. With bolt-on armour added to reinforce the civilian-grade shell, the removal of the flamethrower and it's replacement by a laser pistol, it becomes an effective combat unit that we can more easily field."
 
   robot_thruster_equipment_2: "Mr Gutsy"
   robot_thruster_equipment_2_desc: "A pre-war and more advanced variant of the Mr Handy manufactured expressly for combat can upgrade our robot divisions while reducing cost by taking the basis of it's householding sibling. And even though we cannot at our current level manufacture the original armour and weaponry specified in the blueprints, we can still manage to provide them with face-hardened steel to resist anti-tank rifles as well as overcharged automatic laser weaponry."
@@ -89,8 +89,8 @@
   robot_welded_rebar_tech: "Welded rebar"
   robot_welded_rebar_tech_desc: "The standard armor of robotics is too weak. We can weld rusty sheets of iron to it to increase the life of the robot on the battlefield."
 
-  robot_harded_armor_tech: "Armor Hardening"
-  robot_harded_armor_tech_desc: "Most commercially used robots were designed to be as light as possible, so their driving system can move them more easily, and through that, for a longer time. While the concept is noble, it isn't suited for our way of utilizing said units - we'll have to reinforce their thin and shiny aluminium composite with industrial-grade metal alloys."
+  robot_armour_hardening_tech: "Armor Hardening"
+  robot_armour_hardening_tech_desc: "Most commercially used robots were designed to be as light as possible, so their driving system can move them more easily, and through that, for a longer time. While the concept is noble, it isn't suited for our way of utilizing said units - we'll have to reinforce their thin and shiny aluminium composite with industrial-grade metal alloys."
 
   robot_impact_armor_tech: "Impact Resistant Armor"
   robot_impact_armor_tech_desc: "Made to withstand anything from melee combat to even anti-tank fire in some cases, our robotical units still suffer from some problems. While in battle, the internal components risk to rattle inside the armored shell, damaging sensitive equipment. An internal soft layer of kevlar and kinetic foam around sub-systems provide dampeners, resolving this issue."
@@ -98,8 +98,8 @@
 #-------------------------------
 # Robotics Servo
 #-------------------------------
-  robot_simple_servo_tech: "Precision Motors"
-  robot_simple_servo_tech_desc: "Previous servos were clunky remains of cost-cutting by pre-war companies. Better internal assembly with improved internal gearing will make our robots able to react more precisely and efficiently to incoming threats. This also has the unintended side effect of improving their close-combat performances, to the point some have been seen simply crushing PA helmets to kill their operator."
+  robot_precision_motor_tech: "Precision Motors"
+  robot_precision_motor_tech_desc: "Previous servos were clunky remains of cost-cutting by pre-war companies. Better internal assembly with improved internal gearing will make our robots able to react more precisely and efficiently to incoming threats. This also has the unintended side effect of improving their close-combat performances, to the point some have been seen simply crushing PA helmets to kill their operator."
 
   robot_advance_servo_tech: "High Pressure Hydraulics"
   robot_advance_servo_tech_desc: "The development of further augmented hydraulic systems results in the ability to not only increase the speed of our Robotics forces, but also the possibility of mounting heavier armour plating to our robotics."
@@ -110,8 +110,8 @@
   robot_fusion_core_tech: "Fusion cores"
   robot_fusion_core_tech_desc: "Fusion cores are a pre-War portable power source, often found in robots and vehicles. Their way of generating electricity can be traced back to nuclear fission and acid-based electrochemical reactions, their exact inner workings to this day, are unknown. Attaching larger-sized batteries to our robots, will certainly improve their overall performance."
   
-  robot_advance_power_system_tech: "Advanced Power Systems"
-  robot_advance_power_system_tech_desc: "The main problem with the usual mechanical ally is that they're either bound to a local power source or have to operate through a rechargeable battery - neither of them very effective nor convenient. While replacing said technologies is out of bounds for us, we easily could replace our fission battery-based system with a mini nuclear reactor TX-28."
+  robot_advanced_power_systems_tech: "Advanced Power Systems"
+  robot_advanced_power_systems_tech_desc: "The main problem with the usual mechanical ally is that they're either bound to a local power source or have to operate through a rechargeable battery - neither of them very effective nor convenient. While replacing said technologies is out of bounds for us, we easily could replace our fission battery-based system with a mini nuclear reactor TX-28."
 
 #-------------------------------
 # Robotics Thruster
@@ -128,8 +128,8 @@
   robot_police_hardware_tech: "Police Hardware"
   robot_police_hardware_tech_desc: "Replacing standard process boards with the found hardware of police robots will increase the efficiency of robots by increasing the computing power of an ordinary robot and reducing energy consumption."
 
-  robot_millitary_hardware_tech: "Military Hardware"
-  robot_millitary_hardware_tech_desc: "Replacing scavenged processing boards with re-manufactured military-grade components is a difficult task, but one which is more than worth pursuing. Improved sub-systems can drastically increase the effectiveness of our robots through advanced processing capabilities, better servos coupling, and increased internal power reserve to direct to propulsion or weapons."
+  robot_military_hardware_tech: "Military Hardware"
+  robot_military_hardware_tech_desc: "Replacing scavenged processing boards with re-manufactured military-grade components is a difficult task, but one which is more than worth pursuing. Improved sub-systems can drastically increase the effectiveness of our robots through advanced processing capabilities, better servos coupling, and increased internal power reserve to direct to propulsion or weapons."
 
 #-------------------------------
 # Robotics Software

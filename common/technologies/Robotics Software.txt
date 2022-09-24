@@ -73,7 +73,7 @@ technologies = {
 		dependencies = {
 			robotics_tech_level_scientific = 1
 			robot_police_software_tech = 1
-			robot_millitary_hardware_tech = 1
+			robot_military_hardware_tech = 1
 		}
 
 		folder = {

@@ -28,7 +28,7 @@ technologies = {
 		}
 	}
 
-	robot_cooling_systems = {
+	robot_cooling_systems_tech = {
 		enable_equipment_modules = {
 			robots_cooling_systems
 		}

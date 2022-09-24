@@ -18,7 +18,7 @@ technologies = {
 		start_year = 2276
 
 		path = {
-			leads_to_tech = robot_harded_armor_tech
+			leads_to_tech = robot_armour_hardening_tech
 			research_cost_coeff = 1
 		}
 
@@ -54,7 +54,7 @@ technologies = {
 		}
 	}
 
-	robot_harded_armor_tech = {
+	robot_armour_hardening_tech = {
 
 		enable_equipment_modules = {
 			robots_harded_plate
@@ -111,7 +111,7 @@ technologies = {
 		
 		dependencies = {
 			robotics_tech_level_scientific = 1
-			robot_harded_armor_tech = 1
+			robot_armour_hardening_tech = 1
 		}
 
 		folder = {

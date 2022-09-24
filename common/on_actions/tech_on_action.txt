@@ -20,7 +20,7 @@ on_actions = {
 						NOT = {
 							has_template_containing_unit = light_robot
 						}
-						has_tech = robot_handy_equipment_1_tech
+						has_tech = robot_handy_equipment_tech_1
 					}
 					hidden_effect = {
 						load_oob = "unlock_light_robot"

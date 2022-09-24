@@ -145,12 +145,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = robot_handy_equipment_1_tech
+			leads_to_tech = robot_handy_equipment_tech_1
 			research_cost_coeff = 1
 		}
 		
 		path = {
-			leads_to_tech = robot_protectron_tech_1
+			leads_to_tech = robot_protectron_equipment_tech_1
 			research_cost_coeff = 1
 		}
 
@@ -221,14 +221,14 @@ technologies = {
 		}
 	}
 
-	robot_protectron_tech_1 = {
+	robot_protectron_equipment_tech_1 = {
 
 		enable_equipments = {
 			protectron_robot
 		}
 
 		sub_technologies = {
-			robot_cooling_systems
+			robot_cooling_systems_tech
 		}
 
 		research_cost = 1.6
@@ -239,17 +239,17 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = robot_protectron_tech_2
+			leads_to_tech = robot_protectron_equipment_tech_2
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = heavy_lifter_equipment_tech
+			leads_to_tech = robot_lifter_equipment_tech
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = robot_simple_servo_tech
+			leads_to_tech = robot_precision_motor_tech
 			research_cost_coeff = 1
 		}
 
@@ -289,7 +289,7 @@ technologies = {
 		}
 	}
 
-	robot_protectron_tech_2 = {
+	robot_protectron_equipment_tech_2 = {
 
 		enable_equipments = {
 			protectron_2_robot
@@ -303,7 +303,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = robot_assaultron_tech_1
+			leads_to_tech = robot_assaultron_equipment_tech_1
 			research_cost_coeff = 1
 		}
 		
@@ -337,14 +337,14 @@ technologies = {
 		}
 	}
 
-	robot_assaultron_tech_1 = {
+	robot_assaultron_equipment_tech_1 = {
 
 		enable_equipments = {
 			assaultron_robot
 		}
 
 		path = {
-			leads_to_tech = robot_assaultron_tech_2
+			leads_to_tech = robot_assaultron_equipment_tech_2
 			research_cost_coeff = 1
 		}
 
@@ -385,7 +385,7 @@ technologies = {
 		}
 	}
 
-	robot_assaultron_tech_2 = {
+	robot_assaultron_equipment_tech_2 = {
 
 		enable_equipments = {
 			assaultron_2_robot

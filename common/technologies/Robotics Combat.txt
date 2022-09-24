@@ -8,7 +8,7 @@ technologies = {
 	@Col_6 = 23
 	@Col_8 = 29
 
-	heavy_lifter_equipment_tech = {
+	robot_lifter_equipment_tech = {
 
 		enable_subunits = {
 			combat_robot
@@ -19,7 +19,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = robot_sentry_bot_equipment_1_tech
+			leads_to_tech = robot_sentry_bot_equipment_tech_1
 			research_cost_coeff = 1
 		}
 
@@ -59,14 +59,14 @@ technologies = {
 		}
 	}
 
-	robot_sentry_bot_equipment_1_tech = {
+	robot_sentry_bot_equipment_tech_1 = {
 
 		enable_equipments = {
 			combat_robot_equipment_2
 		}
 
 		path = {
-			leads_to_tech = robot_sentry_bot_equipment_2_tech
+			leads_to_tech = robot_sentry_bot_equipment_tech_2
 			research_cost_coeff = 1
 		}
 
@@ -106,7 +106,7 @@ technologies = {
 		}
 	}
 
-	robot_sentry_bot_equipment_2_tech = {
+	robot_sentry_bot_equipment_tech_2 = {
 	
 		enable_equipments = {
 			combat_robot_equipment_3

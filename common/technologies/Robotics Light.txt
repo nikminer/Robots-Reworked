@@ -15,7 +15,7 @@ technologies = {
 	
 	@Row_Light = 12
 
-	robot_handy_equipment_1_tech = {
+	robot_handy_equipment_tech_1 = {
 
 		enable_equipments = {
 			robot_thruster_equipment_1
@@ -31,7 +31,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = robot_handy_equipment_2_tech
+			leads_to_tech = robot_handy_equipment_tech_2
 			research_cost_coeff = 1
 		}
 		path = {
@@ -91,14 +91,14 @@ technologies = {
 		}
 	}
 
-	robot_handy_equipment_2_tech = {
+	robot_handy_equipment_tech_2 = {
 
 		enable_equipments = {
 			robot_thruster_equipment_2
 		}
 
 		path = {
-			leads_to_tech = robot_handy_equipment_3_tech
+			leads_to_tech = robot_handy_equipment_tech_3
 			research_cost_coeff = 1
 		}
 		
@@ -145,14 +145,14 @@ technologies = {
 		}
 	}
 
-	robot_handy_equipment_3_tech = {
+	robot_handy_equipment_tech_3 = {
 
 		enable_equipments = {
 			robot_thruster_equipment_3
 		}
 
 		path = {
-			leads_to_tech = robot_handy_equipment_4_tech
+			leads_to_tech = robot_handy_equipment_tech_4
 			research_cost_coeff = 1
 		}
 
@@ -193,7 +193,7 @@ technologies = {
 		}
 	}
 
-	robot_handy_equipment_4_tech = {
+	robot_handy_equipment_tech_4 = {
 
 		enable_equipments = {
 			robot_thruster_equipment_4
