@@ -184,7 +184,7 @@ resolve_robot_loot = {
 			has_variable = s_er_1
 		}
 		if = {
-			limit = { has_tech = robot_command_equipment_2_tech }
+			limit = { has_tech = robot_command_equipment_tech_2 }
 			add_equipment_to_stockpile = { type = cnc_robot_equipment_2_RR amount = 10 producer = USA }
 			subtract_from_variable = { s_er_1 = 1 }
 			if = {
@@ -198,8 +198,8 @@ resolve_robot_loot = {
 		else_if = {
 			limit = {
 				OR = {
-					has_tech_bonus = { technology = robot_command_equipment_2_tech }
-					has_country_flag = robot_command_equipment_2_tech
+					has_tech_bonus = { technology = robot_command_equipment_tech_2 }
+					has_country_flag = robot_command_equipment_tech_2
 				}
 			}
 			army_experience = 5
@@ -209,9 +209,9 @@ resolve_robot_loot = {
 			add_tech_bonus = {
 				bonus = 0.1
 				uses = 1
-				technology = robot_command_equipment_2_tech
+				technology = robot_command_equipment_tech_2
 			}
-			set_country_flag = robot_command_equipment_2_tech
+			set_country_flag = robot_command_equipment_tech_2
 			clear_variable = s_er_1
 		}
 	}
@@ -256,7 +256,7 @@ resolve_robot_loot = {
 			has_variable = s_hr_2
 		}
 		if = {
-			limit = { has_tech = robot_command_equipment_3_tech }
+			limit = { has_tech = robot_command_equipment_tech_3 }
 			add_equipment_to_stockpile = { type = cnc_robot_equipment_3_RR amount = 5 producer = USA }
 			subtract_from_variable = { s_hr_2 = 1 }
 			if = {
@@ -270,8 +270,8 @@ resolve_robot_loot = {
 		else_if = {
 			limit = {
 				OR = {
-					has_tech_bonus = { technology = robot_command_equipment_3_tech }
-					has_country_flag = robot_command_equipment_3_tech
+					has_tech_bonus = { technology = robot_command_equipment_tech_3 }
+					has_country_flag = robot_command_equipment_tech_3
 				}
 			}
 			army_experience = 5
@@ -281,9 +281,9 @@ resolve_robot_loot = {
 			add_tech_bonus = {
 				bonus = 0.1
 				uses = 1
-				technology = robot_command_equipment_3_tech
+				technology = robot_command_equipment_tech_3
 			}
-			set_country_flag = robot_command_equipment_3_tech
+			set_country_flag = robot_command_equipment_tech_3
 			clear_variable = s_hr_2
 		}
 	}

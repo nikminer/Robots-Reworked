@@ -75,14 +75,14 @@
   cnc_robot_equipment_2_RR: "CnC Eyebot"
   cnc_robot_equipment_2_RR_short: "Eyebot"
   cnc_robot_equipment_2_RR_desc: "Originally designed as a mobile media transmitter, eyebots were often re-equipped with weaponry to act as listening post, scout units or law enforcement. The eyeball shaped shell, as well as a mounting point allowing us to arm them with sufficient firepower for their off frontline duty."
-  robot_command_equipment_2_tech: "CnC Eyebot"
-  robot_command_equipment_2_tech_desc: "Originally designed as a mobile media transmitter, eyebots were often re-equipped with weaponry to act as listening post, scout units or law enforcement. The eyeball shaped shell, as well as a mounting point allowing us to arm them with sufficient firepower for their off frontline duty."
+  robot_command_equipment_tech_2: "CnC Eyebot"
+  robot_command_equipment_tech_2_desc: "Originally designed as a mobile media transmitter, eyebots were often re-equipped with weaponry to act as listening post, scout units or law enforcement. The eyeball shaped shell, as well as a mounting point allowing us to arm them with sufficient firepower for their off frontline duty."
 
   cnc_robot_equipment_3_RR: "Robco Robobrain"
   cnc_robot_equipment_3_RR_short: "Robobrain"
   cnc_robot_equipment_3_RR_desc: "A tracked chassis on a two-piece welded reinforced frame composed of thick hardened composite platings as well as dexterous robotic arms using the best servos available and integrated flexible laser cannons form the basis for our Robobrain design. The final touch is a completely sterile and thick bulletproof dome containing either the mind-wiped brain of small animals, the brain of executed criminals, or those of particularly willing soldiers wanting to become death machines."
-  robot_command_equipment_3_tech: "Robco Robobrain"
-  robot_command_equipment_3_tech_desc: "A tracked chassis on a two-piece welded reinforced frame composed of thick hardened composite platings as well as dexterous robotic arms using the best servos available and integrated flexible laser cannons form the basis for our Robobrain design. The final touch is a completely sterile and thick bulletproof dome containing either the mind-wiped brain of small animals, the brain of executed criminals, or those of particularly willing soldiers wanting to become death machines."
+  robot_command_equipment_tech_3: "Robco Robobrain"
+  robot_command_equipment_tech_3_desc: "A tracked chassis on a two-piece welded reinforced frame composed of thick hardened composite platings as well as dexterous robotic arms using the best servos available and integrated flexible laser cannons form the basis for our Robobrain design. The final touch is a completely sterile and thick bulletproof dome containing either the mind-wiped brain of small animals, the brain of executed criminals, or those of particularly willing soldiers wanting to become death machines."
 #-------------------------------
 # Robotics Armor
 #-------------------------------

@@ -15,7 +15,7 @@ technologies = {
 	
 	@Row_Command = 16
 
-	robot_command_equipment_1_tech = {
+	robot_command_equipment_tech_1 = {
 
 		enable_subunits = {
 			cnc_robot
@@ -26,7 +26,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = robot_command_equipment_2_tech
+			leads_to_tech = robot_command_equipment_tech_2
 			research_cost_coeff = 1
 		}
 
@@ -72,7 +72,7 @@ technologies = {
 		}
 	}
 
-	robot_command_equipment_2_tech = {
+	robot_command_equipment_tech_2 = {
 
 		enable_equipments = {
 			cnc_robot_equipment_2_RR
@@ -83,7 +83,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = robot_command_equipment_3_tech
+			leads_to_tech = robot_command_equipment_tech_3
 			research_cost_coeff = 1
 		}
 
@@ -129,7 +129,7 @@ technologies = {
 		}
 	}
 
-	robot_command_equipment_3_tech = {
+	robot_command_equipment_tech_3 = {
 
 		enable_equipments = {
 			cnc_robot_equipment_3_RR
