@@ -100,7 +100,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = support_robot_two_legs_equipment_1
+			type = protectron_robot
 			creator = "ROB"
 		}
 		requested_factories = 2

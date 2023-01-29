@@ -1,0 +1,23 @@
+technologies = {
+	robot_miniature_thruster_tech = {
+
+	}
+
+	robot_high_power_optics_tech = {
+
+	}
+
+	robot_securitron_grenade_software_tech = {
+
+	}
+	robot_impact_resistant_chassi_tech = {
+
+	}
+	robot_securitron_missile_software_tech = {
+
+	}
+
+	robot_securitron_self_repair_tech = {
+
+	}
+}

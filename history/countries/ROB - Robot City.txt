@@ -70,7 +70,7 @@ set_technology = {
 }
 
 set_stability = 0.45
-set_war_support = 0.25
+set_war_support = 0.2
 set_research_slots = 4
 set_country_flag = is_settler_nation
 set_country_flag = has_robot_generals
@@ -94,7 +94,7 @@ recruit_character = ROB_billie_jean
 recruit_character = ROB_mechanist
 recruit_character = ROB_cow
 recruit_character = ROB_sugarfly
-recruit_character = ROB_marie
+# recruit_character = ROB_marie
 recruit_character = ROB_WARDEN_reprogrammed
 recruit_character = ROB_the_kid
 recruit_character = ROB_diana
@@ -111,7 +111,6 @@ news_event = {
 	id = brt_event.1
 	days = 3
 }
-
 add_ideas = {
 	machine_commune
 }

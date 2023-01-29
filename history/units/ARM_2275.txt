@@ -1,0 +1,218 @@
+﻿division_template = {
+	name = "Militia Force"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Fuerza Milicia"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Guardia"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		anti_tank_company = { x = 0 y = 0 }
+		recon_company = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Máquinas de Matara"
+	regiments = {
+		support_robot = { x = 0 y = 0 }
+		support_robot = { x = 0 y = 1 }
+		support_robot = { x = 0 y = 2 }
+		combat_robot = { x = 1 y = 0 }
+		combat_robot = { x = 1 y = 1 }
+		combat_robot = { x = 1 y = 2 }
+	}
+	support = {
+		anti_tank_company = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Robots Policiales"
+	regiments = {
+		support_robot = { x = 0 y = 0 }
+		support_robot = { x = 0 y = 1 }
+		support_robot = { x = 1 y = 0 }
+		support_robot = { x = 1 y = 1 }
+		support_robot = { x = 2 y = 0 }
+		support_robot = { x = 2 y = 1 }
+	}
+	support = {
+		anti_tank_company = { x = 0 y = 0 }
+	}
+}
+
+##### Starting Units #####
+# 0.1: Trained
+# 0.3: Regular
+# 0.75: Seasoned
+# 0.9: Vetrans
+units = {
+	division = {
+		name = "Soldados de Reynosa"
+		location = 10710
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Soldados de La Pesca"
+		location = 9521
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Soldados de Tampico"
+		location = 9565
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Soldados del Sur"
+		location = 11004
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Soldados del Norte"
+		location = 10709
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Soldados del Rio"
+		location = 10707
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Soldados de Ciudad Valles"
+		location = 8594
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	# Milicia
+	division = {
+		name = "Conscriptos de Reynosa"
+		location = 9600
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Conscriptos de Forlorn Slipway"
+		location = 9427
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Conscriptos de San Carlos"
+		location = 9526
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Conscriptos de Valles"
+		location = 9362
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Conscriptos de Tampico"
+		location = 9368
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Conscriptos de Victoria"
+		location = 732
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Conscriptos de la Pesca"
+		location = 9521
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	# Robots
+	division = {
+		name = "La Decimoséptima Legión"
+		location = 10993
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "La Decimosexta Legión"
+		location = 9448
+		division_template = "Máquinas de Matara"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.0
+	}
+}
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = combat_robot_equipment_1
+			creator = "ARM"
+		}
+		requested_factories = 3
+		progress = 0.75
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = protectron_robot
+			creator = "ARM"
+		}
+		requested_factories = 3
+		progress = 0.75
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = anti_tank_equipment_1
+			creator = "ARM"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

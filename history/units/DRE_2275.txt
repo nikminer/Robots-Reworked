@@ -1,0 +1,100 @@
+﻿##### Starting Division Templates #####
+division_template = {
+	name = "Valentine Militia"
+	priority = 0
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Miner Group"
+	template_counter = 86
+	division_names_group = DRE_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Miner Bots"
+	template_counter = 99
+	division_names_group = DRE_INF_02
+	regiments = {
+		support_robot = { x = 0 y = 0 }
+		support_robot = { x = 0 y = 1 }
+		support_robot = { x = 1 y = 0 }
+		support_robot = { x = 1 y = 1 }
+		support_robot = { x = 2 y = 0 }
+		support_robot = { x = 2 y = 1 }
+	}
+}
+
+##### Starting Army #####
+units = {
+	division = {
+		name = "Old Rusters"
+		location = 7325
+		division_template = "Miner Bots"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Forestry Bots"
+		location = 7271
+		division_template = "Miner Bots"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Pink Mountain Automated Miners"
+		location = 7328
+		division_template = "Miner Bots"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Tweedsmuir Miners"
+		location = 3749
+		division_template = "Miner Group"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Crysdale Miners"
+		location = 7298
+		division_template = "Miner Group"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+	}
+}
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "DRE"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = main_scrap_robot
+			creator = "DRE"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

@@ -1,0 +1,54 @@
+﻿##### Starting Division Templates #####
+division_template = {
+	name = "Organic Self-Defense Formations"
+	priority = 0
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Security Protectrons"
+	regiments = {
+		support_robot = { x = 0 y = 0 }
+		support_robot = { x = 0 y = 1 }
+		support_robot = { x = 1 y = 0 }
+		support_robot = { x = 1 y = 1 }
+		support_robot = { x = 2 y = 0 }
+		support_robot = { x = 2 y = 1 }
+	}
+}
+
+##### Starting Army #####
+units = {
+	division = {
+		name = "Northern Hub Security"
+		location = 1074
+		division_template = "Security Protectrons"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Southern Hub Security"
+		location = 8452
+		division_template = "Security Protectrons"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+}
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = protectron_robot
+			creator = "PSH"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 100
+	}
+}

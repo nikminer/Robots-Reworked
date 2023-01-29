@@ -1,0 +1,140 @@
+﻿
+capital = 1386
+oob = "SIY_2275"
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_intelligence_agency = {
+		name = "Clearwater Investigations Agency"
+		icon = "GFX_intelligence_agency_logo_generic_19"
+	}
+}
+
+set_technology = {
+	basic_supply_transport_tech = 1
+	infantry_tech_level_tribal = 1
+	infantry_tech_level_settler = 1
+	#infantry_tech_level_scientific = 1
+
+	support_tech_level_tribal = 1
+	support_tech_level_settler = 1
+	#support_tech_level_scientific = 1
+
+	#special_forces_tech_level_tribal = 1
+	#special_forces_tech_level_settler = 1
+	#special_forces_tech_level_scientific = 1
+
+	power_armour_tech_level_tribal = 1
+	power_armour_tech_level_settler = 1
+	#power_armour_tech_level_scientific = 1
+
+	vehicles_tech_level_tribal = 1
+	#vehicles_tech_level_settler = 1
+	#vehicles_tech_level_scientific = 1
+
+	robotics_tech_level_tribal = 1
+	robotics_tech_level_settler = 1
+	#robotics_tech_level_scientific = 1
+
+	air_tech_level_tribal = 1
+	#air_tech_level_settler = 1
+	#air_tech_level_scientific = 1
+
+	naval_tech_level_tribal = 1
+	#naval_tech_level_settler = 1
+	#naval_tech_level_scientific = 1
+
+	tools_tech_level_tribal = 1
+	tools_tech_level_settler = 1
+	#tools_tech_level_scientific = 1
+
+	habitation_tech_level_tribal = 1
+	habitation_tech_level_settler = 1
+	#habitation_tech_level_scientific = 1
+
+	exploitation_tech_level_tribal = 1
+	exploitation_tech_level_settler = 1
+	#exploitation_tech_level_scientific = 1
+
+	electronics_tech_level_tribal = 1
+	electronics_tech_level_settler = 1
+	#electronics_tech_level_scientific = 1
+
+	melee_weaponry_tech_1 = 1
+	standard_weaponry_tech = 1
+	ballistic_weaponry_tech_1 = 1
+
+	stripped_pa_tech = 1
+	weight_support_frame_pa_tech_1 = 1
+	weight_support_frame_pa_tech_2 = 1
+
+	support_weaponry = 1
+	anti_tank_equipment_tech_1 = 1
+	med_company_tech_1 = 1
+	med_company_tech_2 = 1
+
+	robotics_notes_tech = 1
+	robot_automatization_tech = 1
+	robot_scrapbot_tech = 1
+	robot_protectron_equipment_tech_1 = 1
+	#robot_makeshift_automatons_tech = 1
+	#robot_fission_batteries_tech = 1
+}
+
+add_ideas = {
+	SIY_illfated_expedition
+	SIY_resourceful
+	partial_economic_mobilisation
+	until_dismissal_conscription
+	officer_law_veterans
+	training_law_veterans
+}
+
+add_timed_idea = {
+	idea = SIY_plagued_lands
+	days = 700
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		nautics_tech_1 = 1
+		naval_invasion_tech_1 = 1
+	}
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		nautics_tech_non_mtg_1 = 1
+		naval_invasion_tech_non_mtg_1 = 1
+	}
+}
+
+add_political_power = 0
+set_stability = 0.5
+set_war_support = 0.5
+set_research_slots = 3
+set_country_flag = is_settler_nation
+set_country_flag = is_plaguelands_nation
+set_country_flag = is_nebraska_nation
+set_country_flag = elite_doctrine_ai
+
+set_politics = {
+	ruling_party = ruler
+	elections_allowed = no
+}
+
+set_popularities = {
+	people = 0
+	elites = 0
+	intellectuals = 0
+	ruler = 100
+}
+
+recruit_character = SIY_agent_alabaster

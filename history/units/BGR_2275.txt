@@ -1,0 +1,80 @@
+﻿##### Starting Division Templates #####
+division_template = {
+	name = "Conscripts"
+	priority = 0
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "RELCOM's Dedicated"
+	template_counter = 100
+	regiments = {
+		support_robot = { x = 0 y = 0 }
+		support_robot = { x = 0 y = 1 }
+		support_robot = { x = 1 y = 0 }
+		support_robot = { x = 1 y = 1 }
+		support_robot = { x = 2 y = 0 }
+		support_robot = { x = 2 y = 1 }
+	}
+}
+
+##### Starting Army #####
+units = {
+	division = {
+		name = "The Red-Gaze"
+		location = 13676
+		division_template = "RELCOM's Dedicated"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Unwilling Vectors"
+		location = 13681
+		division_template = "RELCOM's Dedicated"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Foggy-Minds"
+		location = 13688
+		division_template = "RELCOM's Dedicated"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "The Re-brain-ded"
+		location = 13694
+		division_template = "RELCOM's Dedicated"
+		start_experience_factor = 0.25
+		start_equipment_factor = 1.0
+	}
+}
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = protectron_2_robot
+			creator = "BGR"
+		}
+		requested_factories = 6
+		progress = 0.75
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BGR"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

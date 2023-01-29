@@ -108,13 +108,13 @@ set_popularities = {
 
 add_ideas = {
 	dre_mining_economy
+	dre_victorian_naval_attache
 	DRE_valentine_milita
 }
 
-recruit_character = DRE_old_pete
-recruit_character = DRE_ambrose_jackson
-recruit_character = DRE_malvin_hindman
-recruit_character = DRE_thomas_greer
+recruit_character = DRE_OLD_PETE
+recruit_character = DRE_TOMMY
+recruit_character = DRE_PRINCE_RUPERT
 
 create_equipment_variant = {
 	name = "River Boat"

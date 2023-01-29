@@ -1,0 +1,102 @@
+﻿division_template = {
+	name = "True Patriots"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "The Steel Legion"
+	regiments = {
+		support_robot = { x = 0 y = 0 }
+		support_robot = { x = 0 y = 1 }
+		support_robot = { x = 1 y = 0 }
+		support_robot = { x = 1 y = 1 }
+		combat_robot = { x = 2 y = 0 }
+		combat_robot = { x = 2 y = 1 }
+		combat_robot = { x = 3 y = 0 }
+		combat_robot = { x = 3 y = 1 }
+	}
+	support = {
+		demolitions_support = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "The Fortunate Sons"
+		location = 3042
+		division_template = "The Steel Legion"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "The Last Battalion"
+		location = 3736
+		division_template = "The Steel Legion"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Special Tactics And Rescure Services"
+		location = 3042
+		division_template = "The Steel Legion"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Hells Brigade"
+		location = 3042
+		division_template = "The Steel Legion"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Devils Road"
+		location = 3622
+		division_template = "The Steel Legion"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+}
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RAD"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = robot_thruster_equipment_1
+			creator = "RAD"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = combat_robot_equipment_1
+			creator = "RAD"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = demolitions_equipment_1
+			creator = "RAD"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

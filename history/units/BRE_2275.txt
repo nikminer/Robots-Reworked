@@ -1,0 +1,111 @@
+﻿division_template = {
+	name = "Militia Faithful"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Order Detachment"
+	regiments = {
+		support_robot = { x = 0 y = 0 }
+		support_robot = { x = 0 y = 1 }
+		support_robot = { x = 0 y = 2 }
+		support_robot = { x = 1 y = 0 }
+		support_robot = { x = 1 y = 1 }
+	}
+}
+
+units = {
+		division = {
+			name = "Guardians of the Gate"
+			location = 3806
+			division_template = "Order Detachment"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+		}
+		division = {
+			name = "Unburdened Wanderers"
+			location = 2128
+			division_template = "Order Detachment"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1.0
+		}
+		division = {
+			name = "Soldiers of Solomon"
+			location = 3766
+			division_template = "Order Detachment"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+		}
+		division = {
+			name = "The Waykeepers"
+			location = 7244
+			division_template = "Order Detachment"
+			start_experience_factor = 0.3
+			start_equipment_factor = 1.0
+		}
+		division = {
+			name = "Delvers of the Pit"
+			location = 7246
+			division_template = "Order Detachment"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1.0
+		}
+		division = {
+			name = "Beloved of Asa"
+			location = 2096
+			division_template = "Order Detachment"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1.0
+		}
+		division = {
+			name = "Helpful Crew"
+			location = 7246
+			division_template = "Militia Faithful"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1.0
+		}
+		division = {
+			name = "Downtrodden Salvagers"
+			location = 3989
+			division_template = "Militia Faithful"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1.0
+		}
+		division = {
+			name = "CJ's Caravan"
+			location = 5120
+			division_template = "Militia Faithful"
+			start_experience_factor = 0.2
+			start_equipment_factor = 1.0
+		}
+}
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = protectron_robot
+			creator = "BRE"
+		}
+		requested_factories = 2
+		progress = 0.75
+		efficiency = 100
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BRE"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}
