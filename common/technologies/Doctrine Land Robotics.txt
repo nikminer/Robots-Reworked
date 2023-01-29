@@ -19,7 +19,7 @@ technologies = {
 		xp_unlock_cost = 25
 
 		unit_combat_robot_design_cost_factor = -0.1
-		unit_support_robot_design_cost_factor= -0.1
+		unit_support_robot_design_cost_factor = -0.1
 		unit_light_robot_design_cost_factor= -0.1
 		unit_security_robot_design_cost_factor = -0.1
 		unit_super_heavy_robot_design_cost_factor = -0.1
@@ -57,7 +57,7 @@ technologies = {
 		xp_unlock_cost = 25
 
 		unit_combat_robot_design_cost_factor = -0.1
-		unit_support_robot_design_cost_factor= -0.1
+		unit_support_robot_design_cost_factor = -0.1
 		unit_light_robot_design_cost_factor= -0.1
 		unit_security_robot_design_cost_factor = -0.1
 		unit_super_heavy_robot_design_cost_factor = -0.1
@@ -95,7 +95,7 @@ technologies = {
 		xp_unlock_cost = 50
 
 		unit_combat_robot_design_cost_factor = -0.1
-		unit_support_robot_design_cost_factor= -0.1
+		unit_support_robot_design_cost_factor = -0.1
 		unit_light_robot_design_cost_factor= -0.1
 		unit_security_robot_design_cost_factor = -0.1
 		unit_super_heavy_robot_design_cost_factor = -0.1
@@ -133,7 +133,7 @@ technologies = {
 		xp_unlock_cost = 50
 
 		unit_combat_robot_design_cost_factor = -0.1
-		unit_support_robot_design_cost_factor= -0.1
+		unit_support_robot_design_cost_factor = -0.1
 		unit_light_robot_design_cost_factor= -0.1
 		unit_security_robot_design_cost_factor = -0.1
 		unit_super_heavy_robot_design_cost_factor = -0.1
@@ -171,7 +171,7 @@ technologies = {
 		xp_unlock_cost = 75
 
 		unit_combat_robot_design_cost_factor = -0.2
-		unit_support_robot_design_cost_factor= -0.2
+		unit_support_robot_design_cost_factor = -0.2
 		unit_light_robot_design_cost_factor= -0.2
 		unit_security_robot_design_cost_factor = -0.2
 		unit_super_heavy_robot_design_cost_factor = -0.2
@@ -209,7 +209,7 @@ technologies = {
 		xp_unlock_cost = 75
 
 		unit_combat_robot_design_cost_factor = -0.2
-		unit_support_robot_design_cost_factor= -0.2
+		unit_support_robot_design_cost_factor = -0.2
 		unit_light_robot_design_cost_factor= -0.2
 		unit_security_robot_design_cost_factor = -0.2
 		unit_super_heavy_robot_design_cost_factor = -0.2
@@ -247,7 +247,7 @@ technologies = {
 		xp_unlock_cost = 100
 
 		unit_combat_robot_design_cost_factor = -0.2
-		unit_support_robot_design_cost_factor= -0.2
+		unit_support_robot_design_cost_factor = -0.2
 		unit_light_robot_design_cost_factor= -0.2
 		unit_security_robot_design_cost_factor = -0.2
 		unit_super_heavy_robot_design_cost_factor = -0.2
